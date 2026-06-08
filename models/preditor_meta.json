@@ -1,0 +1,41 @@
+{
+  "modelo": "XGBoost",
+  "features_num": [
+    "idade",
+    "hora",
+    "mes"
+  ],
+  "features_cat": [
+    "SEXO DA VITIMA",
+    "faixa_etaria",
+    "periodo_dia",
+    "dia_semana",
+    "grupo_local",
+    "hora_grupo",
+    "mes_grupo",
+    "bairro_norm"
+  ],
+  "segment_cols": [
+    "SEXO DA VITIMA",
+    "faixa_etaria"
+  ],
+  "target_design": "rank_no_grupo_percentile_within_demo_group",
+  "classes_canonicas": [
+    "baixa",
+    "media",
+    "alta"
+  ],
+  "label_encoder_classes": [
+    "alta",
+    "baixa",
+    "media"
+  ],
+  "label_encoder_mapping": {
+    "alta": 0,
+    "baixa": 1,
+    "media": 2
+  },
+  "f1_macro_cv": 0.9467616940755604,
+  "n_amostras_treino": 5431,
+  "n_amostras_teste": 1358
+}
