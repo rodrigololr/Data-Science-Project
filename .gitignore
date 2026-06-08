@@ -2,3 +2,16 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 *.pyc
+.notebook/
+models/
+
+# Dados
+data/processed/
+
+# Notebooks de execução temporária
+notebooks/*_executed.ipynb
+
+# Rascunhos temporários de prompts
+docs/prompt*.txt
+
+

@@ -5,3 +5,14 @@ seaborn
 scikit-learn
 jupyterlab
 ipykernel
+folium
+streamlit
+streamlit-folium
+plotly
+geopandas
+shap
+xgboost
+joblib
+contextily
+branca
+pyproj
