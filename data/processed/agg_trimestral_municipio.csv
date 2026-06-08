@@ -1,0 +1,3959 @@
+cidade_norm,trimestre,count
+Anadia,2012Q1,3
+Anadia,2012Q2,2
+Anadia,2012Q3,3
+Anadia,2012Q4,2
+Anadia,2013Q1,3
+Anadia,2013Q2,1
+Anadia,2013Q3,1
+Anadia,2013Q4,5
+Anadia,2014Q1,5
+Anadia,2014Q2,3
+Anadia,2014Q3,1
+Anadia,2014Q4,5
+Anadia,2015Q1,1
+Anadia,2015Q2,3
+Anadia,2015Q3,1
+Anadia,2015Q4,1
+Anadia,2016Q1,1
+Anadia,2016Q2,1
+Anadia,2016Q3,4
+Anadia,2017Q1,3
+Anadia,2017Q3,3
+Anadia,2017Q4,3
+Anadia,2018Q1,1
+Anadia,2018Q2,1
+Anadia,2018Q3,2
+Anadia,2018Q4,3
+Anadia,2019Q1,1
+Anadia,2019Q2,1
+Anadia,2019Q4,1
+Anadia,2020Q1,2
+Anadia,2020Q2,1
+Anadia,2020Q4,1
+Anadia,2021Q1,2
+Anadia,2021Q2,2
+Anadia,2021Q3,1
+Anadia,2021Q4,1
+Anadia,2022Q1,2
+Anadia,2023Q2,1
+Anadia,2023Q4,2
+Anadia,2024Q1,3
+Anadia,2024Q2,1
+Anadia,2024Q3,1
+Anadia,2024Q4,2
+Anadia,2025Q2,4
+Anadia,2025Q3,1
+Anadia,2025Q4,1
+Anadia,2026Q1,3
+Arapiraca,2012Q1,35
+Arapiraca,2012Q2,25
+Arapiraca,2012Q3,36
+Arapiraca,2012Q4,43
+Arapiraca,2013Q1,44
+Arapiraca,2013Q2,35
+Arapiraca,2013Q3,22
+Arapiraca,2013Q4,47
+Arapiraca,2014Q1,40
+Arapiraca,2014Q2,33
+Arapiraca,2014Q3,45
+Arapiraca,2014Q4,28
+Arapiraca,2015Q1,34
+Arapiraca,2015Q2,22
+Arapiraca,2015Q3,32
+Arapiraca,2015Q4,32
+Arapiraca,2016Q1,40
+Arapiraca,2016Q2,36
+Arapiraca,2016Q3,26
+Arapiraca,2016Q4,37
+Arapiraca,2017Q1,33
+Arapiraca,2017Q2,21
+Arapiraca,2017Q3,24
+Arapiraca,2017Q4,31
+Arapiraca,2018Q1,31
+Arapiraca,2018Q2,36
+Arapiraca,2018Q3,17
+Arapiraca,2018Q4,13
+Arapiraca,2019Q1,25
+Arapiraca,2019Q2,22
+Arapiraca,2019Q3,12
+Arapiraca,2019Q4,25
+Arapiraca,2020Q1,16
+Arapiraca,2020Q2,19
+Arapiraca,2020Q3,13
+Arapiraca,2020Q4,32
+Arapiraca,2021Q1,23
+Arapiraca,2021Q2,20
+Arapiraca,2021Q3,25
+Arapiraca,2021Q4,20
+Arapiraca,2022Q1,14
+Arapiraca,2022Q2,18
+Arapiraca,2022Q3,15
+Arapiraca,2022Q4,23
+Arapiraca,2023Q1,19
+Arapiraca,2023Q2,22
+Arapiraca,2023Q3,16
+Arapiraca,2023Q4,35
+Arapiraca,2024Q1,20
+Arapiraca,2024Q2,28
+Arapiraca,2024Q3,12
+Arapiraca,2024Q4,19
+Arapiraca,2025Q1,16
+Arapiraca,2025Q2,17
+Arapiraca,2025Q3,18
+Arapiraca,2025Q4,12
+Arapiraca,2026Q1,15
+Arapiraca,2026Q2,5
+Atalaia,2012Q1,14
+Atalaia,2012Q2,9
+Atalaia,2012Q3,4
+Atalaia,2012Q4,7
+Atalaia,2013Q1,8
+Atalaia,2013Q2,9
+Atalaia,2013Q3,7
+Atalaia,2013Q4,13
+Atalaia,2014Q1,8
+Atalaia,2014Q2,11
+Atalaia,2014Q3,8
+Atalaia,2014Q4,6
+Atalaia,2015Q1,10
+Atalaia,2015Q2,5
+Atalaia,2015Q3,7
+Atalaia,2015Q4,2
+Atalaia,2016Q1,6
+Atalaia,2016Q2,6
+Atalaia,2016Q3,7
+Atalaia,2016Q4,5
+Atalaia,2017Q1,12
+Atalaia,2017Q2,7
+Atalaia,2017Q3,7
+Atalaia,2017Q4,3
+Atalaia,2018Q1,3
+Atalaia,2018Q2,5
+Atalaia,2018Q3,4
+Atalaia,2018Q4,7
+Atalaia,2019Q1,7
+Atalaia,2019Q2,6
+Atalaia,2019Q3,5
+Atalaia,2019Q4,6
+Atalaia,2020Q1,7
+Atalaia,2020Q2,5
+Atalaia,2020Q3,7
+Atalaia,2020Q4,4
+Atalaia,2021Q2,3
+Atalaia,2021Q3,5
+Atalaia,2021Q4,2
+Atalaia,2022Q1,2
+Atalaia,2022Q2,1
+Atalaia,2022Q3,2
+Atalaia,2022Q4,3
+Atalaia,2023Q1,4
+Atalaia,2023Q2,3
+Atalaia,2023Q3,3
+Atalaia,2023Q4,1
+Atalaia,2024Q1,4
+Atalaia,2024Q2,4
+Atalaia,2024Q3,2
+Atalaia,2024Q4,1
+Atalaia,2025Q1,5
+Atalaia,2025Q2,7
+Atalaia,2025Q3,6
+Atalaia,2025Q4,3
+Atalaia,2026Q1,1
+Barra de Santo Antônio,2012Q1,4
+Barra de Santo Antônio,2012Q2,6
+Barra de Santo Antônio,2012Q3,1
+Barra de Santo Antônio,2013Q1,1
+Barra de Santo Antônio,2013Q2,2
+Barra de Santo Antônio,2013Q3,3
+Barra de Santo Antônio,2013Q4,5
+Barra de Santo Antônio,2014Q1,3
+Barra de Santo Antônio,2014Q2,3
+Barra de Santo Antônio,2014Q4,1
+Barra de Santo Antônio,2015Q1,3
+Barra de Santo Antônio,2015Q2,6
+Barra de Santo Antônio,2015Q3,1
+Barra de Santo Antônio,2015Q4,2
+Barra de Santo Antônio,2016Q1,3
+Barra de Santo Antônio,2016Q2,1
+Barra de Santo Antônio,2016Q3,2
+Barra de Santo Antônio,2016Q4,7
+Barra de Santo Antônio,2017Q1,4
+Barra de Santo Antônio,2017Q2,2
+Barra de Santo Antônio,2017Q3,5
+Barra de Santo Antônio,2017Q4,3
+Barra de Santo Antônio,2018Q1,1
+Barra de Santo Antônio,2018Q2,1
+Barra de Santo Antônio,2018Q3,2
+Barra de Santo Antônio,2018Q4,2
+Barra de Santo Antônio,2019Q2,4
+Barra de Santo Antônio,2020Q1,3
+Barra de Santo Antônio,2020Q2,4
+Barra de Santo Antônio,2020Q3,1
+Barra de Santo Antônio,2020Q4,6
+Barra de Santo Antônio,2021Q1,3
+Barra de Santo Antônio,2021Q2,2
+Barra de Santo Antônio,2021Q4,4
+Barra de Santo Antônio,2022Q1,3
+Barra de Santo Antônio,2022Q2,4
+Barra de Santo Antônio,2022Q3,1
+Barra de Santo Antônio,2022Q4,4
+Barra de Santo Antônio,2023Q1,3
+Barra de Santo Antônio,2023Q2,2
+Barra de Santo Antônio,2023Q3,4
+Barra de Santo Antônio,2023Q4,2
+Barra de Santo Antônio,2024Q1,1
+Barra de Santo Antônio,2024Q2,5
+Barra de Santo Antônio,2024Q3,5
+Barra de Santo Antônio,2024Q4,1
+Barra de Santo Antônio,2025Q1,1
+Barra de Santo Antônio,2025Q4,1
+Barra de São Miguel,2012Q1,1
+Barra de São Miguel,2012Q2,2
+Barra de São Miguel,2012Q4,2
+Barra de São Miguel,2013Q2,4
+Barra de São Miguel,2013Q3,2
+Barra de São Miguel,2013Q4,2
+Barra de São Miguel,2014Q1,1
+Barra de São Miguel,2014Q2,4
+Barra de São Miguel,2014Q3,1
+Barra de São Miguel,2014Q4,1
+Barra de São Miguel,2015Q1,2
+Barra de São Miguel,2015Q3,2
+Barra de São Miguel,2016Q1,4
+Barra de São Miguel,2016Q2,4
+Barra de São Miguel,2016Q3,3
+Barra de São Miguel,2016Q4,3
+Barra de São Miguel,2017Q2,3
+Barra de São Miguel,2017Q4,5
+Barra de São Miguel,2018Q1,5
+Barra de São Miguel,2018Q2,3
+Barra de São Miguel,2018Q3,3
+Barra de São Miguel,2018Q4,1
+Barra de São Miguel,2019Q1,3
+Barra de São Miguel,2019Q4,2
+Barra de São Miguel,2020Q1,2
+Barra de São Miguel,2020Q2,3
+Barra de São Miguel,2020Q3,1
+Barra de São Miguel,2020Q4,1
+Barra de São Miguel,2021Q1,3
+Barra de São Miguel,2021Q4,2
+Barra de São Miguel,2022Q1,4
+Barra de São Miguel,2022Q3,2
+Barra de São Miguel,2022Q4,2
+Barra de São Miguel,2023Q1,1
+Barra de São Miguel,2023Q2,3
+Barra de São Miguel,2023Q4,2
+Barra de São Miguel,2024Q2,6
+Barra de São Miguel,2024Q3,1
+Barra de São Miguel,2025Q1,2
+Barra de São Miguel,2025Q2,3
+Barra de São Miguel,2026Q1,1
+Barra de São Miguel,2026Q2,3
+Batalha,2012Q3,1
+Batalha,2012Q4,2
+Batalha,2013Q1,1
+Batalha,2013Q2,2
+Batalha,2013Q3,1
+Batalha,2013Q4,3
+Batalha,2014Q1,1
+Batalha,2014Q2,2
+Batalha,2014Q3,2
+Batalha,2014Q4,3
+Batalha,2015Q1,2
+Batalha,2015Q2,1
+Batalha,2015Q4,1
+Batalha,2016Q1,1
+Batalha,2016Q2,2
+Batalha,2016Q3,2
+Batalha,2016Q4,4
+Batalha,2017Q3,1
+Batalha,2017Q4,6
+Batalha,2018Q2,1
+Batalha,2018Q3,1
+Batalha,2018Q4,2
+Batalha,2019Q2,2
+Batalha,2019Q3,2
+Batalha,2019Q4,2
+Batalha,2020Q1,1
+Batalha,2020Q2,5
+Batalha,2020Q4,3
+Batalha,2021Q1,1
+Batalha,2021Q2,4
+Batalha,2023Q1,3
+Batalha,2023Q3,1
+Batalha,2023Q4,2
+Batalha,2024Q1,3
+Batalha,2024Q2,1
+Batalha,2024Q3,3
+Batalha,2024Q4,3
+Batalha,2025Q1,2
+Batalha,2025Q3,1
+Belo Monte,2013Q4,3
+Belo Monte,2014Q1,1
+Belo Monte,2020Q1,1
+Belo Monte,2022Q4,1
+Belo Monte,2024Q4,1
+Belém,2012Q4,1
+Belém,2013Q3,1
+Belém,2013Q4,1
+Belém,2014Q1,1
+Belém,2016Q2,1
+Belém,2017Q1,2
+Belém,2017Q4,2
+Belém,2018Q1,1
+Belém,2018Q2,1
+Belém,2020Q4,1
+Belém,2021Q1,1
+Belém,2021Q3,1
+Belém,2021Q4,1
+Belém,2022Q4,1
+Belém,2023Q3,1
+Belém,2023Q4,1
+Belém,2024Q1,1
+Belém,2024Q3,2
+Belém,2025Q3,2
+Boca da Mata,2012Q1,6
+Boca da Mata,2012Q3,3
+Boca da Mata,2012Q4,4
+Boca da Mata,2013Q1,4
+Boca da Mata,2013Q2,5
+Boca da Mata,2013Q3,4
+Boca da Mata,2013Q4,5
+Boca da Mata,2014Q2,5
+Boca da Mata,2014Q3,4
+Boca da Mata,2014Q4,3
+Boca da Mata,2015Q1,5
+Boca da Mata,2015Q2,2
+Boca da Mata,2015Q3,3
+Boca da Mata,2015Q4,6
+Boca da Mata,2016Q1,4
+Boca da Mata,2016Q2,7
+Boca da Mata,2016Q3,4
+Boca da Mata,2016Q4,6
+Boca da Mata,2017Q1,1
+Boca da Mata,2017Q2,1
+Boca da Mata,2017Q3,1
+Boca da Mata,2017Q4,6
+Boca da Mata,2018Q1,4
+Boca da Mata,2018Q2,2
+Boca da Mata,2018Q3,3
+Boca da Mata,2018Q4,2
+Boca da Mata,2019Q1,5
+Boca da Mata,2019Q2,3
+Boca da Mata,2019Q3,4
+Boca da Mata,2019Q4,4
+Boca da Mata,2020Q1,7
+Boca da Mata,2020Q2,6
+Boca da Mata,2020Q3,2
+Boca da Mata,2020Q4,2
+Boca da Mata,2021Q1,3
+Boca da Mata,2021Q3,3
+Boca da Mata,2022Q1,3
+Boca da Mata,2022Q2,1
+Boca da Mata,2022Q3,2
+Boca da Mata,2022Q4,3
+Boca da Mata,2023Q1,1
+Boca da Mata,2023Q2,3
+Boca da Mata,2023Q3,1
+Boca da Mata,2023Q4,2
+Boca da Mata,2024Q1,5
+Boca da Mata,2024Q3,1
+Boca da Mata,2024Q4,2
+Boca da Mata,2025Q1,2
+Boca da Mata,2025Q2,2
+Boca da Mata,2025Q3,1
+Boca da Mata,2026Q1,4
+Branquinha,2012Q1,2
+Branquinha,2012Q2,2
+Branquinha,2012Q3,4
+Branquinha,2012Q4,1
+Branquinha,2013Q1,1
+Branquinha,2013Q3,3
+Branquinha,2013Q4,2
+Branquinha,2014Q1,2
+Branquinha,2014Q2,2
+Branquinha,2014Q3,2
+Branquinha,2014Q4,2
+Branquinha,2015Q1,1
+Branquinha,2015Q2,3
+Branquinha,2015Q4,3
+Branquinha,2016Q1,3
+Branquinha,2016Q3,1
+Branquinha,2016Q4,1
+Branquinha,2017Q1,3
+Branquinha,2017Q3,3
+Branquinha,2018Q1,2
+Branquinha,2018Q2,2
+Branquinha,2018Q3,1
+Branquinha,2019Q1,1
+Branquinha,2019Q3,3
+Branquinha,2019Q4,1
+Branquinha,2020Q1,1
+Branquinha,2020Q2,1
+Branquinha,2020Q3,1
+Branquinha,2020Q4,1
+Branquinha,2022Q1,3
+Branquinha,2022Q4,2
+Branquinha,2023Q1,1
+Branquinha,2024Q1,1
+Branquinha,2024Q3,1
+Branquinha,2024Q4,1
+Branquinha,2025Q1,1
+Branquinha,2025Q2,1
+Branquinha,2025Q3,1
+Branquinha,2025Q4,1
+Branquinha,2026Q1,1
+Cacimbinhas,2012Q4,1
+Cacimbinhas,2013Q1,3
+Cacimbinhas,2013Q2,2
+Cacimbinhas,2013Q3,1
+Cacimbinhas,2014Q3,2
+Cacimbinhas,2014Q4,1
+Cacimbinhas,2015Q2,1
+Cacimbinhas,2015Q4,2
+Cacimbinhas,2016Q2,4
+Cacimbinhas,2017Q1,2
+Cacimbinhas,2017Q3,1
+Cacimbinhas,2019Q2,1
+Cacimbinhas,2019Q4,1
+Cacimbinhas,2020Q1,1
+Cacimbinhas,2020Q3,1
+Cacimbinhas,2021Q1,1
+Cacimbinhas,2021Q4,1
+Cacimbinhas,2022Q1,2
+Cacimbinhas,2022Q2,2
+Cacimbinhas,2022Q3,2
+Cacimbinhas,2022Q4,1
+Cacimbinhas,2023Q1,1
+Cacimbinhas,2023Q2,1
+Cacimbinhas,2023Q3,2
+Cacimbinhas,2023Q4,1
+Cacimbinhas,2024Q1,2
+Cajueiro,2012Q1,7
+Cajueiro,2012Q2,3
+Cajueiro,2012Q3,6
+Cajueiro,2013Q1,4
+Cajueiro,2013Q2,7
+Cajueiro,2013Q3,4
+Cajueiro,2013Q4,5
+Cajueiro,2014Q1,3
+Cajueiro,2014Q2,6
+Cajueiro,2014Q3,6
+Cajueiro,2014Q4,2
+Cajueiro,2015Q1,1
+Cajueiro,2015Q2,4
+Cajueiro,2015Q3,4
+Cajueiro,2015Q4,5
+Cajueiro,2016Q2,4
+Cajueiro,2016Q3,2
+Cajueiro,2016Q4,4
+Cajueiro,2017Q1,1
+Cajueiro,2017Q2,7
+Cajueiro,2017Q3,3
+Cajueiro,2017Q4,3
+Cajueiro,2018Q1,1
+Cajueiro,2018Q2,2
+Cajueiro,2018Q4,2
+Cajueiro,2019Q1,3
+Cajueiro,2019Q2,2
+Cajueiro,2019Q3,1
+Cajueiro,2019Q4,3
+Cajueiro,2020Q1,2
+Cajueiro,2020Q2,2
+Cajueiro,2020Q3,4
+Cajueiro,2020Q4,2
+Cajueiro,2021Q1,1
+Cajueiro,2021Q2,1
+Cajueiro,2021Q4,3
+Cajueiro,2022Q1,2
+Cajueiro,2022Q2,1
+Cajueiro,2022Q4,2
+Cajueiro,2023Q1,1
+Cajueiro,2023Q2,1
+Cajueiro,2023Q4,1
+Cajueiro,2024Q1,1
+Cajueiro,2024Q3,1
+Cajueiro,2024Q4,1
+Cajueiro,2025Q1,1
+Cajueiro,2025Q2,2
+Cajueiro,2025Q3,3
+Cajueiro,2025Q4,2
+Cajueiro,2026Q1,1
+Campestre,2012Q2,1
+Campestre,2012Q3,1
+Campestre,2013Q1,3
+Campestre,2014Q4,1
+Campestre,2015Q4,1
+Campestre,2016Q1,1
+Campestre,2016Q4,1
+Campestre,2017Q1,2
+Campestre,2017Q3,3
+Campestre,2018Q4,2
+Campestre,2019Q1,1
+Campestre,2020Q3,1
+Campestre,2021Q3,4
+Campestre,2022Q2,1
+Campestre,2023Q1,2
+Campestre,2024Q2,1
+Campestre,2024Q4,1
+Campo Alegre,2012Q1,4
+Campo Alegre,2012Q2,5
+Campo Alegre,2012Q3,2
+Campo Alegre,2012Q4,4
+Campo Alegre,2013Q1,5
+Campo Alegre,2013Q2,9
+Campo Alegre,2013Q3,2
+Campo Alegre,2013Q4,8
+Campo Alegre,2014Q1,7
+Campo Alegre,2014Q2,5
+Campo Alegre,2014Q3,6
+Campo Alegre,2014Q4,3
+Campo Alegre,2015Q1,6
+Campo Alegre,2015Q2,6
+Campo Alegre,2015Q3,5
+Campo Alegre,2015Q4,3
+Campo Alegre,2016Q1,5
+Campo Alegre,2016Q2,1
+Campo Alegre,2016Q3,3
+Campo Alegre,2016Q4,8
+Campo Alegre,2017Q1,2
+Campo Alegre,2017Q2,4
+Campo Alegre,2017Q3,1
+Campo Alegre,2017Q4,4
+Campo Alegre,2018Q1,1
+Campo Alegre,2018Q2,2
+Campo Alegre,2018Q3,2
+Campo Alegre,2018Q4,5
+Campo Alegre,2019Q1,2
+Campo Alegre,2019Q2,7
+Campo Alegre,2019Q3,1
+Campo Alegre,2019Q4,7
+Campo Alegre,2020Q1,3
+Campo Alegre,2020Q2,3
+Campo Alegre,2020Q3,3
+Campo Alegre,2020Q4,5
+Campo Alegre,2021Q1,2
+Campo Alegre,2021Q2,5
+Campo Alegre,2021Q3,6
+Campo Alegre,2021Q4,2
+Campo Alegre,2022Q1,3
+Campo Alegre,2022Q2,4
+Campo Alegre,2022Q3,2
+Campo Alegre,2022Q4,2
+Campo Alegre,2023Q1,5
+Campo Alegre,2023Q2,5
+Campo Alegre,2023Q4,4
+Campo Alegre,2024Q1,5
+Campo Alegre,2024Q2,1
+Campo Alegre,2024Q3,3
+Campo Alegre,2024Q4,4
+Campo Alegre,2025Q1,3
+Campo Alegre,2025Q2,1
+Campo Alegre,2025Q3,4
+Campo Alegre,2025Q4,2
+Campo Alegre,2026Q1,3
+Campo Alegre,2026Q2,1
+Campo Grande,2012Q1,1
+Campo Grande,2012Q3,1
+Campo Grande,2012Q4,1
+Campo Grande,2013Q2,1
+Campo Grande,2013Q3,1
+Campo Grande,2013Q4,1
+Campo Grande,2014Q1,2
+Campo Grande,2014Q4,2
+Campo Grande,2015Q1,1
+Campo Grande,2015Q4,3
+Campo Grande,2016Q1,6
+Campo Grande,2016Q2,2
+Campo Grande,2016Q4,1
+Campo Grande,2017Q1,3
+Campo Grande,2017Q2,5
+Campo Grande,2017Q3,1
+Campo Grande,2017Q4,1
+Campo Grande,2018Q1,1
+Campo Grande,2018Q3,2
+Campo Grande,2019Q3,1
+Campo Grande,2019Q4,1
+Campo Grande,2020Q2,1
+Campo Grande,2021Q2,2
+Campo Grande,2021Q3,1
+Campo Grande,2022Q2,2
+Campo Grande,2022Q4,1
+Campo Grande,2023Q3,1
+Campo Grande,2023Q4,3
+Campo Grande,2024Q4,1
+Campo Grande,2025Q1,2
+Campo Grande,2026Q1,1
+Campo Grande,2026Q2,1
+Canapi,2012Q1,3
+Canapi,2012Q2,2
+Canapi,2012Q3,2
+Canapi,2013Q3,1
+Canapi,2013Q4,1
+Canapi,2014Q1,2
+Canapi,2014Q2,3
+Canapi,2014Q3,1
+Canapi,2014Q4,4
+Canapi,2015Q1,1
+Canapi,2015Q2,1
+Canapi,2015Q3,3
+Canapi,2015Q4,1
+Canapi,2016Q1,1
+Canapi,2016Q2,1
+Canapi,2016Q4,3
+Canapi,2017Q1,1
+Canapi,2017Q2,1
+Canapi,2017Q3,1
+Canapi,2018Q3,2
+Canapi,2018Q4,2
+Canapi,2019Q1,4
+Canapi,2019Q2,2
+Canapi,2019Q3,1
+Canapi,2019Q4,1
+Canapi,2020Q1,3
+Canapi,2020Q2,4
+Canapi,2020Q3,2
+Canapi,2020Q4,5
+Canapi,2021Q2,2
+Canapi,2021Q4,3
+Canapi,2022Q1,1
+Canapi,2022Q2,3
+Canapi,2022Q3,4
+Canapi,2022Q4,1
+Canapi,2023Q1,1
+Canapi,2023Q2,3
+Canapi,2023Q3,2
+Canapi,2023Q4,1
+Canapi,2024Q1,1
+Canapi,2024Q2,1
+Canapi,2024Q3,2
+Canapi,2025Q1,4
+Canapi,2025Q2,2
+Canapi,2025Q3,1
+Canapi,2026Q1,4
+Capela,2012Q1,2
+Capela,2012Q2,3
+Capela,2012Q3,3
+Capela,2012Q4,3
+Capela,2013Q1,7
+Capela,2013Q2,6
+Capela,2013Q3,1
+Capela,2013Q4,4
+Capela,2014Q1,2
+Capela,2014Q2,5
+Capela,2014Q3,1
+Capela,2014Q4,4
+Capela,2015Q1,3
+Capela,2015Q2,3
+Capela,2015Q3,1
+Capela,2016Q1,1
+Capela,2016Q2,1
+Capela,2016Q3,1
+Capela,2016Q4,2
+Capela,2017Q1,1
+Capela,2017Q2,6
+Capela,2017Q4,3
+Capela,2018Q1,1
+Capela,2018Q2,2
+Capela,2018Q4,1
+Capela,2019Q1,3
+Capela,2019Q2,2
+Capela,2019Q3,3
+Capela,2020Q1,2
+Capela,2020Q2,2
+Capela,2020Q3,1
+Capela,2020Q4,3
+Capela,2021Q3,1
+Capela,2021Q4,2
+Capela,2022Q2,1
+Capela,2023Q1,1
+Capela,2024Q1,1
+Capela,2024Q3,1
+Capela,2025Q1,1
+Capela,2026Q2,1
+Carneiros,2012Q3,1
+Carneiros,2013Q1,2
+Carneiros,2013Q3,1
+Carneiros,2014Q3,1
+Carneiros,2016Q1,1
+Carneiros,2016Q2,1
+Carneiros,2016Q4,1
+Carneiros,2018Q2,1
+Carneiros,2018Q4,1
+Carneiros,2019Q1,2
+Carneiros,2019Q2,2
+Carneiros,2020Q1,1
+Carneiros,2021Q2,1
+Carneiros,2022Q2,1
+Carneiros,2022Q4,1
+Carneiros,2023Q4,1
+Carneiros,2024Q3,1
+Carneiros,2024Q4,2
+Carneiros,2025Q2,1
+Carneiros,2025Q4,2
+Carneiros,2026Q1,2
+Chã Preta,2012Q1,1
+Chã Preta,2012Q2,1
+Chã Preta,2013Q1,1
+Chã Preta,2013Q4,1
+Chã Preta,2014Q4,1
+Chã Preta,2015Q2,1
+Chã Preta,2015Q4,1
+Chã Preta,2016Q1,1
+Chã Preta,2016Q2,2
+Chã Preta,2016Q3,1
+Chã Preta,2017Q1,2
+Chã Preta,2017Q4,2
+Chã Preta,2018Q3,1
+Chã Preta,2019Q3,1
+Chã Preta,2019Q4,1
+Chã Preta,2020Q1,1
+Chã Preta,2020Q2,1
+Chã Preta,2021Q4,1
+Chã Preta,2023Q2,1
+Chã Preta,2023Q4,1
+Coité do Nóia,2012Q1,1
+Coité do Nóia,2012Q2,1
+Coité do Nóia,2012Q4,1
+Coité do Nóia,2013Q1,2
+Coité do Nóia,2013Q2,2
+Coité do Nóia,2013Q3,2
+Coité do Nóia,2013Q4,3
+Coité do Nóia,2014Q3,1
+Coité do Nóia,2015Q1,2
+Coité do Nóia,2015Q3,2
+Coité do Nóia,2016Q1,2
+Coité do Nóia,2016Q3,1
+Coité do Nóia,2016Q4,2
+Coité do Nóia,2017Q1,1
+Coité do Nóia,2018Q1,2
+Coité do Nóia,2018Q2,1
+Coité do Nóia,2018Q3,2
+Coité do Nóia,2018Q4,1
+Coité do Nóia,2019Q1,1
+Coité do Nóia,2019Q4,1
+Coité do Nóia,2020Q3,2
+Coité do Nóia,2020Q4,2
+Coité do Nóia,2021Q1,1
+Coité do Nóia,2022Q3,1
+Coité do Nóia,2022Q4,2
+Coité do Nóia,2023Q1,1
+Coité do Nóia,2023Q2,1
+Coité do Nóia,2023Q3,1
+Coité do Nóia,2024Q4,1
+Coité do Nóia,2025Q2,1
+Colônia Leopoldina,2012Q1,5
+Colônia Leopoldina,2012Q2,2
+Colônia Leopoldina,2012Q3,2
+Colônia Leopoldina,2012Q4,2
+Colônia Leopoldina,2013Q1,1
+Colônia Leopoldina,2013Q2,1
+Colônia Leopoldina,2013Q3,2
+Colônia Leopoldina,2013Q4,2
+Colônia Leopoldina,2014Q1,1
+Colônia Leopoldina,2014Q2,4
+Colônia Leopoldina,2014Q3,2
+Colônia Leopoldina,2014Q4,6
+Colônia Leopoldina,2015Q1,1
+Colônia Leopoldina,2015Q2,1
+Colônia Leopoldina,2015Q3,3
+Colônia Leopoldina,2015Q4,4
+Colônia Leopoldina,2016Q1,5
+Colônia Leopoldina,2016Q2,1
+Colônia Leopoldina,2016Q3,6
+Colônia Leopoldina,2016Q4,3
+Colônia Leopoldina,2017Q1,6
+Colônia Leopoldina,2017Q2,4
+Colônia Leopoldina,2017Q3,1
+Colônia Leopoldina,2017Q4,6
+Colônia Leopoldina,2018Q1,6
+Colônia Leopoldina,2018Q2,5
+Colônia Leopoldina,2018Q3,5
+Colônia Leopoldina,2018Q4,5
+Colônia Leopoldina,2019Q1,5
+Colônia Leopoldina,2019Q2,6
+Colônia Leopoldina,2019Q3,5
+Colônia Leopoldina,2019Q4,2
+Colônia Leopoldina,2020Q1,4
+Colônia Leopoldina,2020Q2,4
+Colônia Leopoldina,2020Q3,6
+Colônia Leopoldina,2020Q4,6
+Colônia Leopoldina,2021Q1,1
+Colônia Leopoldina,2021Q2,3
+Colônia Leopoldina,2021Q4,4
+Colônia Leopoldina,2022Q1,3
+Colônia Leopoldina,2022Q4,1
+Colônia Leopoldina,2023Q1,3
+Colônia Leopoldina,2023Q4,2
+Colônia Leopoldina,2024Q1,1
+Colônia Leopoldina,2024Q2,1
+Colônia Leopoldina,2024Q3,3
+Colônia Leopoldina,2025Q1,1
+Colônia Leopoldina,2025Q2,2
+Colônia Leopoldina,2026Q1,1
+Coqueiro Seco,2012Q2,1
+Coqueiro Seco,2013Q2,2
+Coqueiro Seco,2013Q3,2
+Coqueiro Seco,2013Q4,3
+Coqueiro Seco,2014Q1,1
+Coqueiro Seco,2014Q3,1
+Coqueiro Seco,2015Q2,2
+Coqueiro Seco,2015Q3,3
+Coqueiro Seco,2015Q4,2
+Coqueiro Seco,2016Q1,1
+Coqueiro Seco,2016Q2,1
+Coqueiro Seco,2016Q4,1
+Coqueiro Seco,2017Q1,3
+Coqueiro Seco,2017Q2,1
+Coqueiro Seco,2017Q3,1
+Coqueiro Seco,2017Q4,2
+Coqueiro Seco,2018Q1,3
+Coqueiro Seco,2018Q3,1
+Coqueiro Seco,2018Q4,2
+Coqueiro Seco,2019Q1,2
+Coqueiro Seco,2019Q4,2
+Coqueiro Seco,2020Q1,1
+Coqueiro Seco,2020Q2,1
+Coqueiro Seco,2020Q4,1
+Coqueiro Seco,2021Q2,3
+Coqueiro Seco,2021Q3,1
+Coqueiro Seco,2022Q3,1
+Coqueiro Seco,2022Q4,3
+Coqueiro Seco,2023Q2,2
+Coqueiro Seco,2023Q3,2
+Coqueiro Seco,2023Q4,1
+Coqueiro Seco,2024Q1,1
+Coqueiro Seco,2024Q4,1
+Coqueiro Seco,2025Q1,1
+Coqueiro Seco,2025Q2,1
+Coqueiro Seco,2025Q4,1
+Coruripe,2012Q1,9
+Coruripe,2012Q2,22
+Coruripe,2012Q3,13
+Coruripe,2012Q4,11
+Coruripe,2013Q1,15
+Coruripe,2013Q2,8
+Coruripe,2013Q3,4
+Coruripe,2013Q4,4
+Coruripe,2014Q1,14
+Coruripe,2014Q2,18
+Coruripe,2014Q3,13
+Coruripe,2014Q4,9
+Coruripe,2015Q1,10
+Coruripe,2015Q2,10
+Coruripe,2015Q3,7
+Coruripe,2015Q4,8
+Coruripe,2016Q1,10
+Coruripe,2016Q2,14
+Coruripe,2016Q3,14
+Coruripe,2016Q4,10
+Coruripe,2017Q1,12
+Coruripe,2017Q2,13
+Coruripe,2017Q3,14
+Coruripe,2017Q4,8
+Coruripe,2018Q1,10
+Coruripe,2018Q2,16
+Coruripe,2018Q3,2
+Coruripe,2018Q4,2
+Coruripe,2019Q1,3
+Coruripe,2019Q2,4
+Coruripe,2019Q3,8
+Coruripe,2019Q4,4
+Coruripe,2020Q1,2
+Coruripe,2020Q2,2
+Coruripe,2020Q3,1
+Coruripe,2020Q4,2
+Coruripe,2021Q1,6
+Coruripe,2021Q2,3
+Coruripe,2021Q3,3
+Coruripe,2021Q4,7
+Coruripe,2022Q1,4
+Coruripe,2022Q2,3
+Coruripe,2022Q3,7
+Coruripe,2022Q4,2
+Coruripe,2023Q1,2
+Coruripe,2023Q2,5
+Coruripe,2023Q3,2
+Coruripe,2023Q4,1
+Coruripe,2024Q1,4
+Coruripe,2024Q2,1
+Coruripe,2024Q3,3
+Coruripe,2024Q4,6
+Coruripe,2025Q1,5
+Coruripe,2025Q2,4
+Coruripe,2025Q4,3
+Coruripe,2026Q1,2
+Craíbas,2012Q1,2
+Craíbas,2012Q3,2
+Craíbas,2012Q4,3
+Craíbas,2013Q2,4
+Craíbas,2013Q3,4
+Craíbas,2013Q4,3
+Craíbas,2014Q1,2
+Craíbas,2014Q2,3
+Craíbas,2014Q3,5
+Craíbas,2014Q4,5
+Craíbas,2015Q1,2
+Craíbas,2015Q3,4
+Craíbas,2015Q4,3
+Craíbas,2016Q1,3
+Craíbas,2016Q2,5
+Craíbas,2016Q3,2
+Craíbas,2016Q4,1
+Craíbas,2017Q1,3
+Craíbas,2017Q2,1
+Craíbas,2017Q3,3
+Craíbas,2017Q4,2
+Craíbas,2018Q1,3
+Craíbas,2018Q2,2
+Craíbas,2018Q4,2
+Craíbas,2019Q1,2
+Craíbas,2019Q2,1
+Craíbas,2019Q3,2
+Craíbas,2019Q4,3
+Craíbas,2020Q1,1
+Craíbas,2020Q2,1
+Craíbas,2020Q3,2
+Craíbas,2020Q4,2
+Craíbas,2021Q1,1
+Craíbas,2021Q4,2
+Craíbas,2022Q1,2
+Craíbas,2022Q2,2
+Craíbas,2022Q3,1
+Craíbas,2022Q4,1
+Craíbas,2023Q1,3
+Craíbas,2023Q2,1
+Craíbas,2023Q3,3
+Craíbas,2023Q4,3
+Craíbas,2024Q1,4
+Craíbas,2024Q2,3
+Craíbas,2024Q4,4
+Craíbas,2025Q1,1
+Craíbas,2025Q2,1
+Craíbas,2025Q3,1
+Craíbas,2026Q1,2
+Craíbas,2026Q2,1
+Delmiro Gouveia,2012Q1,6
+Delmiro Gouveia,2012Q2,6
+Delmiro Gouveia,2012Q3,10
+Delmiro Gouveia,2012Q4,8
+Delmiro Gouveia,2013Q1,5
+Delmiro Gouveia,2013Q2,2
+Delmiro Gouveia,2013Q3,2
+Delmiro Gouveia,2013Q4,2
+Delmiro Gouveia,2014Q1,5
+Delmiro Gouveia,2014Q2,3
+Delmiro Gouveia,2014Q3,4
+Delmiro Gouveia,2014Q4,3
+Delmiro Gouveia,2015Q1,4
+Delmiro Gouveia,2015Q2,2
+Delmiro Gouveia,2015Q3,3
+Delmiro Gouveia,2015Q4,7
+Delmiro Gouveia,2016Q1,2
+Delmiro Gouveia,2016Q2,5
+Delmiro Gouveia,2016Q3,3
+Delmiro Gouveia,2016Q4,2
+Delmiro Gouveia,2017Q1,3
+Delmiro Gouveia,2017Q2,3
+Delmiro Gouveia,2017Q3,3
+Delmiro Gouveia,2017Q4,3
+Delmiro Gouveia,2018Q1,5
+Delmiro Gouveia,2018Q2,2
+Delmiro Gouveia,2018Q3,4
+Delmiro Gouveia,2018Q4,2
+Delmiro Gouveia,2019Q1,5
+Delmiro Gouveia,2019Q2,2
+Delmiro Gouveia,2019Q3,4
+Delmiro Gouveia,2019Q4,4
+Delmiro Gouveia,2020Q1,2
+Delmiro Gouveia,2020Q2,2
+Delmiro Gouveia,2020Q3,3
+Delmiro Gouveia,2020Q4,1
+Delmiro Gouveia,2021Q1,3
+Delmiro Gouveia,2021Q2,6
+Delmiro Gouveia,2021Q3,1
+Delmiro Gouveia,2021Q4,1
+Delmiro Gouveia,2022Q1,3
+Delmiro Gouveia,2022Q2,1
+Delmiro Gouveia,2022Q3,1
+Delmiro Gouveia,2022Q4,7
+Delmiro Gouveia,2023Q1,2
+Delmiro Gouveia,2023Q2,2
+Delmiro Gouveia,2023Q3,2
+Delmiro Gouveia,2023Q4,4
+Delmiro Gouveia,2024Q1,4
+Delmiro Gouveia,2024Q2,3
+Delmiro Gouveia,2024Q3,2
+Delmiro Gouveia,2024Q4,3
+Delmiro Gouveia,2025Q1,2
+Delmiro Gouveia,2025Q2,2
+Delmiro Gouveia,2025Q3,3
+Delmiro Gouveia,2025Q4,1
+Delmiro Gouveia,2026Q1,1
+Dois Riachos,2012Q1,2
+Dois Riachos,2012Q2,1
+Dois Riachos,2012Q3,2
+Dois Riachos,2012Q4,2
+Dois Riachos,2013Q1,2
+Dois Riachos,2013Q2,2
+Dois Riachos,2013Q4,2
+Dois Riachos,2014Q1,2
+Dois Riachos,2014Q2,2
+Dois Riachos,2014Q3,1
+Dois Riachos,2014Q4,2
+Dois Riachos,2015Q2,1
+Dois Riachos,2015Q3,3
+Dois Riachos,2015Q4,1
+Dois Riachos,2016Q1,2
+Dois Riachos,2016Q2,1
+Dois Riachos,2016Q3,2
+Dois Riachos,2017Q1,1
+Dois Riachos,2017Q2,1
+Dois Riachos,2017Q3,1
+Dois Riachos,2018Q2,3
+Dois Riachos,2019Q4,1
+Dois Riachos,2020Q2,1
+Dois Riachos,2020Q3,2
+Dois Riachos,2020Q4,2
+Dois Riachos,2021Q2,2
+Dois Riachos,2021Q3,2
+Dois Riachos,2021Q4,1
+Dois Riachos,2022Q1,2
+Dois Riachos,2022Q3,4
+Dois Riachos,2022Q4,2
+Dois Riachos,2023Q3,1
+Dois Riachos,2023Q4,1
+Dois Riachos,2024Q1,1
+Dois Riachos,2024Q2,1
+Dois Riachos,2024Q3,1
+Dois Riachos,2025Q1,1
+Dois Riachos,2025Q2,1
+Dois Riachos,2025Q3,2
+Estrela de Alagoas,2012Q1,2
+Estrela de Alagoas,2012Q2,2
+Estrela de Alagoas,2012Q4,2
+Estrela de Alagoas,2013Q1,1
+Estrela de Alagoas,2013Q2,4
+Estrela de Alagoas,2013Q3,1
+Estrela de Alagoas,2013Q4,2
+Estrela de Alagoas,2014Q2,1
+Estrela de Alagoas,2014Q4,4
+Estrela de Alagoas,2015Q1,1
+Estrela de Alagoas,2015Q2,1
+Estrela de Alagoas,2015Q3,2
+Estrela de Alagoas,2016Q4,2
+Estrela de Alagoas,2017Q1,1
+Estrela de Alagoas,2017Q2,2
+Estrela de Alagoas,2017Q3,4
+Estrela de Alagoas,2018Q2,1
+Estrela de Alagoas,2018Q3,1
+Estrela de Alagoas,2019Q1,1
+Estrela de Alagoas,2019Q2,2
+Estrela de Alagoas,2020Q2,1
+Estrela de Alagoas,2021Q1,1
+Estrela de Alagoas,2021Q2,1
+Estrela de Alagoas,2021Q3,2
+Estrela de Alagoas,2022Q3,1
+Estrela de Alagoas,2023Q2,2
+Estrela de Alagoas,2023Q3,1
+Estrela de Alagoas,2024Q1,2
+Estrela de Alagoas,2024Q4,1
+Estrela de Alagoas,2025Q2,5
+Feira Grande,2012Q1,1
+Feira Grande,2012Q2,2
+Feira Grande,2012Q3,1
+Feira Grande,2012Q4,4
+Feira Grande,2013Q1,2
+Feira Grande,2013Q2,4
+Feira Grande,2013Q3,2
+Feira Grande,2013Q4,2
+Feira Grande,2014Q1,2
+Feira Grande,2014Q2,2
+Feira Grande,2014Q3,1
+Feira Grande,2014Q4,7
+Feira Grande,2015Q1,2
+Feira Grande,2015Q2,2
+Feira Grande,2015Q3,4
+Feira Grande,2015Q4,3
+Feira Grande,2016Q1,3
+Feira Grande,2016Q2,4
+Feira Grande,2016Q3,4
+Feira Grande,2017Q1,2
+Feira Grande,2017Q2,1
+Feira Grande,2017Q3,4
+Feira Grande,2017Q4,3
+Feira Grande,2018Q1,2
+Feira Grande,2018Q2,2
+Feira Grande,2018Q3,2
+Feira Grande,2018Q4,1
+Feira Grande,2019Q1,1
+Feira Grande,2019Q2,2
+Feira Grande,2019Q3,2
+Feira Grande,2019Q4,1
+Feira Grande,2020Q2,1
+Feira Grande,2020Q4,2
+Feira Grande,2021Q1,1
+Feira Grande,2021Q2,2
+Feira Grande,2021Q3,1
+Feira Grande,2021Q4,4
+Feira Grande,2022Q2,3
+Feira Grande,2022Q3,1
+Feira Grande,2023Q4,1
+Feira Grande,2024Q4,1
+Feira Grande,2025Q1,2
+Feira Grande,2025Q3,1
+Feira Grande,2026Q1,1
+Feira Grande,2026Q2,1
+Feliz Deserto,2012Q2,2
+Feliz Deserto,2012Q3,1
+Feliz Deserto,2013Q1,2
+Feliz Deserto,2014Q1,1
+Feliz Deserto,2014Q2,3
+Feliz Deserto,2015Q4,2
+Feliz Deserto,2016Q1,1
+Feliz Deserto,2016Q2,1
+Feliz Deserto,2016Q3,3
+Feliz Deserto,2017Q1,1
+Feliz Deserto,2017Q2,1
+Feliz Deserto,2017Q4,1
+Feliz Deserto,2018Q1,1
+Feliz Deserto,2018Q2,1
+Feliz Deserto,2018Q4,1
+Feliz Deserto,2019Q1,1
+Feliz Deserto,2020Q1,1
+Feliz Deserto,2020Q2,2
+Feliz Deserto,2020Q3,1
+Feliz Deserto,2020Q4,1
+Feliz Deserto,2021Q1,1
+Feliz Deserto,2021Q2,1
+Feliz Deserto,2021Q3,1
+Feliz Deserto,2022Q1,1
+Feliz Deserto,2022Q4,1
+Feliz Deserto,2023Q1,1
+Feliz Deserto,2023Q2,1
+Feliz Deserto,2024Q3,1
+Feliz Deserto,2024Q4,1
+Feliz Deserto,2025Q4,1
+Flexeiras,2012Q1,2
+Flexeiras,2012Q2,1
+Flexeiras,2012Q3,2
+Flexeiras,2012Q4,2
+Flexeiras,2013Q1,3
+Flexeiras,2013Q2,4
+Flexeiras,2013Q3,1
+Flexeiras,2013Q4,4
+Flexeiras,2014Q1,1
+Flexeiras,2014Q2,2
+Flexeiras,2014Q3,3
+Flexeiras,2014Q4,1
+Flexeiras,2015Q1,4
+Flexeiras,2015Q2,1
+Flexeiras,2015Q3,1
+Flexeiras,2015Q4,5
+Flexeiras,2016Q1,3
+Flexeiras,2016Q2,3
+Flexeiras,2016Q3,1
+Flexeiras,2016Q4,1
+Flexeiras,2017Q1,3
+Flexeiras,2017Q2,4
+Flexeiras,2017Q3,1
+Flexeiras,2017Q4,3
+Flexeiras,2018Q1,2
+Flexeiras,2018Q2,3
+Flexeiras,2018Q3,2
+Flexeiras,2018Q4,3
+Flexeiras,2019Q1,3
+Flexeiras,2019Q2,1
+Flexeiras,2019Q3,2
+Flexeiras,2020Q1,3
+Flexeiras,2020Q2,3
+Flexeiras,2020Q3,4
+Flexeiras,2020Q4,4
+Flexeiras,2021Q1,3
+Flexeiras,2021Q4,2
+Flexeiras,2022Q2,3
+Flexeiras,2022Q4,4
+Flexeiras,2024Q2,1
+Flexeiras,2025Q1,1
+Flexeiras,2025Q2,1
+Flexeiras,2025Q4,1
+Flexeiras,2026Q1,1
+Girau do Ponciano,2012Q1,1
+Girau do Ponciano,2012Q2,1
+Girau do Ponciano,2012Q4,1
+Girau do Ponciano,2013Q1,2
+Girau do Ponciano,2013Q2,3
+Girau do Ponciano,2013Q3,7
+Girau do Ponciano,2014Q1,2
+Girau do Ponciano,2014Q2,3
+Girau do Ponciano,2014Q3,2
+Girau do Ponciano,2014Q4,2
+Girau do Ponciano,2015Q1,5
+Girau do Ponciano,2015Q2,1
+Girau do Ponciano,2015Q3,5
+Girau do Ponciano,2015Q4,6
+Girau do Ponciano,2016Q1,7
+Girau do Ponciano,2016Q2,6
+Girau do Ponciano,2016Q3,2
+Girau do Ponciano,2016Q4,6
+Girau do Ponciano,2017Q1,4
+Girau do Ponciano,2017Q2,1
+Girau do Ponciano,2017Q3,2
+Girau do Ponciano,2017Q4,3
+Girau do Ponciano,2018Q1,4
+Girau do Ponciano,2018Q2,4
+Girau do Ponciano,2018Q3,3
+Girau do Ponciano,2018Q4,1
+Girau do Ponciano,2019Q1,1
+Girau do Ponciano,2019Q3,2
+Girau do Ponciano,2019Q4,3
+Girau do Ponciano,2020Q1,1
+Girau do Ponciano,2020Q4,2
+Girau do Ponciano,2021Q1,4
+Girau do Ponciano,2021Q2,1
+Girau do Ponciano,2021Q3,2
+Girau do Ponciano,2021Q4,5
+Girau do Ponciano,2022Q1,3
+Girau do Ponciano,2022Q3,4
+Girau do Ponciano,2022Q4,2
+Girau do Ponciano,2023Q1,1
+Girau do Ponciano,2023Q3,2
+Girau do Ponciano,2023Q4,3
+Girau do Ponciano,2024Q1,3
+Girau do Ponciano,2024Q2,4
+Girau do Ponciano,2024Q3,4
+Girau do Ponciano,2024Q4,1
+Girau do Ponciano,2025Q1,1
+Girau do Ponciano,2025Q2,1
+Girau do Ponciano,2025Q3,1
+Girau do Ponciano,2025Q4,2
+Girau do Ponciano,2026Q1,3
+Ibateguara,2012Q1,2
+Ibateguara,2012Q2,2
+Ibateguara,2012Q3,7
+Ibateguara,2012Q4,7
+Ibateguara,2013Q1,2
+Ibateguara,2013Q2,3
+Ibateguara,2013Q3,7
+Ibateguara,2014Q1,4
+Ibateguara,2014Q2,1
+Ibateguara,2014Q3,1
+Ibateguara,2015Q1,4
+Ibateguara,2015Q2,4
+Ibateguara,2015Q3,1
+Ibateguara,2016Q1,6
+Ibateguara,2016Q2,3
+Ibateguara,2016Q4,4
+Ibateguara,2017Q1,3
+Ibateguara,2017Q2,3
+Ibateguara,2017Q3,3
+Ibateguara,2018Q1,1
+Ibateguara,2018Q2,3
+Ibateguara,2018Q3,1
+Ibateguara,2018Q4,2
+Ibateguara,2019Q1,1
+Ibateguara,2019Q2,3
+Ibateguara,2019Q3,2
+Ibateguara,2020Q1,1
+Ibateguara,2020Q2,2
+Ibateguara,2020Q3,2
+Ibateguara,2020Q4,3
+Ibateguara,2021Q1,1
+Ibateguara,2021Q2,3
+Ibateguara,2021Q3,1
+Ibateguara,2021Q4,1
+Ibateguara,2022Q3,2
+Ibateguara,2022Q4,2
+Ibateguara,2023Q1,4
+Ibateguara,2023Q2,3
+Ibateguara,2023Q3,2
+Ibateguara,2023Q4,2
+Ibateguara,2024Q1,4
+Ibateguara,2024Q2,1
+Ibateguara,2024Q3,2
+Ibateguara,2025Q2,1
+Ibateguara,2025Q4,1
+Igaci,2012Q1,1
+Igaci,2012Q2,3
+Igaci,2012Q3,1
+Igaci,2012Q4,2
+Igaci,2013Q1,1
+Igaci,2013Q2,3
+Igaci,2013Q3,3
+Igaci,2013Q4,3
+Igaci,2014Q1,2
+Igaci,2014Q2,4
+Igaci,2014Q3,2
+Igaci,2014Q4,2
+Igaci,2015Q1,2
+Igaci,2015Q2,3
+Igaci,2015Q3,3
+Igaci,2015Q4,4
+Igaci,2016Q1,6
+Igaci,2016Q2,2
+Igaci,2016Q3,3
+Igaci,2016Q4,4
+Igaci,2017Q1,1
+Igaci,2017Q2,1
+Igaci,2017Q3,2
+Igaci,2017Q4,4
+Igaci,2018Q1,4
+Igaci,2018Q2,3
+Igaci,2018Q3,2
+Igaci,2018Q4,2
+Igaci,2019Q2,2
+Igaci,2019Q3,1
+Igaci,2019Q4,1
+Igaci,2020Q1,1
+Igaci,2020Q2,1
+Igaci,2020Q3,4
+Igaci,2020Q4,4
+Igaci,2021Q1,2
+Igaci,2021Q3,4
+Igaci,2021Q4,3
+Igaci,2022Q1,3
+Igaci,2022Q2,1
+Igaci,2022Q3,5
+Igaci,2022Q4,2
+Igaci,2023Q1,6
+Igaci,2023Q2,1
+Igaci,2023Q3,5
+Igaci,2023Q4,7
+Igaci,2024Q1,6
+Igaci,2024Q2,1
+Igaci,2024Q3,1
+Igaci,2024Q4,3
+Igaci,2025Q1,1
+Igaci,2025Q2,1
+Igaci,2025Q3,4
+Igaci,2025Q4,3
+Igaci,2026Q1,3
+Igaci,2026Q2,1
+Igreja Nova,2012Q2,3
+Igreja Nova,2012Q4,3
+Igreja Nova,2013Q1,2
+Igreja Nova,2013Q2,2
+Igreja Nova,2013Q3,2
+Igreja Nova,2013Q4,2
+Igreja Nova,2014Q1,3
+Igreja Nova,2014Q3,2
+Igreja Nova,2015Q1,4
+Igreja Nova,2015Q2,1
+Igreja Nova,2015Q3,1
+Igreja Nova,2015Q4,1
+Igreja Nova,2016Q1,4
+Igreja Nova,2016Q2,5
+Igreja Nova,2016Q3,2
+Igreja Nova,2016Q4,4
+Igreja Nova,2017Q2,3
+Igreja Nova,2017Q3,2
+Igreja Nova,2017Q4,2
+Igreja Nova,2018Q1,2
+Igreja Nova,2018Q2,1
+Igreja Nova,2018Q3,2
+Igreja Nova,2018Q4,1
+Igreja Nova,2019Q2,4
+Igreja Nova,2019Q3,2
+Igreja Nova,2019Q4,1
+Igreja Nova,2020Q1,3
+Igreja Nova,2020Q2,1
+Igreja Nova,2020Q3,1
+Igreja Nova,2020Q4,2
+Igreja Nova,2021Q1,2
+Igreja Nova,2021Q2,4
+Igreja Nova,2021Q3,1
+Igreja Nova,2021Q4,1
+Igreja Nova,2022Q1,1
+Igreja Nova,2023Q1,2
+Igreja Nova,2023Q3,2
+Igreja Nova,2023Q4,2
+Igreja Nova,2024Q1,3
+Igreja Nova,2024Q3,3
+Igreja Nova,2024Q4,1
+Igreja Nova,2025Q1,1
+Igreja Nova,2025Q2,3
+Igreja Nova,2025Q4,2
+Igreja Nova,2026Q1,1
+Inhapi,2012Q1,2
+Inhapi,2012Q2,1
+Inhapi,2012Q3,2
+Inhapi,2012Q4,3
+Inhapi,2013Q1,2
+Inhapi,2013Q2,1
+Inhapi,2013Q3,2
+Inhapi,2013Q4,1
+Inhapi,2014Q1,2
+Inhapi,2014Q2,5
+Inhapi,2014Q3,1
+Inhapi,2014Q4,4
+Inhapi,2015Q1,2
+Inhapi,2015Q2,2
+Inhapi,2015Q4,1
+Inhapi,2016Q2,1
+Inhapi,2016Q3,3
+Inhapi,2016Q4,1
+Inhapi,2017Q1,2
+Inhapi,2017Q2,1
+Inhapi,2017Q3,2
+Inhapi,2017Q4,4
+Inhapi,2018Q1,4
+Inhapi,2018Q2,2
+Inhapi,2018Q3,1
+Inhapi,2018Q4,2
+Inhapi,2019Q1,4
+Inhapi,2019Q3,2
+Inhapi,2019Q4,2
+Inhapi,2020Q3,3
+Inhapi,2021Q2,1
+Inhapi,2021Q3,1
+Inhapi,2021Q4,3
+Inhapi,2022Q1,2
+Inhapi,2022Q3,1
+Inhapi,2022Q4,2
+Inhapi,2023Q1,2
+Inhapi,2023Q2,1
+Inhapi,2023Q4,3
+Inhapi,2024Q1,2
+Inhapi,2024Q2,1
+Inhapi,2024Q3,1
+Jacaré dos Homens,2013Q2,1
+Jacaré dos Homens,2013Q3,1
+Jacaré dos Homens,2014Q1,1
+Jacaré dos Homens,2014Q4,1
+Jacaré dos Homens,2015Q2,1
+Jacaré dos Homens,2015Q3,1
+Jacaré dos Homens,2015Q4,1
+Jacaré dos Homens,2017Q3,4
+Jacaré dos Homens,2019Q1,1
+Jacaré dos Homens,2020Q4,3
+Jacaré dos Homens,2021Q3,1
+Jacaré dos Homens,2023Q1,1
+Jacuípe,2012Q4,1
+Jacuípe,2013Q1,2
+Jacuípe,2013Q4,1
+Jacuípe,2014Q1,3
+Jacuípe,2014Q4,1
+Jacuípe,2015Q1,1
+Jacuípe,2015Q4,1
+Jacuípe,2016Q2,2
+Jacuípe,2017Q1,1
+Jacuípe,2017Q2,2
+Jacuípe,2017Q3,2
+Jacuípe,2018Q1,3
+Jacuípe,2019Q3,1
+Jacuípe,2019Q4,1
+Jacuípe,2020Q3,2
+Jacuípe,2020Q4,1
+Jacuípe,2021Q1,1
+Jacuípe,2022Q3,1
+Jacuípe,2023Q1,1
+Jacuípe,2025Q1,1
+Japaratinga,2013Q1,2
+Japaratinga,2013Q2,3
+Japaratinga,2013Q3,1
+Japaratinga,2013Q4,2
+Japaratinga,2014Q2,1
+Japaratinga,2014Q3,1
+Japaratinga,2015Q1,2
+Japaratinga,2015Q4,2
+Japaratinga,2016Q1,1
+Japaratinga,2016Q4,1
+Japaratinga,2017Q2,1
+Japaratinga,2017Q3,1
+Japaratinga,2018Q1,2
+Japaratinga,2018Q2,1
+Japaratinga,2018Q3,1
+Japaratinga,2019Q1,1
+Japaratinga,2019Q2,1
+Japaratinga,2019Q3,5
+Japaratinga,2019Q4,2
+Japaratinga,2020Q1,2
+Japaratinga,2020Q2,1
+Japaratinga,2020Q4,1
+Japaratinga,2021Q1,1
+Japaratinga,2021Q2,1
+Japaratinga,2022Q1,1
+Japaratinga,2022Q4,1
+Japaratinga,2023Q2,1
+Japaratinga,2023Q3,1
+Japaratinga,2024Q1,1
+Japaratinga,2024Q2,3
+Japaratinga,2024Q4,2
+Japaratinga,2025Q1,1
+Japaratinga,2025Q2,2
+Japaratinga,2025Q4,1
+Japaratinga,2026Q1,2
+Jaramataia,2012Q1,1
+Jaramataia,2012Q2,2
+Jaramataia,2012Q3,4
+Jaramataia,2012Q4,1
+Jaramataia,2013Q1,1
+Jaramataia,2013Q4,2
+Jaramataia,2014Q1,1
+Jaramataia,2014Q2,1
+Jaramataia,2014Q4,3
+Jaramataia,2015Q1,1
+Jaramataia,2015Q3,1
+Jaramataia,2016Q1,2
+Jaramataia,2016Q4,4
+Jaramataia,2017Q2,1
+Jaramataia,2018Q2,1
+Jaramataia,2018Q4,1
+Jaramataia,2019Q1,1
+Jaramataia,2019Q2,1
+Jaramataia,2019Q3,1
+Jaramataia,2019Q4,1
+Jaramataia,2020Q4,2
+Jaramataia,2021Q1,1
+Jaramataia,2021Q4,2
+Jaramataia,2023Q4,2
+Jaramataia,2024Q4,1
+Jaramataia,2025Q4,1
+Jequiá da Praia,2012Q1,1
+Jequiá da Praia,2014Q1,3
+Jequiá da Praia,2014Q3,5
+Jequiá da Praia,2015Q4,1
+Jequiá da Praia,2016Q1,1
+Jequiá da Praia,2016Q2,1
+Jequiá da Praia,2016Q3,1
+Jequiá da Praia,2016Q4,3
+Jequiá da Praia,2017Q1,1
+Jequiá da Praia,2017Q2,2
+Jequiá da Praia,2017Q3,1
+Jequiá da Praia,2017Q4,1
+Jequiá da Praia,2018Q1,1
+Jequiá da Praia,2018Q3,1
+Jequiá da Praia,2018Q4,1
+Jequiá da Praia,2020Q1,3
+Jequiá da Praia,2020Q3,1
+Jequiá da Praia,2020Q4,2
+Jequiá da Praia,2021Q2,1
+Jequiá da Praia,2022Q1,1
+Jequiá da Praia,2025Q1,1
+Jequiá da Praia,2025Q4,1
+Joaquim Gomes,2012Q1,4
+Joaquim Gomes,2012Q2,8
+Joaquim Gomes,2012Q3,9
+Joaquim Gomes,2012Q4,5
+Joaquim Gomes,2013Q1,8
+Joaquim Gomes,2013Q2,9
+Joaquim Gomes,2013Q3,6
+Joaquim Gomes,2013Q4,5
+Joaquim Gomes,2014Q1,5
+Joaquim Gomes,2014Q2,5
+Joaquim Gomes,2014Q3,1
+Joaquim Gomes,2014Q4,2
+Joaquim Gomes,2015Q1,5
+Joaquim Gomes,2015Q2,4
+Joaquim Gomes,2015Q3,3
+Joaquim Gomes,2015Q4,10
+Joaquim Gomes,2016Q1,1
+Joaquim Gomes,2016Q2,4
+Joaquim Gomes,2016Q3,1
+Joaquim Gomes,2016Q4,2
+Joaquim Gomes,2017Q1,6
+Joaquim Gomes,2017Q2,1
+Joaquim Gomes,2017Q3,3
+Joaquim Gomes,2017Q4,6
+Joaquim Gomes,2018Q1,3
+Joaquim Gomes,2018Q2,1
+Joaquim Gomes,2018Q4,1
+Joaquim Gomes,2019Q1,2
+Joaquim Gomes,2019Q2,1
+Joaquim Gomes,2019Q3,3
+Joaquim Gomes,2019Q4,1
+Joaquim Gomes,2020Q1,5
+Joaquim Gomes,2020Q2,2
+Joaquim Gomes,2021Q1,4
+Joaquim Gomes,2021Q2,1
+Joaquim Gomes,2021Q3,3
+Joaquim Gomes,2021Q4,2
+Joaquim Gomes,2022Q1,2
+Joaquim Gomes,2022Q2,1
+Joaquim Gomes,2022Q3,2
+Joaquim Gomes,2022Q4,1
+Joaquim Gomes,2023Q1,1
+Joaquim Gomes,2023Q3,2
+Joaquim Gomes,2023Q4,2
+Joaquim Gomes,2024Q2,1
+Joaquim Gomes,2024Q3,1
+Joaquim Gomes,2025Q2,4
+Joaquim Gomes,2025Q3,3
+Joaquim Gomes,2026Q1,1
+Jundiá,2012Q1,1
+Jundiá,2012Q3,1
+Jundiá,2012Q4,2
+Jundiá,2014Q2,1
+Jundiá,2014Q3,1
+Jundiá,2014Q4,2
+Jundiá,2015Q1,3
+Jundiá,2015Q3,1
+Jundiá,2015Q4,1
+Jundiá,2016Q4,2
+Jundiá,2017Q1,1
+Jundiá,2017Q3,3
+Jundiá,2017Q4,1
+Jundiá,2018Q1,1
+Jundiá,2018Q4,1
+Jundiá,2020Q1,1
+Jundiá,2020Q4,2
+Jundiá,2022Q2,1
+Jundiá,2023Q2,1
+Jundiá,2024Q2,1
+Jundiá,2026Q2,1
+Junqueiro,2012Q1,3
+Junqueiro,2012Q3,1
+Junqueiro,2012Q4,1
+Junqueiro,2013Q1,5
+Junqueiro,2013Q2,3
+Junqueiro,2013Q3,2
+Junqueiro,2013Q4,4
+Junqueiro,2014Q1,7
+Junqueiro,2014Q2,4
+Junqueiro,2014Q3,1
+Junqueiro,2014Q4,4
+Junqueiro,2015Q1,2
+Junqueiro,2015Q2,1
+Junqueiro,2015Q3,2
+Junqueiro,2015Q4,4
+Junqueiro,2016Q1,4
+Junqueiro,2016Q2,3
+Junqueiro,2016Q3,4
+Junqueiro,2016Q4,1
+Junqueiro,2017Q1,6
+Junqueiro,2017Q3,2
+Junqueiro,2018Q1,1
+Junqueiro,2018Q3,2
+Junqueiro,2018Q4,2
+Junqueiro,2019Q1,2
+Junqueiro,2019Q2,1
+Junqueiro,2019Q3,1
+Junqueiro,2019Q4,2
+Junqueiro,2020Q1,2
+Junqueiro,2020Q2,3
+Junqueiro,2020Q3,3
+Junqueiro,2020Q4,5
+Junqueiro,2021Q2,3
+Junqueiro,2021Q3,1
+Junqueiro,2021Q4,2
+Junqueiro,2022Q1,3
+Junqueiro,2022Q2,1
+Junqueiro,2022Q3,1
+Junqueiro,2023Q2,2
+Junqueiro,2024Q1,1
+Junqueiro,2024Q2,1
+Junqueiro,2024Q3,1
+Junqueiro,2025Q1,1
+Junqueiro,2026Q1,4
+Lagoa da Canoa,2012Q1,1
+Lagoa da Canoa,2012Q2,4
+Lagoa da Canoa,2012Q3,2
+Lagoa da Canoa,2012Q4,5
+Lagoa da Canoa,2013Q1,2
+Lagoa da Canoa,2013Q2,1
+Lagoa da Canoa,2013Q3,4
+Lagoa da Canoa,2013Q4,1
+Lagoa da Canoa,2014Q1,3
+Lagoa da Canoa,2014Q2,7
+Lagoa da Canoa,2014Q3,4
+Lagoa da Canoa,2014Q4,1
+Lagoa da Canoa,2015Q1,3
+Lagoa da Canoa,2015Q2,1
+Lagoa da Canoa,2015Q3,2
+Lagoa da Canoa,2015Q4,2
+Lagoa da Canoa,2016Q1,1
+Lagoa da Canoa,2016Q2,4
+Lagoa da Canoa,2016Q4,2
+Lagoa da Canoa,2017Q1,6
+Lagoa da Canoa,2017Q2,3
+Lagoa da Canoa,2017Q3,2
+Lagoa da Canoa,2017Q4,5
+Lagoa da Canoa,2018Q1,1
+Lagoa da Canoa,2018Q2,5
+Lagoa da Canoa,2018Q3,1
+Lagoa da Canoa,2019Q1,3
+Lagoa da Canoa,2019Q2,2
+Lagoa da Canoa,2019Q3,1
+Lagoa da Canoa,2019Q4,1
+Lagoa da Canoa,2020Q1,5
+Lagoa da Canoa,2020Q2,1
+Lagoa da Canoa,2020Q4,1
+Lagoa da Canoa,2021Q1,3
+Lagoa da Canoa,2021Q3,3
+Lagoa da Canoa,2021Q4,3
+Lagoa da Canoa,2022Q1,1
+Lagoa da Canoa,2022Q2,2
+Lagoa da Canoa,2022Q3,1
+Lagoa da Canoa,2022Q4,4
+Lagoa da Canoa,2023Q1,2
+Lagoa da Canoa,2023Q3,1
+Lagoa da Canoa,2023Q4,1
+Lagoa da Canoa,2024Q1,2
+Lagoa da Canoa,2024Q2,2
+Lagoa da Canoa,2024Q3,4
+Lagoa da Canoa,2024Q4,1
+Lagoa da Canoa,2025Q1,1
+Lagoa da Canoa,2025Q2,3
+Lagoa da Canoa,2025Q3,4
+Lagoa da Canoa,2025Q4,1
+Lagoa da Canoa,2026Q1,1
+Lagoa da Canoa,2026Q2,1
+Limoeiro de Anadia,2012Q1,2
+Limoeiro de Anadia,2012Q2,1
+Limoeiro de Anadia,2013Q1,4
+Limoeiro de Anadia,2013Q2,5
+Limoeiro de Anadia,2013Q3,2
+Limoeiro de Anadia,2013Q4,4
+Limoeiro de Anadia,2014Q1,2
+Limoeiro de Anadia,2014Q2,2
+Limoeiro de Anadia,2014Q4,4
+Limoeiro de Anadia,2015Q1,4
+Limoeiro de Anadia,2015Q2,3
+Limoeiro de Anadia,2015Q3,1
+Limoeiro de Anadia,2016Q1,3
+Limoeiro de Anadia,2016Q2,8
+Limoeiro de Anadia,2016Q4,3
+Limoeiro de Anadia,2017Q1,2
+Limoeiro de Anadia,2017Q2,2
+Limoeiro de Anadia,2018Q1,3
+Limoeiro de Anadia,2018Q2,2
+Limoeiro de Anadia,2018Q3,1
+Limoeiro de Anadia,2018Q4,3
+Limoeiro de Anadia,2019Q1,1
+Limoeiro de Anadia,2019Q4,1
+Limoeiro de Anadia,2020Q1,1
+Limoeiro de Anadia,2020Q2,1
+Limoeiro de Anadia,2020Q3,1
+Limoeiro de Anadia,2020Q4,1
+Limoeiro de Anadia,2021Q1,5
+Limoeiro de Anadia,2021Q2,3
+Limoeiro de Anadia,2021Q4,1
+Limoeiro de Anadia,2023Q2,1
+Limoeiro de Anadia,2023Q4,1
+Limoeiro de Anadia,2024Q1,3
+Limoeiro de Anadia,2024Q3,1
+Limoeiro de Anadia,2025Q2,1
+Limoeiro de Anadia,2026Q1,2
+Maceió,2012Q1,224
+Maceió,2012Q2,217
+Maceió,2012Q3,163
+Maceió,2012Q4,170
+Maceió,2013Q1,225
+Maceió,2013Q2,198
+Maceió,2013Q3,162
+Maceió,2013Q4,210
+Maceió,2014Q1,210
+Maceió,2014Q2,183
+Maceió,2014Q3,140
+Maceió,2014Q4,151
+Maceió,2015Q1,146
+Maceió,2015Q2,127
+Maceió,2015Q3,121
+Maceió,2015Q4,119
+Maceió,2016Q1,94
+Maceió,2016Q2,95
+Maceió,2016Q3,124
+Maceió,2016Q4,142
+Maceió,2017Q1,199
+Maceió,2017Q2,133
+Maceió,2017Q3,123
+Maceió,2017Q4,134
+Maceió,2018Q1,123
+Maceió,2018Q2,107
+Maceió,2018Q3,122
+Maceió,2018Q4,101
+Maceió,2019Q1,84
+Maceió,2019Q2,60
+Maceió,2019Q3,67
+Maceió,2019Q4,80
+Maceió,2020Q1,106
+Maceió,2020Q2,80
+Maceió,2020Q3,71
+Maceió,2020Q4,110
+Maceió,2021Q1,87
+Maceió,2021Q2,65
+Maceió,2021Q3,71
+Maceió,2021Q4,83
+Maceió,2022Q1,78
+Maceió,2022Q2,94
+Maceió,2022Q3,99
+Maceió,2022Q4,95
+Maceió,2023Q1,86
+Maceió,2023Q2,113
+Maceió,2023Q3,86
+Maceió,2023Q4,112
+Maceió,2024Q1,95
+Maceió,2024Q2,82
+Maceió,2024Q3,81
+Maceió,2024Q4,87
+Maceió,2025Q1,82
+Maceió,2025Q2,91
+Maceió,2025Q3,86
+Maceió,2025Q4,94
+Maceió,2026Q1,76
+Maceió,2026Q2,25
+Major Isidoro,2012Q1,2
+Major Isidoro,2012Q3,4
+Major Isidoro,2012Q4,4
+Major Isidoro,2013Q1,1
+Major Isidoro,2013Q2,1
+Major Isidoro,2013Q3,3
+Major Isidoro,2013Q4,5
+Major Isidoro,2014Q1,2
+Major Isidoro,2014Q2,4
+Major Isidoro,2014Q3,3
+Major Isidoro,2014Q4,3
+Major Isidoro,2015Q1,7
+Major Isidoro,2015Q2,1
+Major Isidoro,2015Q3,3
+Major Isidoro,2015Q4,1
+Major Isidoro,2016Q1,2
+Major Isidoro,2016Q3,1
+Major Isidoro,2016Q4,3
+Major Isidoro,2017Q1,2
+Major Isidoro,2017Q2,1
+Major Isidoro,2017Q3,1
+Major Isidoro,2017Q4,2
+Major Isidoro,2018Q1,3
+Major Isidoro,2018Q3,2
+Major Isidoro,2019Q1,2
+Major Isidoro,2019Q2,1
+Major Isidoro,2019Q4,1
+Major Isidoro,2020Q1,2
+Major Isidoro,2020Q2,4
+Major Isidoro,2020Q4,1
+Major Isidoro,2021Q1,1
+Major Isidoro,2021Q2,1
+Major Isidoro,2021Q3,1
+Major Isidoro,2021Q4,3
+Major Isidoro,2022Q1,2
+Major Isidoro,2022Q2,1
+Major Isidoro,2022Q3,2
+Major Isidoro,2023Q1,2
+Major Isidoro,2023Q2,1
+Major Isidoro,2023Q3,2
+Major Isidoro,2024Q1,3
+Major Isidoro,2024Q2,1
+Major Isidoro,2025Q4,1
+Major Isidoro,2026Q1,1
+Mar Vermelho,2014Q4,1
+Mar Vermelho,2017Q4,1
+Mar Vermelho,2020Q4,1
+Mar Vermelho,2021Q3,1
+Mar Vermelho,2022Q1,1
+Mar Vermelho,2023Q2,1
+Mar Vermelho,2023Q4,1
+Maragogi,2012Q1,2
+Maragogi,2012Q2,4
+Maragogi,2012Q3,1
+Maragogi,2012Q4,1
+Maragogi,2013Q1,3
+Maragogi,2013Q2,4
+Maragogi,2013Q3,7
+Maragogi,2013Q4,7
+Maragogi,2014Q1,5
+Maragogi,2014Q2,6
+Maragogi,2014Q3,3
+Maragogi,2014Q4,7
+Maragogi,2015Q1,4
+Maragogi,2015Q3,5
+Maragogi,2015Q4,3
+Maragogi,2016Q1,5
+Maragogi,2016Q2,5
+Maragogi,2016Q3,6
+Maragogi,2016Q4,7
+Maragogi,2017Q1,6
+Maragogi,2017Q2,9
+Maragogi,2017Q3,8
+Maragogi,2017Q4,6
+Maragogi,2018Q1,2
+Maragogi,2018Q2,2
+Maragogi,2018Q3,2
+Maragogi,2018Q4,3
+Maragogi,2019Q1,5
+Maragogi,2019Q2,5
+Maragogi,2019Q3,1
+Maragogi,2019Q4,1
+Maragogi,2020Q1,3
+Maragogi,2020Q2,6
+Maragogi,2020Q3,3
+Maragogi,2020Q4,5
+Maragogi,2021Q1,6
+Maragogi,2021Q2,5
+Maragogi,2021Q3,2
+Maragogi,2021Q4,8
+Maragogi,2022Q1,7
+Maragogi,2022Q2,4
+Maragogi,2022Q3,2
+Maragogi,2022Q4,3
+Maragogi,2023Q1,6
+Maragogi,2023Q2,1
+Maragogi,2023Q3,5
+Maragogi,2023Q4,8
+Maragogi,2024Q1,8
+Maragogi,2024Q2,2
+Maragogi,2024Q3,4
+Maragogi,2024Q4,3
+Maragogi,2025Q1,3
+Maragogi,2025Q2,2
+Maragogi,2025Q3,3
+Maragogi,2025Q4,1
+Maragogi,2026Q1,2
+Maravilha,2012Q2,2
+Maravilha,2012Q3,3
+Maravilha,2013Q2,1
+Maravilha,2013Q3,2
+Maravilha,2013Q4,1
+Maravilha,2014Q2,1
+Maravilha,2014Q4,1
+Maravilha,2015Q3,1
+Maravilha,2016Q1,3
+Maravilha,2016Q3,1
+Maravilha,2016Q4,1
+Maravilha,2017Q3,1
+Maravilha,2017Q4,3
+Maravilha,2018Q2,1
+Maravilha,2018Q3,1
+Maravilha,2019Q1,1
+Maravilha,2019Q3,1
+Maravilha,2020Q2,1
+Maravilha,2020Q3,1
+Maravilha,2021Q1,1
+Maravilha,2021Q2,1
+Maravilha,2022Q1,3
+Maravilha,2022Q2,1
+Maravilha,2023Q2,1
+Maravilha,2023Q3,2
+Maravilha,2024Q1,1
+Maravilha,2024Q3,1
+Maravilha,2024Q4,4
+Maravilha,2025Q1,2
+Maravilha,2025Q3,2
+Maravilha,2025Q4,1
+Marechal Deodoro,2012Q1,13
+Marechal Deodoro,2012Q2,26
+Marechal Deodoro,2012Q3,11
+Marechal Deodoro,2012Q4,13
+Marechal Deodoro,2013Q1,14
+Marechal Deodoro,2013Q2,16
+Marechal Deodoro,2013Q3,29
+Marechal Deodoro,2013Q4,12
+Marechal Deodoro,2014Q1,14
+Marechal Deodoro,2014Q2,16
+Marechal Deodoro,2014Q3,11
+Marechal Deodoro,2014Q4,12
+Marechal Deodoro,2015Q1,17
+Marechal Deodoro,2015Q2,8
+Marechal Deodoro,2015Q3,3
+Marechal Deodoro,2015Q4,9
+Marechal Deodoro,2016Q1,8
+Marechal Deodoro,2016Q2,6
+Marechal Deodoro,2016Q3,10
+Marechal Deodoro,2016Q4,7
+Marechal Deodoro,2017Q1,9
+Marechal Deodoro,2017Q2,10
+Marechal Deodoro,2017Q3,6
+Marechal Deodoro,2017Q4,6
+Marechal Deodoro,2018Q1,5
+Marechal Deodoro,2018Q2,2
+Marechal Deodoro,2018Q3,3
+Marechal Deodoro,2018Q4,6
+Marechal Deodoro,2019Q1,4
+Marechal Deodoro,2019Q2,10
+Marechal Deodoro,2019Q3,2
+Marechal Deodoro,2019Q4,2
+Marechal Deodoro,2020Q1,3
+Marechal Deodoro,2020Q2,7
+Marechal Deodoro,2020Q3,3
+Marechal Deodoro,2020Q4,3
+Marechal Deodoro,2021Q1,2
+Marechal Deodoro,2021Q2,2
+Marechal Deodoro,2021Q3,1
+Marechal Deodoro,2021Q4,8
+Marechal Deodoro,2022Q1,3
+Marechal Deodoro,2022Q2,10
+Marechal Deodoro,2022Q3,2
+Marechal Deodoro,2022Q4,6
+Marechal Deodoro,2023Q1,3
+Marechal Deodoro,2023Q2,5
+Marechal Deodoro,2023Q3,4
+Marechal Deodoro,2023Q4,5
+Marechal Deodoro,2024Q1,3
+Marechal Deodoro,2024Q2,6
+Marechal Deodoro,2024Q3,5
+Marechal Deodoro,2024Q4,8
+Marechal Deodoro,2025Q1,6
+Marechal Deodoro,2025Q2,6
+Marechal Deodoro,2025Q3,7
+Marechal Deodoro,2025Q4,5
+Marechal Deodoro,2026Q1,4
+Marechal Deodoro,2026Q2,3
+Maribondo,2012Q1,1
+Maribondo,2012Q2,2
+Maribondo,2012Q3,4
+Maribondo,2012Q4,6
+Maribondo,2013Q1,2
+Maribondo,2013Q2,3
+Maribondo,2013Q4,3
+Maribondo,2014Q1,5
+Maribondo,2014Q3,1
+Maribondo,2014Q4,4
+Maribondo,2015Q1,2
+Maribondo,2015Q2,3
+Maribondo,2015Q3,1
+Maribondo,2015Q4,3
+Maribondo,2016Q1,2
+Maribondo,2016Q2,1
+Maribondo,2016Q3,2
+Maribondo,2016Q4,3
+Maribondo,2017Q1,1
+Maribondo,2017Q2,1
+Maribondo,2017Q3,1
+Maribondo,2017Q4,2
+Maribondo,2018Q1,1
+Maribondo,2018Q3,1
+Maribondo,2019Q4,1
+Maribondo,2020Q1,3
+Maribondo,2020Q2,4
+Maribondo,2020Q3,3
+Maribondo,2020Q4,3
+Maribondo,2021Q1,7
+Maribondo,2021Q2,2
+Maribondo,2021Q3,2
+Maribondo,2022Q1,1
+Maribondo,2022Q2,2
+Maribondo,2022Q4,3
+Maribondo,2023Q2,2
+Maribondo,2023Q4,1
+Maribondo,2024Q1,1
+Maribondo,2024Q2,2
+Maribondo,2024Q3,4
+Maribondo,2025Q1,2
+Maribondo,2025Q2,1
+Maribondo,2025Q3,3
+Maribondo,2025Q4,5
+Maribondo,2026Q1,1
+Mata Grande,2012Q1,3
+Mata Grande,2012Q2,2
+Mata Grande,2012Q3,3
+Mata Grande,2012Q4,2
+Mata Grande,2013Q2,3
+Mata Grande,2013Q3,4
+Mata Grande,2013Q4,2
+Mata Grande,2014Q1,1
+Mata Grande,2014Q2,3
+Mata Grande,2014Q3,1
+Mata Grande,2014Q4,3
+Mata Grande,2015Q1,2
+Mata Grande,2015Q2,1
+Mata Grande,2015Q4,2
+Mata Grande,2016Q1,3
+Mata Grande,2016Q2,4
+Mata Grande,2016Q3,2
+Mata Grande,2016Q4,2
+Mata Grande,2017Q1,4
+Mata Grande,2017Q2,1
+Mata Grande,2017Q3,1
+Mata Grande,2017Q4,1
+Mata Grande,2018Q1,2
+Mata Grande,2018Q2,1
+Mata Grande,2019Q1,3
+Mata Grande,2019Q2,1
+Mata Grande,2019Q3,1
+Mata Grande,2019Q4,2
+Mata Grande,2020Q1,6
+Mata Grande,2020Q2,2
+Mata Grande,2021Q1,4
+Mata Grande,2021Q3,2
+Mata Grande,2021Q4,5
+Mata Grande,2022Q1,2
+Mata Grande,2022Q2,3
+Mata Grande,2022Q3,2
+Mata Grande,2022Q4,5
+Mata Grande,2023Q1,1
+Mata Grande,2023Q2,2
+Mata Grande,2023Q4,3
+Mata Grande,2024Q1,3
+Mata Grande,2024Q4,1
+Mata Grande,2025Q1,1
+Mata Grande,2025Q2,1
+Mata Grande,2025Q3,1
+Mata Grande,2026Q2,1
+Matriz de Camaragibe,2012Q1,5
+Matriz de Camaragibe,2012Q2,5
+Matriz de Camaragibe,2012Q3,3
+Matriz de Camaragibe,2012Q4,4
+Matriz de Camaragibe,2013Q2,3
+Matriz de Camaragibe,2013Q3,4
+Matriz de Camaragibe,2013Q4,6
+Matriz de Camaragibe,2014Q1,2
+Matriz de Camaragibe,2014Q2,8
+Matriz de Camaragibe,2014Q3,5
+Matriz de Camaragibe,2014Q4,5
+Matriz de Camaragibe,2015Q1,8
+Matriz de Camaragibe,2015Q2,5
+Matriz de Camaragibe,2015Q3,5
+Matriz de Camaragibe,2015Q4,3
+Matriz de Camaragibe,2016Q1,5
+Matriz de Camaragibe,2016Q2,3
+Matriz de Camaragibe,2016Q3,4
+Matriz de Camaragibe,2016Q4,1
+Matriz de Camaragibe,2017Q1,4
+Matriz de Camaragibe,2017Q2,3
+Matriz de Camaragibe,2017Q3,1
+Matriz de Camaragibe,2017Q4,3
+Matriz de Camaragibe,2018Q2,4
+Matriz de Camaragibe,2018Q4,4
+Matriz de Camaragibe,2019Q1,6
+Matriz de Camaragibe,2019Q3,1
+Matriz de Camaragibe,2019Q4,3
+Matriz de Camaragibe,2020Q1,3
+Matriz de Camaragibe,2020Q2,3
+Matriz de Camaragibe,2020Q3,3
+Matriz de Camaragibe,2020Q4,1
+Matriz de Camaragibe,2021Q1,2
+Matriz de Camaragibe,2021Q3,1
+Matriz de Camaragibe,2021Q4,2
+Matriz de Camaragibe,2022Q1,2
+Matriz de Camaragibe,2022Q2,5
+Matriz de Camaragibe,2022Q3,3
+Matriz de Camaragibe,2022Q4,1
+Matriz de Camaragibe,2023Q1,2
+Matriz de Camaragibe,2023Q2,4
+Matriz de Camaragibe,2023Q3,1
+Matriz de Camaragibe,2024Q2,2
+Matriz de Camaragibe,2024Q3,1
+Matriz de Camaragibe,2024Q4,4
+Matriz de Camaragibe,2025Q1,4
+Matriz de Camaragibe,2025Q2,3
+Matriz de Camaragibe,2025Q3,3
+Matriz de Camaragibe,2025Q4,1
+Matriz de Camaragibe,2026Q1,6
+Matriz de Camaragibe,2026Q2,1
+Messias,2012Q1,5
+Messias,2012Q2,3
+Messias,2012Q3,1
+Messias,2012Q4,3
+Messias,2013Q1,4
+Messias,2013Q2,4
+Messias,2013Q4,3
+Messias,2014Q1,2
+Messias,2014Q2,5
+Messias,2014Q3,4
+Messias,2014Q4,2
+Messias,2015Q1,4
+Messias,2015Q2,2
+Messias,2015Q3,5
+Messias,2015Q4,1
+Messias,2016Q1,4
+Messias,2016Q2,1
+Messias,2016Q3,1
+Messias,2016Q4,3
+Messias,2017Q1,2
+Messias,2017Q2,1
+Messias,2017Q3,2
+Messias,2017Q4,1
+Messias,2018Q1,2
+Messias,2018Q2,3
+Messias,2018Q3,4
+Messias,2018Q4,5
+Messias,2019Q1,2
+Messias,2019Q2,2
+Messias,2019Q3,1
+Messias,2019Q4,2
+Messias,2020Q1,2
+Messias,2020Q3,3
+Messias,2021Q1,1
+Messias,2021Q2,1
+Messias,2021Q4,1
+Messias,2022Q1,1
+Messias,2022Q3,1
+Messias,2022Q4,2
+Messias,2023Q1,6
+Messias,2023Q2,1
+Messias,2023Q3,2
+Messias,2024Q1,1
+Messias,2024Q3,1
+Messias,2024Q4,1
+Messias,2025Q1,1
+Minador do Negrão,2015Q1,1
+Minador do Negrão,2015Q2,1
+Minador do Negrão,2017Q2,1
+Minador do Negrão,2018Q2,3
+Minador do Negrão,2019Q3,2
+Minador do Negrão,2023Q2,1
+Minador do Negrão,2023Q3,1
+Minador do Negrão,2024Q1,2
+Minador do Negrão,2025Q4,1
+Monteirópolis,2012Q2,1
+Monteirópolis,2013Q3,1
+Monteirópolis,2014Q3,1
+Monteirópolis,2014Q4,1
+Monteirópolis,2015Q3,1
+Monteirópolis,2015Q4,1
+Monteirópolis,2017Q2,1
+Monteirópolis,2017Q3,1
+Monteirópolis,2019Q1,4
+Monteirópolis,2020Q2,1
+Monteirópolis,2020Q4,1
+Monteirópolis,2022Q1,1
+Monteirópolis,2023Q1,1
+Monteirópolis,2024Q4,1
+Monteirópolis,2025Q2,2
+Murici,2012Q1,9
+Murici,2012Q2,3
+Murici,2012Q3,7
+Murici,2012Q4,11
+Murici,2013Q1,12
+Murici,2013Q2,13
+Murici,2013Q3,8
+Murici,2013Q4,17
+Murici,2014Q1,9
+Murici,2014Q2,11
+Murici,2014Q3,4
+Murici,2014Q4,2
+Murici,2015Q1,4
+Murici,2015Q2,6
+Murici,2015Q3,7
+Murici,2015Q4,9
+Murici,2016Q1,10
+Murici,2016Q2,3
+Murici,2016Q3,1
+Murici,2016Q4,5
+Murici,2017Q1,6
+Murici,2017Q2,2
+Murici,2017Q3,8
+Murici,2017Q4,4
+Murici,2018Q1,3
+Murici,2018Q2,7
+Murici,2018Q3,3
+Murici,2018Q4,5
+Murici,2019Q2,2
+Murici,2019Q3,2
+Murici,2019Q4,2
+Murici,2020Q1,5
+Murici,2020Q2,3
+Murici,2020Q3,1
+Murici,2020Q4,1
+Murici,2021Q1,1
+Murici,2021Q3,1
+Murici,2021Q4,4
+Murici,2022Q1,3
+Murici,2022Q2,3
+Murici,2022Q3,3
+Murici,2022Q4,5
+Murici,2023Q1,4
+Murici,2023Q2,5
+Murici,2023Q4,3
+Murici,2024Q1,4
+Murici,2024Q2,2
+Murici,2024Q4,3
+Murici,2025Q1,5
+Murici,2025Q2,1
+Murici,2025Q4,2
+Novo Lino,2012Q2,1
+Novo Lino,2012Q4,2
+Novo Lino,2014Q1,2
+Novo Lino,2014Q2,2
+Novo Lino,2015Q1,2
+Novo Lino,2015Q2,2
+Novo Lino,2015Q3,4
+Novo Lino,2015Q4,2
+Novo Lino,2016Q1,2
+Novo Lino,2016Q2,2
+Novo Lino,2016Q3,2
+Novo Lino,2017Q1,1
+Novo Lino,2017Q3,2
+Novo Lino,2018Q1,1
+Novo Lino,2018Q2,1
+Novo Lino,2018Q3,3
+Novo Lino,2019Q1,1
+Novo Lino,2019Q3,2
+Novo Lino,2019Q4,1
+Novo Lino,2020Q2,1
+Novo Lino,2021Q1,3
+Novo Lino,2021Q3,2
+Novo Lino,2021Q4,1
+Novo Lino,2022Q1,1
+Novo Lino,2023Q1,1
+Novo Lino,2024Q2,2
+Novo Lino,2024Q3,2
+Novo Lino,2024Q4,1
+Novo Lino,2025Q1,2
+Novo Lino,2025Q2,1
+Novo Lino,2025Q4,1
+Novo Lino,2026Q1,1
+Novo Lino,2026Q2,1
+Olho d Água Grande,2012Q1,1
+Olho d Água Grande,2012Q2,1
+Olho d Água Grande,2012Q4,1
+Olho d Água Grande,2013Q1,1
+Olho d Água Grande,2013Q2,2
+Olho d Água Grande,2013Q3,1
+Olho d Água Grande,2014Q1,2
+Olho d Água Grande,2014Q2,1
+Olho d Água Grande,2015Q1,2
+Olho d Água Grande,2015Q2,3
+Olho d Água Grande,2016Q1,3
+Olho d Água Grande,2016Q3,1
+Olho d Água Grande,2016Q4,1
+Olho d Água Grande,2017Q1,1
+Olho d Água Grande,2019Q3,2
+Olho d Água Grande,2021Q4,1
+Olho d Água Grande,2022Q1,1
+Olho d Água Grande,2022Q3,1
+Olho d Água Grande,2022Q4,2
+Olho d Água Grande,2023Q3,1
+Olho d Água Grande,2024Q1,3
+Olho d Água Grande,2024Q3,1
+Olho d Água das Flores,2012Q1,3
+Olho d Água das Flores,2012Q2,4
+Olho d Água das Flores,2012Q3,3
+Olho d Água das Flores,2013Q1,2
+Olho d Água das Flores,2013Q2,2
+Olho d Água das Flores,2013Q3,4
+Olho d Água das Flores,2013Q4,2
+Olho d Água das Flores,2014Q1,3
+Olho d Água das Flores,2014Q2,1
+Olho d Água das Flores,2014Q3,5
+Olho d Água das Flores,2014Q4,5
+Olho d Água das Flores,2015Q1,2
+Olho d Água das Flores,2015Q2,2
+Olho d Água das Flores,2015Q4,2
+Olho d Água das Flores,2016Q2,4
+Olho d Água das Flores,2016Q3,1
+Olho d Água das Flores,2016Q4,5
+Olho d Água das Flores,2017Q1,5
+Olho d Água das Flores,2017Q2,3
+Olho d Água das Flores,2017Q3,1
+Olho d Água das Flores,2017Q4,4
+Olho d Água das Flores,2018Q1,1
+Olho d Água das Flores,2018Q2,2
+Olho d Água das Flores,2018Q3,1
+Olho d Água das Flores,2018Q4,1
+Olho d Água das Flores,2019Q1,3
+Olho d Água das Flores,2019Q2,2
+Olho d Água das Flores,2019Q3,1
+Olho d Água das Flores,2019Q4,3
+Olho d Água das Flores,2020Q1,3
+Olho d Água das Flores,2020Q3,1
+Olho d Água das Flores,2020Q4,4
+Olho d Água das Flores,2021Q1,5
+Olho d Água das Flores,2021Q2,1
+Olho d Água das Flores,2021Q4,1
+Olho d Água das Flores,2022Q1,3
+Olho d Água das Flores,2022Q2,3
+Olho d Água das Flores,2022Q3,3
+Olho d Água das Flores,2023Q1,3
+Olho d Água das Flores,2023Q2,2
+Olho d Água das Flores,2024Q1,1
+Olho d Água das Flores,2024Q4,1
+Olho d Água das Flores,2025Q1,3
+Olho d Água das Flores,2025Q4,1
+Olho d Água das Flores,2026Q1,2
+Olho d Água do Casado,2012Q3,1
+Olho d Água do Casado,2013Q1,2
+Olho d Água do Casado,2013Q3,1
+Olho d Água do Casado,2014Q2,2
+Olho d Água do Casado,2014Q4,3
+Olho d Água do Casado,2015Q1,1
+Olho d Água do Casado,2015Q2,3
+Olho d Água do Casado,2015Q4,1
+Olho d Água do Casado,2016Q1,3
+Olho d Água do Casado,2016Q2,1
+Olho d Água do Casado,2016Q3,1
+Olho d Água do Casado,2016Q4,1
+Olho d Água do Casado,2017Q1,2
+Olho d Água do Casado,2018Q3,2
+Olho d Água do Casado,2019Q1,2
+Olho d Água do Casado,2020Q1,1
+Olho d Água do Casado,2020Q2,1
+Olho d Água do Casado,2020Q3,2
+Olho d Água do Casado,2021Q1,1
+Olho d Água do Casado,2022Q1,1
+Olho d Água do Casado,2022Q4,1
+Olho d Água do Casado,2023Q4,3
+Olho d Água do Casado,2024Q1,2
+Olho d Água do Casado,2024Q4,1
+Olho d Água do Casado,2025Q1,1
+Olho d Água do Casado,2026Q1,1
+Olivença,2012Q1,2
+Olivença,2012Q2,1
+Olivença,2013Q1,1
+Olivença,2013Q2,1
+Olivença,2014Q1,1
+Olivença,2014Q2,1
+Olivença,2014Q3,1
+Olivença,2014Q4,1
+Olivença,2015Q1,1
+Olivença,2015Q4,1
+Olivença,2016Q3,1
+Olivença,2017Q1,1
+Olivença,2017Q2,2
+Olivença,2018Q1,1
+Olivença,2019Q2,1
+Olivença,2020Q1,1
+Olivença,2020Q3,1
+Olivença,2020Q4,2
+Olivença,2021Q1,1
+Olivença,2021Q4,1
+Olivença,2022Q2,1
+Olivença,2022Q3,1
+Olivença,2022Q4,1
+Olivença,2023Q1,1
+Olivença,2023Q3,1
+Olivença,2024Q1,2
+Olivença,2024Q2,1
+Olivença,2024Q3,1
+Olivença,2024Q4,2
+Olivença,2025Q2,2
+Olivença,2025Q4,1
+Ouro Branco,2012Q1,1
+Ouro Branco,2012Q2,1
+Ouro Branco,2013Q4,1
+Ouro Branco,2014Q2,2
+Ouro Branco,2014Q3,1
+Ouro Branco,2015Q1,1
+Ouro Branco,2015Q2,1
+Ouro Branco,2015Q3,1
+Ouro Branco,2016Q3,1
+Ouro Branco,2017Q2,1
+Ouro Branco,2018Q1,2
+Ouro Branco,2018Q3,1
+Ouro Branco,2018Q4,1
+Ouro Branco,2020Q3,1
+Ouro Branco,2021Q1,1
+Ouro Branco,2021Q3,1
+Ouro Branco,2021Q4,2
+Ouro Branco,2023Q1,1
+Ouro Branco,2023Q3,1
+Ouro Branco,2024Q1,1
+Ouro Branco,2025Q4,1
+Ouro Branco,2026Q1,1
+Palestina,2012Q1,1
+Palestina,2013Q1,1
+Palestina,2014Q2,2
+Palestina,2014Q4,1
+Palestina,2015Q4,1
+Palestina,2020Q3,1
+Palestina,2024Q4,1
+Palestina,2025Q1,1
+Palestina,2026Q2,1
+Palmeira dos Índios,2012Q1,19
+Palmeira dos Índios,2012Q2,16
+Palmeira dos Índios,2012Q3,11
+Palmeira dos Índios,2012Q4,10
+Palmeira dos Índios,2013Q1,14
+Palmeira dos Índios,2013Q2,5
+Palmeira dos Índios,2013Q3,12
+Palmeira dos Índios,2013Q4,10
+Palmeira dos Índios,2014Q1,15
+Palmeira dos Índios,2014Q2,11
+Palmeira dos Índios,2014Q3,6
+Palmeira dos Índios,2014Q4,6
+Palmeira dos Índios,2015Q1,12
+Palmeira dos Índios,2015Q2,6
+Palmeira dos Índios,2015Q3,8
+Palmeira dos Índios,2015Q4,18
+Palmeira dos Índios,2016Q1,11
+Palmeira dos Índios,2016Q2,7
+Palmeira dos Índios,2016Q3,8
+Palmeira dos Índios,2016Q4,7
+Palmeira dos Índios,2017Q1,9
+Palmeira dos Índios,2017Q2,8
+Palmeira dos Índios,2017Q3,9
+Palmeira dos Índios,2017Q4,7
+Palmeira dos Índios,2018Q1,7
+Palmeira dos Índios,2018Q2,10
+Palmeira dos Índios,2018Q3,7
+Palmeira dos Índios,2018Q4,6
+Palmeira dos Índios,2019Q1,3
+Palmeira dos Índios,2019Q2,7
+Palmeira dos Índios,2019Q3,4
+Palmeira dos Índios,2019Q4,5
+Palmeira dos Índios,2020Q1,4
+Palmeira dos Índios,2020Q2,12
+Palmeira dos Índios,2020Q3,3
+Palmeira dos Índios,2020Q4,3
+Palmeira dos Índios,2021Q1,10
+Palmeira dos Índios,2021Q2,5
+Palmeira dos Índios,2021Q3,2
+Palmeira dos Índios,2021Q4,4
+Palmeira dos Índios,2022Q2,4
+Palmeira dos Índios,2022Q3,4
+Palmeira dos Índios,2022Q4,4
+Palmeira dos Índios,2023Q1,6
+Palmeira dos Índios,2023Q2,11
+Palmeira dos Índios,2023Q3,2
+Palmeira dos Índios,2023Q4,5
+Palmeira dos Índios,2024Q1,3
+Palmeira dos Índios,2024Q2,3
+Palmeira dos Índios,2024Q3,4
+Palmeira dos Índios,2024Q4,5
+Palmeira dos Índios,2025Q1,6
+Palmeira dos Índios,2025Q2,2
+Palmeira dos Índios,2025Q3,3
+Palmeira dos Índios,2025Q4,3
+Palmeira dos Índios,2026Q1,3
+Pariconha,2012Q2,1
+Pariconha,2014Q1,1
+Pariconha,2014Q3,1
+Pariconha,2015Q2,1
+Pariconha,2015Q3,1
+Pariconha,2017Q4,2
+Pariconha,2018Q1,1
+Pariconha,2018Q3,2
+Pariconha,2019Q2,1
+Pariconha,2022Q2,1
+Pariconha,2023Q3,1
+Paripueira,2012Q3,5
+Paripueira,2012Q4,2
+Paripueira,2013Q3,1
+Paripueira,2013Q4,3
+Paripueira,2014Q1,3
+Paripueira,2014Q2,2
+Paripueira,2014Q3,2
+Paripueira,2014Q4,1
+Paripueira,2015Q2,1
+Paripueira,2015Q4,1
+Paripueira,2016Q1,2
+Paripueira,2016Q2,3
+Paripueira,2016Q3,1
+Paripueira,2016Q4,2
+Paripueira,2017Q1,1
+Paripueira,2017Q3,4
+Paripueira,2018Q1,2
+Paripueira,2018Q2,4
+Paripueira,2018Q3,2
+Paripueira,2018Q4,1
+Paripueira,2019Q2,1
+Paripueira,2019Q4,6
+Paripueira,2020Q1,1
+Paripueira,2020Q2,1
+Paripueira,2020Q3,1
+Paripueira,2021Q1,2
+Paripueira,2021Q3,3
+Paripueira,2022Q1,3
+Paripueira,2023Q1,1
+Paripueira,2023Q3,1
+Paripueira,2023Q4,2
+Paripueira,2024Q1,1
+Paripueira,2024Q2,3
+Paripueira,2024Q3,1
+Paripueira,2024Q4,5
+Paripueira,2025Q1,1
+Paripueira,2025Q2,1
+Paripueira,2025Q4,1
+Passo de Camaragibe,2012Q2,3
+Passo de Camaragibe,2012Q3,1
+Passo de Camaragibe,2012Q4,1
+Passo de Camaragibe,2013Q1,2
+Passo de Camaragibe,2013Q2,3
+Passo de Camaragibe,2013Q3,4
+Passo de Camaragibe,2013Q4,1
+Passo de Camaragibe,2014Q2,4
+Passo de Camaragibe,2014Q4,1
+Passo de Camaragibe,2015Q1,3
+Passo de Camaragibe,2015Q3,3
+Passo de Camaragibe,2015Q4,4
+Passo de Camaragibe,2016Q1,1
+Passo de Camaragibe,2016Q3,1
+Passo de Camaragibe,2016Q4,2
+Passo de Camaragibe,2017Q1,9
+Passo de Camaragibe,2017Q2,1
+Passo de Camaragibe,2018Q1,3
+Passo de Camaragibe,2018Q2,1
+Passo de Camaragibe,2018Q3,1
+Passo de Camaragibe,2018Q4,1
+Passo de Camaragibe,2019Q2,3
+Passo de Camaragibe,2019Q4,4
+Passo de Camaragibe,2020Q1,5
+Passo de Camaragibe,2020Q3,1
+Passo de Camaragibe,2020Q4,3
+Passo de Camaragibe,2021Q1,1
+Passo de Camaragibe,2021Q2,2
+Passo de Camaragibe,2021Q4,1
+Passo de Camaragibe,2022Q1,1
+Passo de Camaragibe,2022Q2,2
+Passo de Camaragibe,2022Q3,3
+Passo de Camaragibe,2022Q4,4
+Passo de Camaragibe,2023Q2,2
+Passo de Camaragibe,2023Q3,1
+Passo de Camaragibe,2024Q1,2
+Passo de Camaragibe,2024Q2,2
+Passo de Camaragibe,2024Q3,1
+Passo de Camaragibe,2024Q4,1
+Passo de Camaragibe,2025Q1,1
+Passo de Camaragibe,2025Q2,2
+Passo de Camaragibe,2025Q3,2
+Passo de Camaragibe,2025Q4,1
+Passo de Camaragibe,2026Q1,3
+Passo de Camaragibe,2026Q2,1
+Paulo Jacinto,2012Q1,1
+Paulo Jacinto,2012Q3,1
+Paulo Jacinto,2012Q4,3
+Paulo Jacinto,2013Q1,1
+Paulo Jacinto,2013Q3,1
+Paulo Jacinto,2013Q4,1
+Paulo Jacinto,2014Q2,3
+Paulo Jacinto,2014Q4,2
+Paulo Jacinto,2016Q1,3
+Paulo Jacinto,2016Q3,1
+Paulo Jacinto,2017Q1,1
+Paulo Jacinto,2018Q2,1
+Paulo Jacinto,2018Q4,1
+Paulo Jacinto,2019Q2,2
+Paulo Jacinto,2019Q3,2
+Paulo Jacinto,2019Q4,1
+Paulo Jacinto,2020Q1,1
+Paulo Jacinto,2020Q4,3
+Paulo Jacinto,2021Q1,1
+Paulo Jacinto,2021Q4,1
+Paulo Jacinto,2022Q2,2
+Paulo Jacinto,2022Q3,1
+Penedo,2012Q1,8
+Penedo,2012Q2,3
+Penedo,2012Q3,6
+Penedo,2012Q4,13
+Penedo,2013Q1,10
+Penedo,2013Q2,4
+Penedo,2013Q3,6
+Penedo,2013Q4,3
+Penedo,2014Q1,16
+Penedo,2014Q2,7
+Penedo,2014Q3,5
+Penedo,2014Q4,12
+Penedo,2015Q1,12
+Penedo,2015Q2,7
+Penedo,2015Q3,9
+Penedo,2015Q4,7
+Penedo,2016Q1,8
+Penedo,2016Q2,5
+Penedo,2016Q3,9
+Penedo,2016Q4,5
+Penedo,2017Q1,15
+Penedo,2017Q2,11
+Penedo,2017Q3,7
+Penedo,2017Q4,9
+Penedo,2018Q1,7
+Penedo,2018Q2,7
+Penedo,2018Q3,6
+Penedo,2018Q4,1
+Penedo,2019Q1,5
+Penedo,2019Q2,5
+Penedo,2019Q3,1
+Penedo,2019Q4,5
+Penedo,2020Q1,4
+Penedo,2020Q2,9
+Penedo,2020Q3,2
+Penedo,2020Q4,7
+Penedo,2021Q1,10
+Penedo,2021Q2,4
+Penedo,2021Q3,6
+Penedo,2021Q4,7
+Penedo,2022Q1,5
+Penedo,2022Q2,8
+Penedo,2022Q4,5
+Penedo,2023Q1,9
+Penedo,2023Q2,5
+Penedo,2023Q3,3
+Penedo,2024Q1,3
+Penedo,2024Q2,5
+Penedo,2024Q3,3
+Penedo,2024Q4,5
+Penedo,2025Q1,2
+Penedo,2025Q2,1
+Penedo,2025Q3,4
+Penedo,2025Q4,3
+Penedo,2026Q1,4
+Penedo,2026Q2,2
+Piaçabuçu,2012Q1,2
+Piaçabuçu,2012Q2,1
+Piaçabuçu,2012Q3,4
+Piaçabuçu,2012Q4,2
+Piaçabuçu,2013Q1,2
+Piaçabuçu,2013Q2,5
+Piaçabuçu,2013Q3,2
+Piaçabuçu,2013Q4,1
+Piaçabuçu,2014Q1,5
+Piaçabuçu,2014Q2,7
+Piaçabuçu,2014Q3,7
+Piaçabuçu,2014Q4,3
+Piaçabuçu,2015Q1,1
+Piaçabuçu,2015Q2,4
+Piaçabuçu,2015Q3,1
+Piaçabuçu,2015Q4,1
+Piaçabuçu,2016Q1,1
+Piaçabuçu,2016Q4,1
+Piaçabuçu,2017Q1,3
+Piaçabuçu,2017Q2,1
+Piaçabuçu,2017Q3,3
+Piaçabuçu,2017Q4,3
+Piaçabuçu,2018Q1,3
+Piaçabuçu,2018Q2,1
+Piaçabuçu,2018Q3,1
+Piaçabuçu,2018Q4,1
+Piaçabuçu,2019Q2,1
+Piaçabuçu,2019Q3,2
+Piaçabuçu,2019Q4,3
+Piaçabuçu,2020Q1,3
+Piaçabuçu,2020Q3,2
+Piaçabuçu,2020Q4,2
+Piaçabuçu,2021Q1,2
+Piaçabuçu,2021Q2,2
+Piaçabuçu,2021Q3,3
+Piaçabuçu,2021Q4,3
+Piaçabuçu,2022Q1,4
+Piaçabuçu,2022Q2,4
+Piaçabuçu,2022Q3,1
+Piaçabuçu,2022Q4,5
+Piaçabuçu,2023Q1,4
+Piaçabuçu,2023Q2,1
+Piaçabuçu,2023Q3,1
+Piaçabuçu,2024Q1,1
+Piaçabuçu,2024Q2,4
+Piaçabuçu,2024Q4,1
+Piaçabuçu,2025Q1,7
+Piaçabuçu,2025Q3,2
+Piaçabuçu,2026Q1,2
+Pilar,2012Q1,12
+Pilar,2012Q2,14
+Pilar,2012Q3,13
+Pilar,2012Q4,13
+Pilar,2013Q1,14
+Pilar,2013Q2,13
+Pilar,2013Q3,8
+Pilar,2013Q4,16
+Pilar,2014Q1,3
+Pilar,2014Q2,5
+Pilar,2014Q3,11
+Pilar,2014Q4,12
+Pilar,2015Q1,1
+Pilar,2015Q2,7
+Pilar,2015Q3,4
+Pilar,2015Q4,10
+Pilar,2016Q1,13
+Pilar,2016Q2,8
+Pilar,2016Q3,8
+Pilar,2016Q4,6
+Pilar,2017Q1,11
+Pilar,2017Q2,7
+Pilar,2017Q3,8
+Pilar,2017Q4,13
+Pilar,2018Q1,12
+Pilar,2018Q2,8
+Pilar,2018Q3,7
+Pilar,2018Q4,2
+Pilar,2019Q1,1
+Pilar,2019Q2,5
+Pilar,2019Q3,2
+Pilar,2019Q4,5
+Pilar,2020Q1,9
+Pilar,2020Q2,1
+Pilar,2020Q3,5
+Pilar,2020Q4,4
+Pilar,2021Q1,2
+Pilar,2022Q1,3
+Pilar,2022Q2,2
+Pilar,2022Q3,1
+Pilar,2022Q4,7
+Pilar,2023Q1,4
+Pilar,2023Q2,4
+Pilar,2023Q3,1
+Pilar,2023Q4,2
+Pilar,2024Q1,3
+Pilar,2024Q2,3
+Pilar,2024Q3,2
+Pilar,2025Q1,4
+Pilar,2025Q2,3
+Pilar,2025Q4,3
+Pilar,2026Q1,4
+Pilar,2026Q2,1
+Pindoba,2012Q4,1
+Pindoba,2014Q2,1
+Pindoba,2016Q1,1
+Pindoba,2016Q3,1
+Pindoba,2022Q3,1
+Pindoba,2023Q2,1
+Pindoba,2024Q3,1
+Piranhas,2012Q1,3
+Piranhas,2012Q2,2
+Piranhas,2012Q3,2
+Piranhas,2012Q4,3
+Piranhas,2013Q1,4
+Piranhas,2013Q2,6
+Piranhas,2013Q3,1
+Piranhas,2013Q4,3
+Piranhas,2014Q1,2
+Piranhas,2014Q2,3
+Piranhas,2014Q3,3
+Piranhas,2014Q4,1
+Piranhas,2015Q1,4
+Piranhas,2015Q2,4
+Piranhas,2015Q3,2
+Piranhas,2015Q4,3
+Piranhas,2016Q2,3
+Piranhas,2016Q3,3
+Piranhas,2016Q4,6
+Piranhas,2017Q1,3
+Piranhas,2017Q2,6
+Piranhas,2017Q3,2
+Piranhas,2017Q4,1
+Piranhas,2018Q1,4
+Piranhas,2018Q2,1
+Piranhas,2018Q4,1
+Piranhas,2019Q1,2
+Piranhas,2019Q3,4
+Piranhas,2019Q4,1
+Piranhas,2020Q2,1
+Piranhas,2020Q3,2
+Piranhas,2020Q4,1
+Piranhas,2021Q1,1
+Piranhas,2021Q2,1
+Piranhas,2021Q3,4
+Piranhas,2021Q4,1
+Piranhas,2022Q2,4
+Piranhas,2022Q3,1
+Piranhas,2022Q4,1
+Piranhas,2024Q1,1
+Piranhas,2024Q4,3
+Piranhas,2025Q4,1
+Piranhas,2026Q1,1
+Porto Calvo,2012Q1,3
+Porto Calvo,2012Q2,4
+Porto Calvo,2012Q3,2
+Porto Calvo,2012Q4,2
+Porto Calvo,2013Q1,4
+Porto Calvo,2013Q2,2
+Porto Calvo,2013Q3,2
+Porto Calvo,2014Q1,5
+Porto Calvo,2014Q2,4
+Porto Calvo,2014Q3,2
+Porto Calvo,2014Q4,4
+Porto Calvo,2015Q1,4
+Porto Calvo,2015Q2,7
+Porto Calvo,2015Q3,3
+Porto Calvo,2015Q4,4
+Porto Calvo,2016Q1,7
+Porto Calvo,2016Q2,1
+Porto Calvo,2016Q3,2
+Porto Calvo,2016Q4,4
+Porto Calvo,2017Q1,4
+Porto Calvo,2017Q2,6
+Porto Calvo,2017Q3,6
+Porto Calvo,2017Q4,3
+Porto Calvo,2018Q2,7
+Porto Calvo,2018Q3,4
+Porto Calvo,2018Q4,5
+Porto Calvo,2019Q1,4
+Porto Calvo,2019Q2,3
+Porto Calvo,2019Q3,6
+Porto Calvo,2019Q4,4
+Porto Calvo,2020Q1,3
+Porto Calvo,2020Q2,2
+Porto Calvo,2020Q3,3
+Porto Calvo,2020Q4,2
+Porto Calvo,2021Q1,2
+Porto Calvo,2021Q2,2
+Porto Calvo,2021Q3,3
+Porto Calvo,2021Q4,2
+Porto Calvo,2022Q1,1
+Porto Calvo,2022Q2,1
+Porto Calvo,2022Q3,3
+Porto Calvo,2022Q4,2
+Porto Calvo,2023Q1,4
+Porto Calvo,2023Q3,1
+Porto Calvo,2023Q4,3
+Porto Calvo,2024Q1,5
+Porto Calvo,2024Q2,2
+Porto Calvo,2024Q4,1
+Porto Calvo,2025Q1,3
+Porto Calvo,2025Q2,1
+Porto Calvo,2025Q3,1
+Porto Calvo,2025Q4,1
+Porto Calvo,2026Q1,2
+Porto Real do Colégio,2012Q1,1
+Porto Real do Colégio,2012Q3,1
+Porto Real do Colégio,2012Q4,3
+Porto Real do Colégio,2013Q1,2
+Porto Real do Colégio,2013Q2,4
+Porto Real do Colégio,2013Q3,3
+Porto Real do Colégio,2013Q4,2
+Porto Real do Colégio,2014Q1,1
+Porto Real do Colégio,2014Q2,3
+Porto Real do Colégio,2014Q3,1
+Porto Real do Colégio,2015Q1,3
+Porto Real do Colégio,2015Q2,1
+Porto Real do Colégio,2015Q3,1
+Porto Real do Colégio,2015Q4,2
+Porto Real do Colégio,2016Q2,5
+Porto Real do Colégio,2016Q4,2
+Porto Real do Colégio,2017Q1,4
+Porto Real do Colégio,2017Q2,2
+Porto Real do Colégio,2017Q3,7
+Porto Real do Colégio,2017Q4,1
+Porto Real do Colégio,2018Q1,1
+Porto Real do Colégio,2018Q2,2
+Porto Real do Colégio,2018Q3,2
+Porto Real do Colégio,2018Q4,2
+Porto Real do Colégio,2019Q1,1
+Porto Real do Colégio,2019Q2,3
+Porto Real do Colégio,2020Q1,1
+Porto Real do Colégio,2020Q2,1
+Porto Real do Colégio,2020Q4,1
+Porto Real do Colégio,2021Q1,2
+Porto Real do Colégio,2021Q2,2
+Porto Real do Colégio,2021Q3,1
+Porto Real do Colégio,2021Q4,2
+Porto Real do Colégio,2022Q1,2
+Porto Real do Colégio,2022Q4,3
+Porto Real do Colégio,2023Q1,1
+Porto Real do Colégio,2023Q2,1
+Porto Real do Colégio,2023Q4,2
+Porto Real do Colégio,2024Q2,2
+Porto Real do Colégio,2024Q3,1
+Porto Real do Colégio,2024Q4,1
+Porto Real do Colégio,2025Q2,7
+Porto Real do Colégio,2025Q3,2
+Porto Real do Colégio,2026Q2,1
+Porto de Pedras,2012Q1,1
+Porto de Pedras,2013Q1,1
+Porto de Pedras,2013Q2,1
+Porto de Pedras,2013Q3,1
+Porto de Pedras,2013Q4,1
+Porto de Pedras,2014Q1,3
+Porto de Pedras,2014Q4,2
+Porto de Pedras,2015Q1,2
+Porto de Pedras,2016Q2,1
+Porto de Pedras,2017Q1,2
+Porto de Pedras,2017Q4,1
+Porto de Pedras,2018Q1,1
+Porto de Pedras,2019Q3,1
+Porto de Pedras,2020Q1,1
+Porto de Pedras,2020Q2,1
+Porto de Pedras,2020Q4,1
+Porto de Pedras,2021Q3,1
+Porto de Pedras,2022Q1,3
+Porto de Pedras,2022Q2,2
+Porto de Pedras,2022Q3,1
+Porto de Pedras,2022Q4,1
+Porto de Pedras,2023Q1,5
+Porto de Pedras,2023Q3,6
+Porto de Pedras,2023Q4,2
+Porto de Pedras,2024Q1,2
+Porto de Pedras,2024Q2,3
+Porto de Pedras,2024Q3,2
+Porto de Pedras,2024Q4,3
+Porto de Pedras,2025Q1,2
+Porto de Pedras,2025Q3,3
+Porto de Pedras,2025Q4,2
+Porto de Pedras,2026Q1,1
+Porto de Pedras,2026Q2,1
+Poço das Trincheiras,2012Q2,1
+Poço das Trincheiras,2012Q4,1
+Poço das Trincheiras,2013Q4,1
+Poço das Trincheiras,2014Q1,2
+Poço das Trincheiras,2014Q4,1
+Poço das Trincheiras,2015Q1,1
+Poço das Trincheiras,2015Q3,1
+Poço das Trincheiras,2016Q1,2
+Poço das Trincheiras,2016Q2,1
+Poço das Trincheiras,2016Q3,1
+Poço das Trincheiras,2016Q4,1
+Poço das Trincheiras,2017Q3,1
+Poço das Trincheiras,2018Q2,1
+Poço das Trincheiras,2019Q2,2
+Poço das Trincheiras,2019Q4,1
+Poço das Trincheiras,2020Q1,1
+Poço das Trincheiras,2020Q2,1
+Poço das Trincheiras,2020Q4,1
+Poço das Trincheiras,2021Q3,1
+Poço das Trincheiras,2021Q4,1
+Poço das Trincheiras,2022Q2,2
+Poço das Trincheiras,2022Q3,2
+Poço das Trincheiras,2023Q2,2
+Poço das Trincheiras,2023Q3,1
+Poço das Trincheiras,2023Q4,1
+Poço das Trincheiras,2024Q3,1
+Pão de Açúcar,2012Q1,1
+Pão de Açúcar,2012Q2,1
+Pão de Açúcar,2012Q3,2
+Pão de Açúcar,2013Q1,1
+Pão de Açúcar,2013Q2,1
+Pão de Açúcar,2013Q3,3
+Pão de Açúcar,2013Q4,3
+Pão de Açúcar,2014Q1,1
+Pão de Açúcar,2014Q2,2
+Pão de Açúcar,2014Q4,3
+Pão de Açúcar,2015Q1,4
+Pão de Açúcar,2015Q3,2
+Pão de Açúcar,2015Q4,3
+Pão de Açúcar,2016Q1,3
+Pão de Açúcar,2016Q2,2
+Pão de Açúcar,2016Q3,2
+Pão de Açúcar,2016Q4,5
+Pão de Açúcar,2017Q1,5
+Pão de Açúcar,2017Q2,3
+Pão de Açúcar,2017Q3,1
+Pão de Açúcar,2018Q3,2
+Pão de Açúcar,2018Q4,4
+Pão de Açúcar,2019Q1,1
+Pão de Açúcar,2019Q2,3
+Pão de Açúcar,2019Q3,1
+Pão de Açúcar,2020Q4,2
+Pão de Açúcar,2021Q1,2
+Pão de Açúcar,2021Q4,1
+Pão de Açúcar,2022Q1,2
+Pão de Açúcar,2022Q2,1
+Pão de Açúcar,2024Q1,1
+Pão de Açúcar,2024Q2,1
+Pão de Açúcar,2024Q3,1
+Pão de Açúcar,2024Q4,1
+Pão de Açúcar,2025Q2,1
+Pão de Açúcar,2025Q4,1
+Quebrangulo,2012Q1,1
+Quebrangulo,2012Q2,2
+Quebrangulo,2012Q4,1
+Quebrangulo,2013Q1,3
+Quebrangulo,2013Q4,2
+Quebrangulo,2014Q1,1
+Quebrangulo,2014Q2,1
+Quebrangulo,2015Q1,1
+Quebrangulo,2015Q2,2
+Quebrangulo,2016Q1,2
+Quebrangulo,2016Q2,1
+Quebrangulo,2016Q3,1
+Quebrangulo,2016Q4,1
+Quebrangulo,2017Q1,1
+Quebrangulo,2017Q3,1
+Quebrangulo,2017Q4,2
+Quebrangulo,2018Q3,1
+Quebrangulo,2019Q1,1
+Quebrangulo,2021Q1,1
+Quebrangulo,2021Q4,1
+Quebrangulo,2022Q2,1
+Quebrangulo,2022Q4,2
+Quebrangulo,2023Q1,2
+Quebrangulo,2023Q2,4
+Quebrangulo,2023Q3,3
+Quebrangulo,2024Q1,2
+Quebrangulo,2026Q1,1
+Rio Largo,2012Q1,33
+Rio Largo,2012Q2,22
+Rio Largo,2012Q3,22
+Rio Largo,2012Q4,22
+Rio Largo,2013Q1,16
+Rio Largo,2013Q2,19
+Rio Largo,2013Q3,17
+Rio Largo,2013Q4,25
+Rio Largo,2014Q1,23
+Rio Largo,2014Q2,16
+Rio Largo,2014Q3,17
+Rio Largo,2014Q4,26
+Rio Largo,2015Q1,12
+Rio Largo,2015Q2,15
+Rio Largo,2015Q3,13
+Rio Largo,2015Q4,12
+Rio Largo,2016Q1,23
+Rio Largo,2016Q2,12
+Rio Largo,2016Q3,19
+Rio Largo,2016Q4,15
+Rio Largo,2017Q1,16
+Rio Largo,2017Q2,9
+Rio Largo,2017Q3,16
+Rio Largo,2017Q4,17
+Rio Largo,2018Q1,28
+Rio Largo,2018Q2,20
+Rio Largo,2018Q3,16
+Rio Largo,2018Q4,12
+Rio Largo,2019Q1,7
+Rio Largo,2019Q2,12
+Rio Largo,2019Q3,11
+Rio Largo,2019Q4,6
+Rio Largo,2020Q1,10
+Rio Largo,2020Q2,12
+Rio Largo,2020Q3,9
+Rio Largo,2020Q4,10
+Rio Largo,2021Q1,7
+Rio Largo,2021Q2,11
+Rio Largo,2021Q3,5
+Rio Largo,2021Q4,8
+Rio Largo,2022Q1,7
+Rio Largo,2022Q2,14
+Rio Largo,2022Q3,10
+Rio Largo,2022Q4,9
+Rio Largo,2023Q1,12
+Rio Largo,2023Q2,14
+Rio Largo,2023Q3,19
+Rio Largo,2023Q4,19
+Rio Largo,2024Q1,10
+Rio Largo,2024Q2,16
+Rio Largo,2024Q3,19
+Rio Largo,2024Q4,15
+Rio Largo,2025Q1,23
+Rio Largo,2025Q2,13
+Rio Largo,2025Q3,10
+Rio Largo,2025Q4,6
+Rio Largo,2026Q1,7
+Rio Largo,2026Q2,1
+Roteiro,2012Q1,1
+Roteiro,2012Q2,1
+Roteiro,2013Q1,1
+Roteiro,2013Q2,1
+Roteiro,2013Q3,1
+Roteiro,2013Q4,2
+Roteiro,2014Q1,1
+Roteiro,2014Q2,3
+Roteiro,2014Q3,1
+Roteiro,2014Q4,2
+Roteiro,2015Q1,1
+Roteiro,2015Q2,1
+Roteiro,2015Q3,1
+Roteiro,2016Q2,1
+Roteiro,2016Q3,2
+Roteiro,2016Q4,2
+Roteiro,2017Q1,3
+Roteiro,2017Q2,4
+Roteiro,2017Q3,1
+Roteiro,2017Q4,4
+Roteiro,2018Q1,2
+Roteiro,2018Q2,4
+Roteiro,2018Q3,2
+Roteiro,2018Q4,2
+Roteiro,2019Q1,2
+Roteiro,2019Q2,1
+Roteiro,2019Q3,1
+Roteiro,2020Q1,4
+Roteiro,2020Q2,1
+Roteiro,2021Q1,1
+Roteiro,2021Q2,2
+Roteiro,2021Q4,1
+Roteiro,2023Q1,2
+Roteiro,2023Q4,1
+Roteiro,2024Q2,2
+Roteiro,2025Q1,2
+Roteiro,2025Q2,1
+Roteiro,2025Q3,1
+Roteiro,2026Q1,1
+Santa Luzia do Norte,2012Q3,2
+Santa Luzia do Norte,2013Q1,2
+Santa Luzia do Norte,2013Q3,4
+Santa Luzia do Norte,2013Q4,2
+Santa Luzia do Norte,2014Q1,3
+Santa Luzia do Norte,2014Q3,1
+Santa Luzia do Norte,2014Q4,1
+Santa Luzia do Norte,2015Q2,1
+Santa Luzia do Norte,2015Q3,2
+Santa Luzia do Norte,2015Q4,1
+Santa Luzia do Norte,2016Q1,2
+Santa Luzia do Norte,2016Q2,1
+Santa Luzia do Norte,2016Q4,3
+Santa Luzia do Norte,2017Q3,2
+Santa Luzia do Norte,2017Q4,1
+Santa Luzia do Norte,2018Q1,1
+Santa Luzia do Norte,2018Q2,2
+Santa Luzia do Norte,2018Q4,3
+Santa Luzia do Norte,2019Q1,3
+Santa Luzia do Norte,2019Q3,1
+Santa Luzia do Norte,2019Q4,2
+Santa Luzia do Norte,2020Q1,2
+Santa Luzia do Norte,2021Q1,1
+Santa Luzia do Norte,2021Q2,1
+Santa Luzia do Norte,2022Q3,2
+Santa Luzia do Norte,2023Q2,1
+Santa Luzia do Norte,2023Q3,1
+Santa Luzia do Norte,2023Q4,1
+Santa Luzia do Norte,2024Q1,1
+Santa Luzia do Norte,2024Q4,1
+Santa Luzia do Norte,2025Q4,1
+Santana do Ipanema,2012Q1,5
+Santana do Ipanema,2012Q2,9
+Santana do Ipanema,2012Q3,9
+Santana do Ipanema,2012Q4,10
+Santana do Ipanema,2013Q1,10
+Santana do Ipanema,2013Q2,6
+Santana do Ipanema,2013Q3,5
+Santana do Ipanema,2013Q4,9
+Santana do Ipanema,2014Q1,8
+Santana do Ipanema,2014Q2,7
+Santana do Ipanema,2014Q3,9
+Santana do Ipanema,2014Q4,11
+Santana do Ipanema,2015Q1,7
+Santana do Ipanema,2015Q2,6
+Santana do Ipanema,2015Q3,2
+Santana do Ipanema,2015Q4,8
+Santana do Ipanema,2016Q1,8
+Santana do Ipanema,2016Q2,5
+Santana do Ipanema,2016Q3,4
+Santana do Ipanema,2016Q4,5
+Santana do Ipanema,2017Q1,5
+Santana do Ipanema,2017Q2,2
+Santana do Ipanema,2017Q3,5
+Santana do Ipanema,2017Q4,4
+Santana do Ipanema,2018Q1,1
+Santana do Ipanema,2018Q2,3
+Santana do Ipanema,2018Q3,2
+Santana do Ipanema,2018Q4,4
+Santana do Ipanema,2019Q1,3
+Santana do Ipanema,2019Q2,4
+Santana do Ipanema,2019Q3,2
+Santana do Ipanema,2019Q4,2
+Santana do Ipanema,2020Q1,2
+Santana do Ipanema,2020Q2,2
+Santana do Ipanema,2020Q3,3
+Santana do Ipanema,2020Q4,2
+Santana do Ipanema,2021Q1,1
+Santana do Ipanema,2021Q2,4
+Santana do Ipanema,2021Q3,5
+Santana do Ipanema,2021Q4,4
+Santana do Ipanema,2022Q1,3
+Santana do Ipanema,2022Q2,8
+Santana do Ipanema,2022Q3,4
+Santana do Ipanema,2022Q4,2
+Santana do Ipanema,2023Q1,3
+Santana do Ipanema,2023Q2,1
+Santana do Ipanema,2023Q3,8
+Santana do Ipanema,2023Q4,3
+Santana do Ipanema,2024Q1,1
+Santana do Ipanema,2024Q2,3
+Santana do Ipanema,2024Q3,1
+Santana do Ipanema,2024Q4,4
+Santana do Ipanema,2025Q1,2
+Santana do Ipanema,2025Q2,4
+Santana do Ipanema,2025Q3,2
+Santana do Ipanema,2025Q4,3
+Santana do Ipanema,2026Q1,1
+Santana do Mundaú,2012Q1,2
+Santana do Mundaú,2012Q2,2
+Santana do Mundaú,2012Q4,1
+Santana do Mundaú,2013Q1,1
+Santana do Mundaú,2013Q3,2
+Santana do Mundaú,2013Q4,2
+Santana do Mundaú,2014Q2,2
+Santana do Mundaú,2014Q3,1
+Santana do Mundaú,2014Q4,4
+Santana do Mundaú,2015Q1,3
+Santana do Mundaú,2015Q2,3
+Santana do Mundaú,2015Q3,2
+Santana do Mundaú,2015Q4,1
+Santana do Mundaú,2016Q1,3
+Santana do Mundaú,2016Q2,2
+Santana do Mundaú,2016Q3,3
+Santana do Mundaú,2016Q4,6
+Santana do Mundaú,2017Q1,2
+Santana do Mundaú,2017Q2,1
+Santana do Mundaú,2017Q3,2
+Santana do Mundaú,2017Q4,2
+Santana do Mundaú,2018Q1,2
+Santana do Mundaú,2018Q3,2
+Santana do Mundaú,2019Q1,1
+Santana do Mundaú,2019Q3,1
+Santana do Mundaú,2020Q4,1
+Santana do Mundaú,2021Q1,1
+Santana do Mundaú,2021Q3,1
+Santana do Mundaú,2021Q4,1
+Santana do Mundaú,2022Q2,1
+Santana do Mundaú,2022Q3,1
+Santana do Mundaú,2023Q2,3
+Santana do Mundaú,2023Q3,1
+Santana do Mundaú,2023Q4,2
+Santana do Mundaú,2024Q2,1
+Santana do Mundaú,2026Q2,1
+Satuba,2012Q1,7
+Satuba,2012Q2,5
+Satuba,2012Q3,5
+Satuba,2012Q4,7
+Satuba,2013Q1,6
+Satuba,2013Q2,8
+Satuba,2013Q3,8
+Satuba,2013Q4,6
+Satuba,2014Q1,7
+Satuba,2014Q3,4
+Satuba,2014Q4,1
+Satuba,2015Q1,1
+Satuba,2015Q3,1
+Satuba,2016Q1,1
+Satuba,2016Q2,3
+Satuba,2016Q3,1
+Satuba,2016Q4,3
+Satuba,2017Q1,3
+Satuba,2017Q2,1
+Satuba,2017Q3,2
+Satuba,2017Q4,2
+Satuba,2018Q2,1
+Satuba,2018Q3,2
+Satuba,2018Q4,2
+Satuba,2019Q1,2
+Satuba,2019Q2,3
+Satuba,2019Q4,1
+Satuba,2020Q1,3
+Satuba,2020Q2,1
+Satuba,2021Q1,2
+Satuba,2021Q2,2
+Satuba,2021Q3,3
+Satuba,2021Q4,1
+Satuba,2022Q1,2
+Satuba,2022Q2,2
+Satuba,2023Q1,5
+Satuba,2023Q2,4
+Satuba,2023Q3,1
+Satuba,2024Q1,1
+Satuba,2024Q3,2
+Satuba,2024Q4,1
+Satuba,2025Q1,1
+Satuba,2025Q4,1
+Satuba,2026Q1,2
+Satuba,2026Q2,1
+Senador Rui Palmeira,2012Q1,1
+Senador Rui Palmeira,2012Q2,2
+Senador Rui Palmeira,2012Q3,1
+Senador Rui Palmeira,2013Q2,1
+Senador Rui Palmeira,2013Q4,1
+Senador Rui Palmeira,2014Q1,1
+Senador Rui Palmeira,2014Q4,3
+Senador Rui Palmeira,2015Q1,1
+Senador Rui Palmeira,2015Q3,2
+Senador Rui Palmeira,2016Q4,2
+Senador Rui Palmeira,2017Q4,2
+Senador Rui Palmeira,2018Q1,2
+Senador Rui Palmeira,2018Q3,3
+Senador Rui Palmeira,2018Q4,1
+Senador Rui Palmeira,2019Q2,1
+Senador Rui Palmeira,2019Q3,1
+Senador Rui Palmeira,2019Q4,1
+Senador Rui Palmeira,2020Q1,3
+Senador Rui Palmeira,2020Q2,1
+Senador Rui Palmeira,2020Q3,1
+Senador Rui Palmeira,2021Q2,1
+Senador Rui Palmeira,2021Q3,3
+Senador Rui Palmeira,2022Q1,2
+Senador Rui Palmeira,2022Q3,1
+Senador Rui Palmeira,2022Q4,2
+Senador Rui Palmeira,2023Q1,1
+Senador Rui Palmeira,2024Q1,1
+Senador Rui Palmeira,2025Q3,2
+Senador Rui Palmeira,2025Q4,3
+Senador Rui Palmeira,2026Q1,2
+São Brás,2012Q1,1
+São Brás,2012Q3,1
+São Brás,2013Q1,1
+São Brás,2014Q1,1
+São Brás,2014Q4,1
+São Brás,2015Q2,1
+São Brás,2015Q4,1
+São Brás,2016Q2,2
+São Brás,2017Q1,1
+São Brás,2017Q3,1
+São Brás,2018Q4,1
+São Brás,2019Q2,2
+São Brás,2019Q4,1
+São Brás,2021Q1,1
+São Brás,2022Q1,1
+São Brás,2023Q1,2
+São Brás,2023Q4,1
+São Brás,2025Q2,1
+São Brás,2025Q4,1
+São Brás,2026Q1,1
+São José da Laje,2012Q1,4
+São José da Laje,2012Q2,4
+São José da Laje,2012Q3,2
+São José da Laje,2012Q4,5
+São José da Laje,2013Q1,1
+São José da Laje,2013Q2,3
+São José da Laje,2013Q3,7
+São José da Laje,2013Q4,6
+São José da Laje,2014Q1,8
+São José da Laje,2014Q2,7
+São José da Laje,2014Q3,9
+São José da Laje,2014Q4,3
+São José da Laje,2015Q1,4
+São José da Laje,2015Q2,5
+São José da Laje,2015Q3,7
+São José da Laje,2015Q4,2
+São José da Laje,2016Q1,3
+São José da Laje,2016Q2,4
+São José da Laje,2016Q4,6
+São José da Laje,2017Q1,5
+São José da Laje,2017Q2,2
+São José da Laje,2017Q3,4
+São José da Laje,2017Q4,1
+São José da Laje,2018Q1,3
+São José da Laje,2018Q2,1
+São José da Laje,2018Q3,1
+São José da Laje,2018Q4,3
+São José da Laje,2019Q1,2
+São José da Laje,2019Q2,1
+São José da Laje,2019Q3,1
+São José da Laje,2019Q4,2
+São José da Laje,2020Q1,1
+São José da Laje,2020Q2,2
+São José da Laje,2020Q3,5
+São José da Laje,2020Q4,2
+São José da Laje,2021Q1,2
+São José da Laje,2021Q2,2
+São José da Laje,2021Q3,2
+São José da Laje,2021Q4,2
+São José da Laje,2022Q1,2
+São José da Laje,2022Q2,2
+São José da Laje,2022Q3,2
+São José da Laje,2022Q4,1
+São José da Laje,2023Q1,1
+São José da Laje,2023Q2,3
+São José da Laje,2023Q3,5
+São José da Laje,2023Q4,1
+São José da Laje,2024Q2,1
+São José da Laje,2024Q3,1
+São José da Laje,2026Q1,1
+São José da Laje,2026Q2,1
+São José da Tapera,2012Q1,4
+São José da Tapera,2012Q2,3
+São José da Tapera,2012Q3,5
+São José da Tapera,2012Q4,1
+São José da Tapera,2013Q1,5
+São José da Tapera,2013Q2,4
+São José da Tapera,2013Q3,4
+São José da Tapera,2013Q4,5
+São José da Tapera,2014Q1,1
+São José da Tapera,2014Q2,1
+São José da Tapera,2014Q3,3
+São José da Tapera,2014Q4,5
+São José da Tapera,2015Q1,9
+São José da Tapera,2015Q2,4
+São José da Tapera,2015Q3,5
+São José da Tapera,2015Q4,4
+São José da Tapera,2016Q1,4
+São José da Tapera,2016Q2,8
+São José da Tapera,2016Q3,5
+São José da Tapera,2016Q4,2
+São José da Tapera,2017Q1,3
+São José da Tapera,2017Q2,4
+São José da Tapera,2017Q3,1
+São José da Tapera,2017Q4,2
+São José da Tapera,2018Q1,2
+São José da Tapera,2018Q2,1
+São José da Tapera,2018Q3,5
+São José da Tapera,2018Q4,4
+São José da Tapera,2019Q1,3
+São José da Tapera,2019Q2,1
+São José da Tapera,2019Q3,1
+São José da Tapera,2019Q4,5
+São José da Tapera,2020Q1,1
+São José da Tapera,2020Q2,2
+São José da Tapera,2020Q3,2
+São José da Tapera,2020Q4,3
+São José da Tapera,2021Q1,1
+São José da Tapera,2021Q2,3
+São José da Tapera,2021Q4,2
+São José da Tapera,2022Q2,3
+São José da Tapera,2022Q3,1
+São José da Tapera,2022Q4,5
+São José da Tapera,2023Q1,1
+São José da Tapera,2023Q2,5
+São José da Tapera,2023Q3,1
+São José da Tapera,2023Q4,1
+São José da Tapera,2024Q1,2
+São José da Tapera,2024Q3,1
+São José da Tapera,2024Q4,4
+São José da Tapera,2025Q1,1
+São José da Tapera,2025Q2,1
+São José da Tapera,2025Q3,1
+São José da Tapera,2026Q1,1
+São Luís do Quitunde,2012Q1,8
+São Luís do Quitunde,2012Q2,3
+São Luís do Quitunde,2012Q3,1
+São Luís do Quitunde,2012Q4,3
+São Luís do Quitunde,2013Q1,3
+São Luís do Quitunde,2013Q2,7
+São Luís do Quitunde,2013Q3,5
+São Luís do Quitunde,2013Q4,5
+São Luís do Quitunde,2014Q1,4
+São Luís do Quitunde,2014Q2,4
+São Luís do Quitunde,2014Q3,1
+São Luís do Quitunde,2014Q4,2
+São Luís do Quitunde,2015Q1,8
+São Luís do Quitunde,2015Q2,1
+São Luís do Quitunde,2015Q3,7
+São Luís do Quitunde,2015Q4,8
+São Luís do Quitunde,2016Q1,8
+São Luís do Quitunde,2016Q2,4
+São Luís do Quitunde,2016Q3,4
+São Luís do Quitunde,2016Q4,5
+São Luís do Quitunde,2017Q1,3
+São Luís do Quitunde,2017Q2,2
+São Luís do Quitunde,2017Q3,1
+São Luís do Quitunde,2017Q4,5
+São Luís do Quitunde,2018Q1,4
+São Luís do Quitunde,2018Q2,5
+São Luís do Quitunde,2018Q3,1
+São Luís do Quitunde,2018Q4,6
+São Luís do Quitunde,2019Q1,2
+São Luís do Quitunde,2019Q2,1
+São Luís do Quitunde,2019Q3,1
+São Luís do Quitunde,2019Q4,7
+São Luís do Quitunde,2020Q1,1
+São Luís do Quitunde,2020Q2,11
+São Luís do Quitunde,2020Q3,6
+São Luís do Quitunde,2020Q4,2
+São Luís do Quitunde,2021Q1,4
+São Luís do Quitunde,2021Q2,5
+São Luís do Quitunde,2021Q3,2
+São Luís do Quitunde,2021Q4,4
+São Luís do Quitunde,2022Q1,10
+São Luís do Quitunde,2022Q2,4
+São Luís do Quitunde,2023Q1,3
+São Luís do Quitunde,2023Q2,2
+São Luís do Quitunde,2023Q3,3
+São Luís do Quitunde,2023Q4,1
+São Luís do Quitunde,2024Q1,7
+São Luís do Quitunde,2024Q2,2
+São Luís do Quitunde,2024Q3,2
+São Luís do Quitunde,2024Q4,3
+São Luís do Quitunde,2025Q1,4
+São Luís do Quitunde,2025Q2,2
+São Luís do Quitunde,2025Q3,3
+São Luís do Quitunde,2025Q4,1
+São Luís do Quitunde,2026Q1,1
+São Luís do Quitunde,2026Q2,1
+São Miguel dos Campos,2012Q1,25
+São Miguel dos Campos,2012Q2,11
+São Miguel dos Campos,2012Q3,12
+São Miguel dos Campos,2012Q4,8
+São Miguel dos Campos,2013Q1,9
+São Miguel dos Campos,2013Q2,9
+São Miguel dos Campos,2013Q3,12
+São Miguel dos Campos,2013Q4,9
+São Miguel dos Campos,2014Q1,13
+São Miguel dos Campos,2014Q2,19
+São Miguel dos Campos,2014Q3,4
+São Miguel dos Campos,2014Q4,20
+São Miguel dos Campos,2015Q1,9
+São Miguel dos Campos,2015Q2,10
+São Miguel dos Campos,2015Q3,6
+São Miguel dos Campos,2015Q4,7
+São Miguel dos Campos,2016Q1,7
+São Miguel dos Campos,2016Q2,4
+São Miguel dos Campos,2016Q3,5
+São Miguel dos Campos,2016Q4,7
+São Miguel dos Campos,2017Q1,3
+São Miguel dos Campos,2017Q2,6
+São Miguel dos Campos,2017Q3,7
+São Miguel dos Campos,2017Q4,6
+São Miguel dos Campos,2018Q1,3
+São Miguel dos Campos,2018Q2,7
+São Miguel dos Campos,2018Q3,3
+São Miguel dos Campos,2018Q4,4
+São Miguel dos Campos,2019Q1,2
+São Miguel dos Campos,2019Q2,6
+São Miguel dos Campos,2019Q3,3
+São Miguel dos Campos,2019Q4,6
+São Miguel dos Campos,2020Q1,12
+São Miguel dos Campos,2020Q2,4
+São Miguel dos Campos,2020Q3,1
+São Miguel dos Campos,2020Q4,6
+São Miguel dos Campos,2021Q1,8
+São Miguel dos Campos,2021Q2,3
+São Miguel dos Campos,2021Q3,4
+São Miguel dos Campos,2021Q4,3
+São Miguel dos Campos,2022Q1,4
+São Miguel dos Campos,2022Q2,5
+São Miguel dos Campos,2022Q3,6
+São Miguel dos Campos,2022Q4,7
+São Miguel dos Campos,2023Q1,5
+São Miguel dos Campos,2023Q2,4
+São Miguel dos Campos,2023Q3,5
+São Miguel dos Campos,2023Q4,7
+São Miguel dos Campos,2024Q1,4
+São Miguel dos Campos,2024Q2,7
+São Miguel dos Campos,2024Q3,4
+São Miguel dos Campos,2024Q4,8
+São Miguel dos Campos,2025Q1,13
+São Miguel dos Campos,2025Q2,8
+São Miguel dos Campos,2025Q3,5
+São Miguel dos Campos,2025Q4,9
+São Miguel dos Campos,2026Q1,5
+São Miguel dos Milagres,2012Q1,2
+São Miguel dos Milagres,2012Q3,1
+São Miguel dos Milagres,2012Q4,1
+São Miguel dos Milagres,2013Q4,1
+São Miguel dos Milagres,2014Q2,1
+São Miguel dos Milagres,2014Q3,2
+São Miguel dos Milagres,2014Q4,2
+São Miguel dos Milagres,2015Q2,4
+São Miguel dos Milagres,2015Q4,1
+São Miguel dos Milagres,2016Q1,2
+São Miguel dos Milagres,2016Q3,2
+São Miguel dos Milagres,2016Q4,1
+São Miguel dos Milagres,2017Q1,1
+São Miguel dos Milagres,2017Q2,1
+São Miguel dos Milagres,2018Q1,1
+São Miguel dos Milagres,2018Q3,2
+São Miguel dos Milagres,2019Q2,1
+São Miguel dos Milagres,2019Q4,1
+São Miguel dos Milagres,2020Q3,1
+São Miguel dos Milagres,2020Q4,1
+São Miguel dos Milagres,2021Q4,2
+São Miguel dos Milagres,2022Q1,2
+São Miguel dos Milagres,2022Q2,2
+São Miguel dos Milagres,2022Q3,2
+São Miguel dos Milagres,2022Q4,2
+São Miguel dos Milagres,2023Q2,2
+São Miguel dos Milagres,2023Q3,1
+São Miguel dos Milagres,2023Q4,1
+São Miguel dos Milagres,2024Q2,1
+São Miguel dos Milagres,2024Q3,2
+São Miguel dos Milagres,2025Q1,4
+São Miguel dos Milagres,2025Q2,4
+São Miguel dos Milagres,2025Q3,3
+São Miguel dos Milagres,2026Q1,1
+São Sebastião,2012Q1,2
+São Sebastião,2012Q2,2
+São Sebastião,2012Q3,9
+São Sebastião,2012Q4,5
+São Sebastião,2013Q1,6
+São Sebastião,2013Q2,7
+São Sebastião,2013Q3,6
+São Sebastião,2013Q4,15
+São Sebastião,2014Q1,7
+São Sebastião,2014Q2,12
+São Sebastião,2014Q3,4
+São Sebastião,2014Q4,6
+São Sebastião,2015Q1,8
+São Sebastião,2015Q2,6
+São Sebastião,2015Q3,3
+São Sebastião,2015Q4,4
+São Sebastião,2016Q1,5
+São Sebastião,2016Q2,5
+São Sebastião,2016Q3,8
+São Sebastião,2016Q4,9
+São Sebastião,2017Q1,2
+São Sebastião,2017Q2,4
+São Sebastião,2017Q3,5
+São Sebastião,2017Q4,5
+São Sebastião,2018Q1,4
+São Sebastião,2018Q2,4
+São Sebastião,2018Q3,3
+São Sebastião,2018Q4,2
+São Sebastião,2019Q1,2
+São Sebastião,2019Q2,3
+São Sebastião,2019Q3,3
+São Sebastião,2019Q4,4
+São Sebastião,2020Q1,4
+São Sebastião,2020Q2,4
+São Sebastião,2020Q3,4
+São Sebastião,2020Q4,6
+São Sebastião,2021Q1,4
+São Sebastião,2021Q2,6
+São Sebastião,2021Q3,5
+São Sebastião,2021Q4,3
+São Sebastião,2022Q1,3
+São Sebastião,2022Q2,3
+São Sebastião,2022Q3,3
+São Sebastião,2022Q4,5
+São Sebastião,2023Q1,5
+São Sebastião,2023Q2,3
+São Sebastião,2023Q4,1
+São Sebastião,2024Q2,5
+São Sebastião,2024Q3,2
+São Sebastião,2024Q4,3
+São Sebastião,2025Q1,3
+São Sebastião,2025Q2,1
+São Sebastião,2025Q3,2
+São Sebastião,2025Q4,3
+São Sebastião,2026Q1,2
+Tanque d Arca,2012Q4,1
+Tanque d Arca,2013Q1,2
+Tanque d Arca,2013Q3,2
+Tanque d Arca,2013Q4,1
+Tanque d Arca,2014Q1,3
+Tanque d Arca,2014Q2,2
+Tanque d Arca,2014Q4,1
+Tanque d Arca,2015Q3,2
+Tanque d Arca,2016Q2,2
+Tanque d Arca,2016Q3,2
+Tanque d Arca,2016Q4,1
+Tanque d Arca,2017Q1,1
+Tanque d Arca,2017Q2,1
+Tanque d Arca,2017Q3,1
+Tanque d Arca,2019Q2,1
+Tanque d Arca,2020Q1,1
+Tanque d Arca,2020Q2,1
+Tanque d Arca,2020Q4,1
+Tanque d Arca,2021Q1,1
+Tanque d Arca,2022Q1,2
+Taquarana,2012Q1,3
+Taquarana,2012Q2,3
+Taquarana,2013Q1,1
+Taquarana,2013Q2,4
+Taquarana,2013Q4,6
+Taquarana,2014Q1,2
+Taquarana,2014Q2,1
+Taquarana,2014Q3,3
+Taquarana,2014Q4,3
+Taquarana,2015Q1,3
+Taquarana,2015Q2,5
+Taquarana,2015Q4,1
+Taquarana,2016Q2,1
+Taquarana,2016Q3,1
+Taquarana,2016Q4,1
+Taquarana,2017Q2,1
+Taquarana,2017Q3,1
+Taquarana,2017Q4,1
+Taquarana,2018Q1,3
+Taquarana,2018Q4,1
+Taquarana,2019Q1,2
+Taquarana,2019Q4,2
+Taquarana,2020Q1,2
+Taquarana,2020Q2,3
+Taquarana,2020Q3,5
+Taquarana,2020Q4,3
+Taquarana,2021Q1,2
+Taquarana,2021Q2,2
+Taquarana,2021Q3,1
+Taquarana,2021Q4,5
+Taquarana,2022Q1,3
+Taquarana,2022Q2,2
+Taquarana,2022Q3,1
+Taquarana,2023Q1,1
+Taquarana,2023Q2,1
+Taquarana,2023Q4,4
+Taquarana,2024Q1,4
+Taquarana,2024Q2,1
+Taquarana,2024Q4,1
+Taquarana,2025Q1,1
+Taquarana,2025Q2,2
+Taquarana,2025Q3,1
+Taquarana,2025Q4,1
+Teotônio Vilela,2012Q1,2
+Teotônio Vilela,2012Q2,8
+Teotônio Vilela,2012Q3,7
+Teotônio Vilela,2012Q4,9
+Teotônio Vilela,2013Q1,7
+Teotônio Vilela,2013Q2,6
+Teotônio Vilela,2013Q3,9
+Teotônio Vilela,2013Q4,9
+Teotônio Vilela,2014Q1,7
+Teotônio Vilela,2014Q2,10
+Teotônio Vilela,2014Q3,5
+Teotônio Vilela,2014Q4,5
+Teotônio Vilela,2015Q1,3
+Teotônio Vilela,2015Q2,4
+Teotônio Vilela,2015Q3,2
+Teotônio Vilela,2015Q4,14
+Teotônio Vilela,2016Q1,9
+Teotônio Vilela,2016Q2,5
+Teotônio Vilela,2016Q3,10
+Teotônio Vilela,2016Q4,9
+Teotônio Vilela,2017Q1,15
+Teotônio Vilela,2017Q2,10
+Teotônio Vilela,2017Q3,8
+Teotônio Vilela,2017Q4,8
+Teotônio Vilela,2018Q1,8
+Teotônio Vilela,2018Q2,4
+Teotônio Vilela,2018Q3,2
+Teotônio Vilela,2018Q4,2
+Teotônio Vilela,2019Q1,3
+Teotônio Vilela,2019Q3,5
+Teotônio Vilela,2019Q4,3
+Teotônio Vilela,2020Q1,3
+Teotônio Vilela,2020Q2,3
+Teotônio Vilela,2020Q3,3
+Teotônio Vilela,2020Q4,3
+Teotônio Vilela,2021Q1,2
+Teotônio Vilela,2021Q2,2
+Teotônio Vilela,2022Q1,3
+Teotônio Vilela,2022Q3,1
+Teotônio Vilela,2022Q4,1
+Teotônio Vilela,2023Q1,4
+Teotônio Vilela,2023Q2,5
+Teotônio Vilela,2023Q3,3
+Teotônio Vilela,2023Q4,3
+Teotônio Vilela,2024Q1,1
+Teotônio Vilela,2024Q2,3
+Teotônio Vilela,2024Q4,2
+Teotônio Vilela,2025Q1,2
+Teotônio Vilela,2025Q2,5
+Teotônio Vilela,2025Q3,3
+Teotônio Vilela,2025Q4,1
+Teotônio Vilela,2026Q1,4
+Teotônio Vilela,2026Q2,3
+Traipu,2012Q1,2
+Traipu,2012Q2,1
+Traipu,2012Q3,1
+Traipu,2012Q4,5
+Traipu,2013Q1,1
+Traipu,2014Q1,2
+Traipu,2014Q2,2
+Traipu,2014Q3,3
+Traipu,2014Q4,1
+Traipu,2015Q1,1
+Traipu,2015Q2,4
+Traipu,2015Q4,2
+Traipu,2016Q1,2
+Traipu,2016Q3,2
+Traipu,2016Q4,2
+Traipu,2017Q1,3
+Traipu,2017Q2,1
+Traipu,2017Q4,1
+Traipu,2018Q2,2
+Traipu,2018Q4,1
+Traipu,2019Q1,1
+Traipu,2019Q3,1
+Traipu,2019Q4,1
+Traipu,2020Q1,2
+Traipu,2020Q3,4
+Traipu,2020Q4,2
+Traipu,2021Q3,2
+Traipu,2022Q2,1
+Traipu,2022Q3,2
+Traipu,2022Q4,1
+Traipu,2023Q2,1
+Traipu,2023Q4,1
+Traipu,2024Q1,1
+Traipu,2024Q2,1
+Traipu,2024Q3,1
+Traipu,2024Q4,1
+Traipu,2025Q1,1
+Traipu,2025Q2,2
+Traipu,2025Q3,1
+Traipu,2025Q4,1
+Traipu,2026Q1,1
+União dos Palmares,2012Q1,17
+União dos Palmares,2012Q2,7
+União dos Palmares,2012Q3,10
+União dos Palmares,2012Q4,9
+União dos Palmares,2013Q1,11
+União dos Palmares,2013Q2,14
+União dos Palmares,2013Q3,14
+União dos Palmares,2013Q4,13
+União dos Palmares,2014Q1,10
+União dos Palmares,2014Q2,15
+União dos Palmares,2014Q3,10
+União dos Palmares,2014Q4,7
+União dos Palmares,2015Q1,16
+União dos Palmares,2015Q2,7
+União dos Palmares,2015Q3,11
+União dos Palmares,2015Q4,6
+União dos Palmares,2016Q1,17
+União dos Palmares,2016Q2,11
+União dos Palmares,2016Q3,10
+União dos Palmares,2016Q4,14
+União dos Palmares,2017Q1,9
+União dos Palmares,2017Q2,6
+União dos Palmares,2017Q3,3
+União dos Palmares,2017Q4,11
+União dos Palmares,2018Q1,2
+União dos Palmares,2018Q2,3
+União dos Palmares,2018Q3,2
+União dos Palmares,2018Q4,3
+União dos Palmares,2019Q1,8
+União dos Palmares,2019Q2,8
+União dos Palmares,2019Q3,7
+União dos Palmares,2019Q4,5
+União dos Palmares,2020Q1,9
+União dos Palmares,2020Q2,14
+União dos Palmares,2020Q3,3
+União dos Palmares,2020Q4,14
+União dos Palmares,2021Q1,10
+União dos Palmares,2021Q2,8
+União dos Palmares,2021Q3,7
+União dos Palmares,2021Q4,10
+União dos Palmares,2022Q1,4
+União dos Palmares,2022Q2,11
+União dos Palmares,2022Q3,9
+União dos Palmares,2022Q4,5
+União dos Palmares,2023Q1,7
+União dos Palmares,2023Q2,6
+União dos Palmares,2023Q3,2
+União dos Palmares,2023Q4,6
+União dos Palmares,2024Q1,6
+União dos Palmares,2024Q2,4
+União dos Palmares,2024Q3,4
+União dos Palmares,2024Q4,6
+União dos Palmares,2025Q1,4
+União dos Palmares,2025Q2,4
+União dos Palmares,2025Q3,3
+União dos Palmares,2025Q4,4
+União dos Palmares,2026Q1,1
+Viçosa,2012Q1,8
+Viçosa,2012Q2,5
+Viçosa,2012Q3,3
+Viçosa,2012Q4,6
+Viçosa,2013Q1,2
+Viçosa,2013Q2,1
+Viçosa,2013Q3,6
+Viçosa,2013Q4,4
+Viçosa,2014Q1,1
+Viçosa,2014Q2,4
+Viçosa,2014Q3,4
+Viçosa,2014Q4,6
+Viçosa,2015Q1,4
+Viçosa,2015Q2,5
+Viçosa,2015Q3,5
+Viçosa,2015Q4,8
+Viçosa,2016Q1,2
+Viçosa,2016Q2,4
+Viçosa,2016Q4,3
+Viçosa,2017Q1,10
+Viçosa,2017Q2,2
+Viçosa,2017Q3,2
+Viçosa,2017Q4,2
+Viçosa,2018Q1,3
+Viçosa,2018Q2,2
+Viçosa,2018Q3,2
+Viçosa,2018Q4,1
+Viçosa,2019Q1,5
+Viçosa,2019Q3,6
+Viçosa,2019Q4,4
+Viçosa,2020Q1,7
+Viçosa,2020Q2,1
+Viçosa,2020Q3,2
+Viçosa,2020Q4,3
+Viçosa,2021Q1,3
+Viçosa,2021Q2,1
+Viçosa,2021Q3,1
+Viçosa,2021Q4,1
+Viçosa,2022Q1,2
+Viçosa,2022Q3,1
+Viçosa,2022Q4,1
+Viçosa,2023Q2,3
+Viçosa,2023Q3,3
+Viçosa,2023Q4,2
+Viçosa,2024Q1,1
+Viçosa,2024Q4,1
+Viçosa,2025Q1,1
+Viçosa,2025Q4,1
+Viçosa,2026Q1,3
+Água Branca,2012Q1,2
+Água Branca,2012Q2,1
+Água Branca,2012Q3,2
+Água Branca,2012Q4,2
+Água Branca,2013Q2,1
+Água Branca,2013Q4,2
+Água Branca,2014Q1,1
+Água Branca,2014Q3,1
+Água Branca,2015Q1,1
+Água Branca,2015Q2,2
+Água Branca,2016Q2,1
+Água Branca,2016Q3,3
+Água Branca,2016Q4,2
+Água Branca,2017Q2,1
+Água Branca,2017Q4,2
+Água Branca,2018Q1,1
+Água Branca,2018Q2,2
+Água Branca,2018Q3,1
+Água Branca,2020Q1,1
+Água Branca,2020Q3,1
+Água Branca,2020Q4,1
+Água Branca,2021Q2,1
+Água Branca,2021Q3,1
+Água Branca,2021Q4,2
+Água Branca,2022Q1,1
+Água Branca,2022Q2,1
+Água Branca,2023Q4,3
+Água Branca,2024Q1,1
+Água Branca,2024Q2,1
+Água Branca,2024Q3,1
+Água Branca,2024Q4,3
+Água Branca,2025Q1,1
+Água Branca,2026Q1,1

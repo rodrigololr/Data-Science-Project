@@ -5,9 +5,6 @@ __pycache__/
 .notebook/
 models/
 
-# Dados
-data/processed/
-
 # Notebooks de execução temporária
 notebooks/*_executed.ipynb
 

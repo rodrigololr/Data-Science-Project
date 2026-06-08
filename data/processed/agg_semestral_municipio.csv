@@ -1,0 +1,2446 @@
+cidade_norm,ano,semestre,count
+Anadia,2012,S1,5
+Anadia,2012,S2,5
+Anadia,2013,S1,4
+Anadia,2013,S2,6
+Anadia,2014,S1,8
+Anadia,2014,S2,6
+Anadia,2015,S1,4
+Anadia,2015,S2,2
+Anadia,2016,S1,2
+Anadia,2016,S2,4
+Anadia,2017,S1,3
+Anadia,2017,S2,6
+Anadia,2018,S1,2
+Anadia,2018,S2,5
+Anadia,2019,S1,2
+Anadia,2019,S2,1
+Anadia,2020,S1,3
+Anadia,2020,S2,1
+Anadia,2021,S1,4
+Anadia,2021,S2,2
+Anadia,2022,S1,2
+Anadia,2023,S1,1
+Anadia,2023,S2,2
+Anadia,2024,S1,4
+Anadia,2024,S2,3
+Anadia,2025,S1,4
+Anadia,2025,S2,2
+Anadia,2026,S1,3
+Arapiraca,2012,S1,60
+Arapiraca,2012,S2,79
+Arapiraca,2013,S1,79
+Arapiraca,2013,S2,69
+Arapiraca,2014,S1,73
+Arapiraca,2014,S2,73
+Arapiraca,2015,S1,56
+Arapiraca,2015,S2,64
+Arapiraca,2016,S1,76
+Arapiraca,2016,S2,63
+Arapiraca,2017,S1,54
+Arapiraca,2017,S2,55
+Arapiraca,2018,S1,67
+Arapiraca,2018,S2,30
+Arapiraca,2019,S1,47
+Arapiraca,2019,S2,37
+Arapiraca,2020,S1,35
+Arapiraca,2020,S2,45
+Arapiraca,2021,S1,43
+Arapiraca,2021,S2,45
+Arapiraca,2022,S1,32
+Arapiraca,2022,S2,38
+Arapiraca,2023,S1,41
+Arapiraca,2023,S2,51
+Arapiraca,2024,S1,48
+Arapiraca,2024,S2,31
+Arapiraca,2025,S1,33
+Arapiraca,2025,S2,30
+Arapiraca,2026,S1,20
+Atalaia,2012,S1,23
+Atalaia,2012,S2,11
+Atalaia,2013,S1,17
+Atalaia,2013,S2,20
+Atalaia,2014,S1,19
+Atalaia,2014,S2,14
+Atalaia,2015,S1,15
+Atalaia,2015,S2,9
+Atalaia,2016,S1,12
+Atalaia,2016,S2,12
+Atalaia,2017,S1,19
+Atalaia,2017,S2,10
+Atalaia,2018,S1,8
+Atalaia,2018,S2,11
+Atalaia,2019,S1,13
+Atalaia,2019,S2,11
+Atalaia,2020,S1,12
+Atalaia,2020,S2,11
+Atalaia,2021,S1,3
+Atalaia,2021,S2,7
+Atalaia,2022,S1,3
+Atalaia,2022,S2,5
+Atalaia,2023,S1,7
+Atalaia,2023,S2,4
+Atalaia,2024,S1,8
+Atalaia,2024,S2,3
+Atalaia,2025,S1,12
+Atalaia,2025,S2,9
+Atalaia,2026,S1,1
+Barra de Santo Antônio,2012,S1,10
+Barra de Santo Antônio,2012,S2,1
+Barra de Santo Antônio,2013,S1,3
+Barra de Santo Antônio,2013,S2,8
+Barra de Santo Antônio,2014,S1,6
+Barra de Santo Antônio,2014,S2,1
+Barra de Santo Antônio,2015,S1,9
+Barra de Santo Antônio,2015,S2,3
+Barra de Santo Antônio,2016,S1,4
+Barra de Santo Antônio,2016,S2,9
+Barra de Santo Antônio,2017,S1,6
+Barra de Santo Antônio,2017,S2,8
+Barra de Santo Antônio,2018,S1,2
+Barra de Santo Antônio,2018,S2,4
+Barra de Santo Antônio,2019,S1,4
+Barra de Santo Antônio,2020,S1,7
+Barra de Santo Antônio,2020,S2,7
+Barra de Santo Antônio,2021,S1,5
+Barra de Santo Antônio,2021,S2,4
+Barra de Santo Antônio,2022,S1,7
+Barra de Santo Antônio,2022,S2,5
+Barra de Santo Antônio,2023,S1,5
+Barra de Santo Antônio,2023,S2,6
+Barra de Santo Antônio,2024,S1,6
+Barra de Santo Antônio,2024,S2,6
+Barra de Santo Antônio,2025,S1,1
+Barra de Santo Antônio,2025,S2,1
+Barra de São Miguel,2012,S1,3
+Barra de São Miguel,2012,S2,2
+Barra de São Miguel,2013,S1,4
+Barra de São Miguel,2013,S2,4
+Barra de São Miguel,2014,S1,5
+Barra de São Miguel,2014,S2,2
+Barra de São Miguel,2015,S1,2
+Barra de São Miguel,2015,S2,2
+Barra de São Miguel,2016,S1,8
+Barra de São Miguel,2016,S2,6
+Barra de São Miguel,2017,S1,3
+Barra de São Miguel,2017,S2,5
+Barra de São Miguel,2018,S1,8
+Barra de São Miguel,2018,S2,4
+Barra de São Miguel,2019,S1,3
+Barra de São Miguel,2019,S2,2
+Barra de São Miguel,2020,S1,5
+Barra de São Miguel,2020,S2,2
+Barra de São Miguel,2021,S1,3
+Barra de São Miguel,2021,S2,2
+Barra de São Miguel,2022,S1,4
+Barra de São Miguel,2022,S2,4
+Barra de São Miguel,2023,S1,4
+Barra de São Miguel,2023,S2,2
+Barra de São Miguel,2024,S1,6
+Barra de São Miguel,2024,S2,1
+Barra de São Miguel,2025,S1,5
+Barra de São Miguel,2026,S1,4
+Batalha,2012,S2,3
+Batalha,2013,S1,3
+Batalha,2013,S2,4
+Batalha,2014,S1,3
+Batalha,2014,S2,5
+Batalha,2015,S1,3
+Batalha,2015,S2,1
+Batalha,2016,S1,3
+Batalha,2016,S2,6
+Batalha,2017,S2,7
+Batalha,2018,S1,1
+Batalha,2018,S2,3
+Batalha,2019,S1,2
+Batalha,2019,S2,4
+Batalha,2020,S1,6
+Batalha,2020,S2,3
+Batalha,2021,S1,5
+Batalha,2023,S1,3
+Batalha,2023,S2,3
+Batalha,2024,S1,4
+Batalha,2024,S2,6
+Batalha,2025,S1,2
+Batalha,2025,S2,1
+Belo Monte,2013,S2,3
+Belo Monte,2014,S1,1
+Belo Monte,2020,S1,1
+Belo Monte,2022,S2,1
+Belo Monte,2024,S2,1
+Belém,2012,S2,1
+Belém,2013,S2,2
+Belém,2014,S1,1
+Belém,2016,S1,1
+Belém,2017,S1,2
+Belém,2017,S2,2
+Belém,2018,S1,2
+Belém,2020,S2,1
+Belém,2021,S1,1
+Belém,2021,S2,2
+Belém,2022,S2,1
+Belém,2023,S2,2
+Belém,2024,S1,1
+Belém,2024,S2,2
+Belém,2025,S2,2
+Boca da Mata,2012,S1,6
+Boca da Mata,2012,S2,7
+Boca da Mata,2013,S1,9
+Boca da Mata,2013,S2,9
+Boca da Mata,2014,S1,5
+Boca da Mata,2014,S2,7
+Boca da Mata,2015,S1,7
+Boca da Mata,2015,S2,9
+Boca da Mata,2016,S1,11
+Boca da Mata,2016,S2,10
+Boca da Mata,2017,S1,2
+Boca da Mata,2017,S2,7
+Boca da Mata,2018,S1,6
+Boca da Mata,2018,S2,5
+Boca da Mata,2019,S1,8
+Boca da Mata,2019,S2,8
+Boca da Mata,2020,S1,13
+Boca da Mata,2020,S2,4
+Boca da Mata,2021,S1,3
+Boca da Mata,2021,S2,3
+Boca da Mata,2022,S1,4
+Boca da Mata,2022,S2,5
+Boca da Mata,2023,S1,4
+Boca da Mata,2023,S2,3
+Boca da Mata,2024,S1,5
+Boca da Mata,2024,S2,3
+Boca da Mata,2025,S1,4
+Boca da Mata,2025,S2,1
+Boca da Mata,2026,S1,4
+Branquinha,2012,S1,4
+Branquinha,2012,S2,5
+Branquinha,2013,S1,1
+Branquinha,2013,S2,5
+Branquinha,2014,S1,4
+Branquinha,2014,S2,4
+Branquinha,2015,S1,4
+Branquinha,2015,S2,3
+Branquinha,2016,S1,3
+Branquinha,2016,S2,2
+Branquinha,2017,S1,3
+Branquinha,2017,S2,3
+Branquinha,2018,S1,4
+Branquinha,2018,S2,1
+Branquinha,2019,S1,1
+Branquinha,2019,S2,4
+Branquinha,2020,S1,2
+Branquinha,2020,S2,2
+Branquinha,2022,S1,3
+Branquinha,2022,S2,2
+Branquinha,2023,S1,1
+Branquinha,2024,S1,1
+Branquinha,2024,S2,2
+Branquinha,2025,S1,2
+Branquinha,2025,S2,2
+Branquinha,2026,S1,1
+Cacimbinhas,2012,S2,1
+Cacimbinhas,2013,S1,5
+Cacimbinhas,2013,S2,1
+Cacimbinhas,2014,S2,3
+Cacimbinhas,2015,S1,1
+Cacimbinhas,2015,S2,2
+Cacimbinhas,2016,S1,4
+Cacimbinhas,2017,S1,2
+Cacimbinhas,2017,S2,1
+Cacimbinhas,2019,S1,1
+Cacimbinhas,2019,S2,1
+Cacimbinhas,2020,S1,1
+Cacimbinhas,2020,S2,1
+Cacimbinhas,2021,S1,1
+Cacimbinhas,2021,S2,1
+Cacimbinhas,2022,S1,4
+Cacimbinhas,2022,S2,3
+Cacimbinhas,2023,S1,2
+Cacimbinhas,2023,S2,3
+Cacimbinhas,2024,S1,2
+Cajueiro,2012,S1,10
+Cajueiro,2012,S2,6
+Cajueiro,2013,S1,11
+Cajueiro,2013,S2,9
+Cajueiro,2014,S1,9
+Cajueiro,2014,S2,8
+Cajueiro,2015,S1,5
+Cajueiro,2015,S2,9
+Cajueiro,2016,S1,4
+Cajueiro,2016,S2,6
+Cajueiro,2017,S1,8
+Cajueiro,2017,S2,6
+Cajueiro,2018,S1,3
+Cajueiro,2018,S2,2
+Cajueiro,2019,S1,5
+Cajueiro,2019,S2,4
+Cajueiro,2020,S1,4
+Cajueiro,2020,S2,6
+Cajueiro,2021,S1,2
+Cajueiro,2021,S2,3
+Cajueiro,2022,S1,3
+Cajueiro,2022,S2,2
+Cajueiro,2023,S1,2
+Cajueiro,2023,S2,1
+Cajueiro,2024,S1,1
+Cajueiro,2024,S2,2
+Cajueiro,2025,S1,3
+Cajueiro,2025,S2,5
+Cajueiro,2026,S1,1
+Campestre,2012,S1,1
+Campestre,2012,S2,1
+Campestre,2013,S1,3
+Campestre,2014,S2,1
+Campestre,2015,S2,1
+Campestre,2016,S1,1
+Campestre,2016,S2,1
+Campestre,2017,S1,2
+Campestre,2017,S2,3
+Campestre,2018,S2,2
+Campestre,2019,S1,1
+Campestre,2020,S2,1
+Campestre,2021,S2,4
+Campestre,2022,S1,1
+Campestre,2023,S1,2
+Campestre,2024,S1,1
+Campestre,2024,S2,1
+Campo Alegre,2012,S1,9
+Campo Alegre,2012,S2,6
+Campo Alegre,2013,S1,14
+Campo Alegre,2013,S2,10
+Campo Alegre,2014,S1,12
+Campo Alegre,2014,S2,9
+Campo Alegre,2015,S1,12
+Campo Alegre,2015,S2,8
+Campo Alegre,2016,S1,6
+Campo Alegre,2016,S2,11
+Campo Alegre,2017,S1,6
+Campo Alegre,2017,S2,5
+Campo Alegre,2018,S1,3
+Campo Alegre,2018,S2,7
+Campo Alegre,2019,S1,9
+Campo Alegre,2019,S2,8
+Campo Alegre,2020,S1,6
+Campo Alegre,2020,S2,8
+Campo Alegre,2021,S1,7
+Campo Alegre,2021,S2,8
+Campo Alegre,2022,S1,7
+Campo Alegre,2022,S2,4
+Campo Alegre,2023,S1,10
+Campo Alegre,2023,S2,4
+Campo Alegre,2024,S1,6
+Campo Alegre,2024,S2,7
+Campo Alegre,2025,S1,4
+Campo Alegre,2025,S2,6
+Campo Alegre,2026,S1,4
+Campo Grande,2012,S1,1
+Campo Grande,2012,S2,2
+Campo Grande,2013,S1,1
+Campo Grande,2013,S2,2
+Campo Grande,2014,S1,2
+Campo Grande,2014,S2,2
+Campo Grande,2015,S1,1
+Campo Grande,2015,S2,3
+Campo Grande,2016,S1,8
+Campo Grande,2016,S2,1
+Campo Grande,2017,S1,8
+Campo Grande,2017,S2,2
+Campo Grande,2018,S1,1
+Campo Grande,2018,S2,2
+Campo Grande,2019,S2,2
+Campo Grande,2020,S1,1
+Campo Grande,2021,S1,2
+Campo Grande,2021,S2,1
+Campo Grande,2022,S1,2
+Campo Grande,2022,S2,1
+Campo Grande,2023,S2,4
+Campo Grande,2024,S2,1
+Campo Grande,2025,S1,2
+Campo Grande,2026,S1,2
+Canapi,2012,S1,5
+Canapi,2012,S2,2
+Canapi,2013,S2,2
+Canapi,2014,S1,5
+Canapi,2014,S2,5
+Canapi,2015,S1,2
+Canapi,2015,S2,4
+Canapi,2016,S1,2
+Canapi,2016,S2,3
+Canapi,2017,S1,2
+Canapi,2017,S2,1
+Canapi,2018,S2,4
+Canapi,2019,S1,6
+Canapi,2019,S2,2
+Canapi,2020,S1,7
+Canapi,2020,S2,7
+Canapi,2021,S1,2
+Canapi,2021,S2,3
+Canapi,2022,S1,4
+Canapi,2022,S2,5
+Canapi,2023,S1,4
+Canapi,2023,S2,3
+Canapi,2024,S1,2
+Canapi,2024,S2,2
+Canapi,2025,S1,6
+Canapi,2025,S2,1
+Canapi,2026,S1,4
+Capela,2012,S1,5
+Capela,2012,S2,6
+Capela,2013,S1,13
+Capela,2013,S2,5
+Capela,2014,S1,7
+Capela,2014,S2,5
+Capela,2015,S1,6
+Capela,2015,S2,1
+Capela,2016,S1,2
+Capela,2016,S2,3
+Capela,2017,S1,7
+Capela,2017,S2,3
+Capela,2018,S1,3
+Capela,2018,S2,1
+Capela,2019,S1,5
+Capela,2019,S2,3
+Capela,2020,S1,4
+Capela,2020,S2,4
+Capela,2021,S2,3
+Capela,2022,S1,1
+Capela,2023,S1,1
+Capela,2024,S1,1
+Capela,2024,S2,1
+Capela,2025,S1,1
+Capela,2026,S1,1
+Carneiros,2012,S2,1
+Carneiros,2013,S1,2
+Carneiros,2013,S2,1
+Carneiros,2014,S2,1
+Carneiros,2016,S1,2
+Carneiros,2016,S2,1
+Carneiros,2018,S1,1
+Carneiros,2018,S2,1
+Carneiros,2019,S1,4
+Carneiros,2020,S1,1
+Carneiros,2021,S1,1
+Carneiros,2022,S1,1
+Carneiros,2022,S2,1
+Carneiros,2023,S2,1
+Carneiros,2024,S2,3
+Carneiros,2025,S1,1
+Carneiros,2025,S2,2
+Carneiros,2026,S1,2
+Chã Preta,2012,S1,2
+Chã Preta,2013,S1,1
+Chã Preta,2013,S2,1
+Chã Preta,2014,S2,1
+Chã Preta,2015,S1,1
+Chã Preta,2015,S2,1
+Chã Preta,2016,S1,3
+Chã Preta,2016,S2,1
+Chã Preta,2017,S1,2
+Chã Preta,2017,S2,2
+Chã Preta,2018,S2,1
+Chã Preta,2019,S2,2
+Chã Preta,2020,S1,2
+Chã Preta,2021,S2,1
+Chã Preta,2023,S1,1
+Chã Preta,2023,S2,1
+Coité do Nóia,2012,S1,2
+Coité do Nóia,2012,S2,1
+Coité do Nóia,2013,S1,4
+Coité do Nóia,2013,S2,5
+Coité do Nóia,2014,S2,1
+Coité do Nóia,2015,S1,2
+Coité do Nóia,2015,S2,2
+Coité do Nóia,2016,S1,2
+Coité do Nóia,2016,S2,3
+Coité do Nóia,2017,S1,1
+Coité do Nóia,2018,S1,3
+Coité do Nóia,2018,S2,3
+Coité do Nóia,2019,S1,1
+Coité do Nóia,2019,S2,1
+Coité do Nóia,2020,S2,4
+Coité do Nóia,2021,S1,1
+Coité do Nóia,2022,S2,3
+Coité do Nóia,2023,S1,2
+Coité do Nóia,2023,S2,1
+Coité do Nóia,2024,S2,1
+Coité do Nóia,2025,S1,1
+Colônia Leopoldina,2012,S1,7
+Colônia Leopoldina,2012,S2,4
+Colônia Leopoldina,2013,S1,2
+Colônia Leopoldina,2013,S2,4
+Colônia Leopoldina,2014,S1,5
+Colônia Leopoldina,2014,S2,8
+Colônia Leopoldina,2015,S1,2
+Colônia Leopoldina,2015,S2,7
+Colônia Leopoldina,2016,S1,6
+Colônia Leopoldina,2016,S2,9
+Colônia Leopoldina,2017,S1,10
+Colônia Leopoldina,2017,S2,7
+Colônia Leopoldina,2018,S1,11
+Colônia Leopoldina,2018,S2,10
+Colônia Leopoldina,2019,S1,11
+Colônia Leopoldina,2019,S2,7
+Colônia Leopoldina,2020,S1,8
+Colônia Leopoldina,2020,S2,12
+Colônia Leopoldina,2021,S1,4
+Colônia Leopoldina,2021,S2,4
+Colônia Leopoldina,2022,S1,3
+Colônia Leopoldina,2022,S2,1
+Colônia Leopoldina,2023,S1,3
+Colônia Leopoldina,2023,S2,2
+Colônia Leopoldina,2024,S1,2
+Colônia Leopoldina,2024,S2,3
+Colônia Leopoldina,2025,S1,3
+Colônia Leopoldina,2026,S1,1
+Coqueiro Seco,2012,S1,1
+Coqueiro Seco,2013,S1,2
+Coqueiro Seco,2013,S2,5
+Coqueiro Seco,2014,S1,1
+Coqueiro Seco,2014,S2,1
+Coqueiro Seco,2015,S1,2
+Coqueiro Seco,2015,S2,5
+Coqueiro Seco,2016,S1,2
+Coqueiro Seco,2016,S2,1
+Coqueiro Seco,2017,S1,4
+Coqueiro Seco,2017,S2,3
+Coqueiro Seco,2018,S1,3
+Coqueiro Seco,2018,S2,3
+Coqueiro Seco,2019,S1,2
+Coqueiro Seco,2019,S2,2
+Coqueiro Seco,2020,S1,2
+Coqueiro Seco,2020,S2,1
+Coqueiro Seco,2021,S1,3
+Coqueiro Seco,2021,S2,1
+Coqueiro Seco,2022,S2,4
+Coqueiro Seco,2023,S1,2
+Coqueiro Seco,2023,S2,3
+Coqueiro Seco,2024,S1,1
+Coqueiro Seco,2024,S2,1
+Coqueiro Seco,2025,S1,2
+Coqueiro Seco,2025,S2,1
+Coruripe,2012,S1,31
+Coruripe,2012,S2,24
+Coruripe,2013,S1,23
+Coruripe,2013,S2,8
+Coruripe,2014,S1,32
+Coruripe,2014,S2,22
+Coruripe,2015,S1,20
+Coruripe,2015,S2,15
+Coruripe,2016,S1,24
+Coruripe,2016,S2,24
+Coruripe,2017,S1,25
+Coruripe,2017,S2,22
+Coruripe,2018,S1,26
+Coruripe,2018,S2,4
+Coruripe,2019,S1,7
+Coruripe,2019,S2,12
+Coruripe,2020,S1,4
+Coruripe,2020,S2,3
+Coruripe,2021,S1,9
+Coruripe,2021,S2,10
+Coruripe,2022,S1,7
+Coruripe,2022,S2,9
+Coruripe,2023,S1,7
+Coruripe,2023,S2,3
+Coruripe,2024,S1,5
+Coruripe,2024,S2,9
+Coruripe,2025,S1,9
+Coruripe,2025,S2,3
+Coruripe,2026,S1,2
+Craíbas,2012,S1,2
+Craíbas,2012,S2,5
+Craíbas,2013,S1,4
+Craíbas,2013,S2,7
+Craíbas,2014,S1,5
+Craíbas,2014,S2,10
+Craíbas,2015,S1,2
+Craíbas,2015,S2,7
+Craíbas,2016,S1,8
+Craíbas,2016,S2,3
+Craíbas,2017,S1,4
+Craíbas,2017,S2,5
+Craíbas,2018,S1,5
+Craíbas,2018,S2,2
+Craíbas,2019,S1,3
+Craíbas,2019,S2,5
+Craíbas,2020,S1,2
+Craíbas,2020,S2,4
+Craíbas,2021,S1,1
+Craíbas,2021,S2,2
+Craíbas,2022,S1,4
+Craíbas,2022,S2,2
+Craíbas,2023,S1,4
+Craíbas,2023,S2,6
+Craíbas,2024,S1,7
+Craíbas,2024,S2,4
+Craíbas,2025,S1,2
+Craíbas,2025,S2,1
+Craíbas,2026,S1,3
+Delmiro Gouveia,2012,S1,12
+Delmiro Gouveia,2012,S2,18
+Delmiro Gouveia,2013,S1,7
+Delmiro Gouveia,2013,S2,4
+Delmiro Gouveia,2014,S1,8
+Delmiro Gouveia,2014,S2,7
+Delmiro Gouveia,2015,S1,6
+Delmiro Gouveia,2015,S2,10
+Delmiro Gouveia,2016,S1,7
+Delmiro Gouveia,2016,S2,5
+Delmiro Gouveia,2017,S1,6
+Delmiro Gouveia,2017,S2,6
+Delmiro Gouveia,2018,S1,7
+Delmiro Gouveia,2018,S2,6
+Delmiro Gouveia,2019,S1,7
+Delmiro Gouveia,2019,S2,8
+Delmiro Gouveia,2020,S1,4
+Delmiro Gouveia,2020,S2,4
+Delmiro Gouveia,2021,S1,9
+Delmiro Gouveia,2021,S2,2
+Delmiro Gouveia,2022,S1,4
+Delmiro Gouveia,2022,S2,8
+Delmiro Gouveia,2023,S1,4
+Delmiro Gouveia,2023,S2,6
+Delmiro Gouveia,2024,S1,7
+Delmiro Gouveia,2024,S2,5
+Delmiro Gouveia,2025,S1,4
+Delmiro Gouveia,2025,S2,4
+Delmiro Gouveia,2026,S1,1
+Dois Riachos,2012,S1,3
+Dois Riachos,2012,S2,4
+Dois Riachos,2013,S1,4
+Dois Riachos,2013,S2,2
+Dois Riachos,2014,S1,4
+Dois Riachos,2014,S2,3
+Dois Riachos,2015,S1,1
+Dois Riachos,2015,S2,4
+Dois Riachos,2016,S1,3
+Dois Riachos,2016,S2,2
+Dois Riachos,2017,S1,2
+Dois Riachos,2017,S2,1
+Dois Riachos,2018,S1,3
+Dois Riachos,2019,S2,1
+Dois Riachos,2020,S1,1
+Dois Riachos,2020,S2,4
+Dois Riachos,2021,S1,2
+Dois Riachos,2021,S2,3
+Dois Riachos,2022,S1,2
+Dois Riachos,2022,S2,6
+Dois Riachos,2023,S2,2
+Dois Riachos,2024,S1,2
+Dois Riachos,2024,S2,1
+Dois Riachos,2025,S1,2
+Dois Riachos,2025,S2,2
+Estrela de Alagoas,2012,S1,4
+Estrela de Alagoas,2012,S2,2
+Estrela de Alagoas,2013,S1,5
+Estrela de Alagoas,2013,S2,3
+Estrela de Alagoas,2014,S1,1
+Estrela de Alagoas,2014,S2,4
+Estrela de Alagoas,2015,S1,2
+Estrela de Alagoas,2015,S2,2
+Estrela de Alagoas,2016,S2,2
+Estrela de Alagoas,2017,S1,3
+Estrela de Alagoas,2017,S2,4
+Estrela de Alagoas,2018,S1,1
+Estrela de Alagoas,2018,S2,1
+Estrela de Alagoas,2019,S1,3
+Estrela de Alagoas,2020,S1,1
+Estrela de Alagoas,2021,S1,2
+Estrela de Alagoas,2021,S2,2
+Estrela de Alagoas,2022,S2,1
+Estrela de Alagoas,2023,S1,2
+Estrela de Alagoas,2023,S2,1
+Estrela de Alagoas,2024,S1,2
+Estrela de Alagoas,2024,S2,1
+Estrela de Alagoas,2025,S1,5
+Feira Grande,2012,S1,3
+Feira Grande,2012,S2,5
+Feira Grande,2013,S1,6
+Feira Grande,2013,S2,4
+Feira Grande,2014,S1,4
+Feira Grande,2014,S2,8
+Feira Grande,2015,S1,4
+Feira Grande,2015,S2,7
+Feira Grande,2016,S1,7
+Feira Grande,2016,S2,4
+Feira Grande,2017,S1,3
+Feira Grande,2017,S2,7
+Feira Grande,2018,S1,4
+Feira Grande,2018,S2,3
+Feira Grande,2019,S1,3
+Feira Grande,2019,S2,3
+Feira Grande,2020,S1,1
+Feira Grande,2020,S2,2
+Feira Grande,2021,S1,3
+Feira Grande,2021,S2,5
+Feira Grande,2022,S1,3
+Feira Grande,2022,S2,1
+Feira Grande,2023,S2,1
+Feira Grande,2024,S2,1
+Feira Grande,2025,S1,2
+Feira Grande,2025,S2,1
+Feira Grande,2026,S1,2
+Feliz Deserto,2012,S1,2
+Feliz Deserto,2012,S2,1
+Feliz Deserto,2013,S1,2
+Feliz Deserto,2014,S1,4
+Feliz Deserto,2015,S2,2
+Feliz Deserto,2016,S1,2
+Feliz Deserto,2016,S2,3
+Feliz Deserto,2017,S1,2
+Feliz Deserto,2017,S2,1
+Feliz Deserto,2018,S1,2
+Feliz Deserto,2018,S2,1
+Feliz Deserto,2019,S1,1
+Feliz Deserto,2020,S1,3
+Feliz Deserto,2020,S2,2
+Feliz Deserto,2021,S1,2
+Feliz Deserto,2021,S2,1
+Feliz Deserto,2022,S1,1
+Feliz Deserto,2022,S2,1
+Feliz Deserto,2023,S1,2
+Feliz Deserto,2024,S2,2
+Feliz Deserto,2025,S2,1
+Flexeiras,2012,S1,3
+Flexeiras,2012,S2,4
+Flexeiras,2013,S1,7
+Flexeiras,2013,S2,5
+Flexeiras,2014,S1,3
+Flexeiras,2014,S2,4
+Flexeiras,2015,S1,5
+Flexeiras,2015,S2,6
+Flexeiras,2016,S1,6
+Flexeiras,2016,S2,2
+Flexeiras,2017,S1,7
+Flexeiras,2017,S2,4
+Flexeiras,2018,S1,5
+Flexeiras,2018,S2,5
+Flexeiras,2019,S1,4
+Flexeiras,2019,S2,2
+Flexeiras,2020,S1,6
+Flexeiras,2020,S2,8
+Flexeiras,2021,S1,3
+Flexeiras,2021,S2,2
+Flexeiras,2022,S1,3
+Flexeiras,2022,S2,4
+Flexeiras,2024,S1,1
+Flexeiras,2025,S1,2
+Flexeiras,2025,S2,1
+Flexeiras,2026,S1,1
+Girau do Ponciano,2012,S1,2
+Girau do Ponciano,2012,S2,1
+Girau do Ponciano,2013,S1,5
+Girau do Ponciano,2013,S2,7
+Girau do Ponciano,2014,S1,5
+Girau do Ponciano,2014,S2,4
+Girau do Ponciano,2015,S1,6
+Girau do Ponciano,2015,S2,11
+Girau do Ponciano,2016,S1,13
+Girau do Ponciano,2016,S2,8
+Girau do Ponciano,2017,S1,5
+Girau do Ponciano,2017,S2,5
+Girau do Ponciano,2018,S1,8
+Girau do Ponciano,2018,S2,4
+Girau do Ponciano,2019,S1,1
+Girau do Ponciano,2019,S2,5
+Girau do Ponciano,2020,S1,1
+Girau do Ponciano,2020,S2,2
+Girau do Ponciano,2021,S1,5
+Girau do Ponciano,2021,S2,7
+Girau do Ponciano,2022,S1,3
+Girau do Ponciano,2022,S2,6
+Girau do Ponciano,2023,S1,1
+Girau do Ponciano,2023,S2,5
+Girau do Ponciano,2024,S1,7
+Girau do Ponciano,2024,S2,5
+Girau do Ponciano,2025,S1,2
+Girau do Ponciano,2025,S2,3
+Girau do Ponciano,2026,S1,3
+Ibateguara,2012,S1,4
+Ibateguara,2012,S2,14
+Ibateguara,2013,S1,5
+Ibateguara,2013,S2,7
+Ibateguara,2014,S1,5
+Ibateguara,2014,S2,1
+Ibateguara,2015,S1,8
+Ibateguara,2015,S2,1
+Ibateguara,2016,S1,9
+Ibateguara,2016,S2,4
+Ibateguara,2017,S1,6
+Ibateguara,2017,S2,3
+Ibateguara,2018,S1,4
+Ibateguara,2018,S2,3
+Ibateguara,2019,S1,4
+Ibateguara,2019,S2,2
+Ibateguara,2020,S1,3
+Ibateguara,2020,S2,5
+Ibateguara,2021,S1,4
+Ibateguara,2021,S2,2
+Ibateguara,2022,S2,4
+Ibateguara,2023,S1,7
+Ibateguara,2023,S2,4
+Ibateguara,2024,S1,5
+Ibateguara,2024,S2,2
+Ibateguara,2025,S1,1
+Ibateguara,2025,S2,1
+Igaci,2012,S1,4
+Igaci,2012,S2,3
+Igaci,2013,S1,4
+Igaci,2013,S2,6
+Igaci,2014,S1,6
+Igaci,2014,S2,4
+Igaci,2015,S1,5
+Igaci,2015,S2,7
+Igaci,2016,S1,8
+Igaci,2016,S2,7
+Igaci,2017,S1,2
+Igaci,2017,S2,6
+Igaci,2018,S1,7
+Igaci,2018,S2,4
+Igaci,2019,S1,2
+Igaci,2019,S2,2
+Igaci,2020,S1,2
+Igaci,2020,S2,8
+Igaci,2021,S1,2
+Igaci,2021,S2,7
+Igaci,2022,S1,4
+Igaci,2022,S2,7
+Igaci,2023,S1,7
+Igaci,2023,S2,12
+Igaci,2024,S1,7
+Igaci,2024,S2,4
+Igaci,2025,S1,2
+Igaci,2025,S2,7
+Igaci,2026,S1,4
+Igreja Nova,2012,S1,3
+Igreja Nova,2012,S2,3
+Igreja Nova,2013,S1,4
+Igreja Nova,2013,S2,4
+Igreja Nova,2014,S1,3
+Igreja Nova,2014,S2,2
+Igreja Nova,2015,S1,5
+Igreja Nova,2015,S2,2
+Igreja Nova,2016,S1,9
+Igreja Nova,2016,S2,6
+Igreja Nova,2017,S1,3
+Igreja Nova,2017,S2,4
+Igreja Nova,2018,S1,3
+Igreja Nova,2018,S2,3
+Igreja Nova,2019,S1,4
+Igreja Nova,2019,S2,3
+Igreja Nova,2020,S1,4
+Igreja Nova,2020,S2,3
+Igreja Nova,2021,S1,6
+Igreja Nova,2021,S2,2
+Igreja Nova,2022,S1,1
+Igreja Nova,2023,S1,2
+Igreja Nova,2023,S2,4
+Igreja Nova,2024,S1,3
+Igreja Nova,2024,S2,4
+Igreja Nova,2025,S1,4
+Igreja Nova,2025,S2,2
+Igreja Nova,2026,S1,1
+Inhapi,2012,S1,3
+Inhapi,2012,S2,5
+Inhapi,2013,S1,3
+Inhapi,2013,S2,3
+Inhapi,2014,S1,7
+Inhapi,2014,S2,5
+Inhapi,2015,S1,4
+Inhapi,2015,S2,1
+Inhapi,2016,S1,1
+Inhapi,2016,S2,4
+Inhapi,2017,S1,3
+Inhapi,2017,S2,6
+Inhapi,2018,S1,6
+Inhapi,2018,S2,3
+Inhapi,2019,S1,4
+Inhapi,2019,S2,4
+Inhapi,2020,S2,3
+Inhapi,2021,S1,1
+Inhapi,2021,S2,4
+Inhapi,2022,S1,2
+Inhapi,2022,S2,3
+Inhapi,2023,S1,3
+Inhapi,2023,S2,3
+Inhapi,2024,S1,3
+Inhapi,2024,S2,1
+Jacaré dos Homens,2013,S1,1
+Jacaré dos Homens,2013,S2,1
+Jacaré dos Homens,2014,S1,1
+Jacaré dos Homens,2014,S2,1
+Jacaré dos Homens,2015,S1,1
+Jacaré dos Homens,2015,S2,2
+Jacaré dos Homens,2017,S2,4
+Jacaré dos Homens,2019,S1,1
+Jacaré dos Homens,2020,S2,3
+Jacaré dos Homens,2021,S2,1
+Jacaré dos Homens,2023,S1,1
+Jacuípe,2012,S2,1
+Jacuípe,2013,S1,2
+Jacuípe,2013,S2,1
+Jacuípe,2014,S1,3
+Jacuípe,2014,S2,1
+Jacuípe,2015,S1,1
+Jacuípe,2015,S2,1
+Jacuípe,2016,S1,2
+Jacuípe,2017,S1,3
+Jacuípe,2017,S2,2
+Jacuípe,2018,S1,3
+Jacuípe,2019,S2,2
+Jacuípe,2020,S2,3
+Jacuípe,2021,S1,1
+Jacuípe,2022,S2,1
+Jacuípe,2023,S1,1
+Jacuípe,2025,S1,1
+Japaratinga,2013,S1,5
+Japaratinga,2013,S2,3
+Japaratinga,2014,S1,1
+Japaratinga,2014,S2,1
+Japaratinga,2015,S1,2
+Japaratinga,2015,S2,2
+Japaratinga,2016,S1,1
+Japaratinga,2016,S2,1
+Japaratinga,2017,S1,1
+Japaratinga,2017,S2,1
+Japaratinga,2018,S1,3
+Japaratinga,2018,S2,1
+Japaratinga,2019,S1,2
+Japaratinga,2019,S2,7
+Japaratinga,2020,S1,3
+Japaratinga,2020,S2,1
+Japaratinga,2021,S1,2
+Japaratinga,2022,S1,1
+Japaratinga,2022,S2,1
+Japaratinga,2023,S1,1
+Japaratinga,2023,S2,1
+Japaratinga,2024,S1,4
+Japaratinga,2024,S2,2
+Japaratinga,2025,S1,3
+Japaratinga,2025,S2,1
+Japaratinga,2026,S1,2
+Jaramataia,2012,S1,3
+Jaramataia,2012,S2,5
+Jaramataia,2013,S1,1
+Jaramataia,2013,S2,2
+Jaramataia,2014,S1,2
+Jaramataia,2014,S2,3
+Jaramataia,2015,S1,1
+Jaramataia,2015,S2,1
+Jaramataia,2016,S1,2
+Jaramataia,2016,S2,4
+Jaramataia,2017,S1,1
+Jaramataia,2018,S1,1
+Jaramataia,2018,S2,1
+Jaramataia,2019,S1,2
+Jaramataia,2019,S2,2
+Jaramataia,2020,S2,2
+Jaramataia,2021,S1,1
+Jaramataia,2021,S2,2
+Jaramataia,2023,S2,2
+Jaramataia,2024,S2,1
+Jaramataia,2025,S2,1
+Jequiá da Praia,2012,S1,1
+Jequiá da Praia,2014,S1,3
+Jequiá da Praia,2014,S2,5
+Jequiá da Praia,2015,S2,1
+Jequiá da Praia,2016,S1,2
+Jequiá da Praia,2016,S2,4
+Jequiá da Praia,2017,S1,3
+Jequiá da Praia,2017,S2,2
+Jequiá da Praia,2018,S1,1
+Jequiá da Praia,2018,S2,2
+Jequiá da Praia,2020,S1,3
+Jequiá da Praia,2020,S2,3
+Jequiá da Praia,2021,S1,1
+Jequiá da Praia,2022,S1,1
+Jequiá da Praia,2025,S1,1
+Jequiá da Praia,2025,S2,1
+Joaquim Gomes,2012,S1,12
+Joaquim Gomes,2012,S2,14
+Joaquim Gomes,2013,S1,17
+Joaquim Gomes,2013,S2,11
+Joaquim Gomes,2014,S1,10
+Joaquim Gomes,2014,S2,3
+Joaquim Gomes,2015,S1,9
+Joaquim Gomes,2015,S2,13
+Joaquim Gomes,2016,S1,5
+Joaquim Gomes,2016,S2,3
+Joaquim Gomes,2017,S1,7
+Joaquim Gomes,2017,S2,9
+Joaquim Gomes,2018,S1,4
+Joaquim Gomes,2018,S2,1
+Joaquim Gomes,2019,S1,3
+Joaquim Gomes,2019,S2,4
+Joaquim Gomes,2020,S1,7
+Joaquim Gomes,2021,S1,5
+Joaquim Gomes,2021,S2,5
+Joaquim Gomes,2022,S1,3
+Joaquim Gomes,2022,S2,3
+Joaquim Gomes,2023,S1,1
+Joaquim Gomes,2023,S2,4
+Joaquim Gomes,2024,S1,1
+Joaquim Gomes,2024,S2,1
+Joaquim Gomes,2025,S1,4
+Joaquim Gomes,2025,S2,3
+Joaquim Gomes,2026,S1,1
+Jundiá,2012,S1,1
+Jundiá,2012,S2,3
+Jundiá,2014,S1,1
+Jundiá,2014,S2,3
+Jundiá,2015,S1,3
+Jundiá,2015,S2,2
+Jundiá,2016,S2,2
+Jundiá,2017,S1,1
+Jundiá,2017,S2,4
+Jundiá,2018,S1,1
+Jundiá,2018,S2,1
+Jundiá,2020,S1,1
+Jundiá,2020,S2,2
+Jundiá,2022,S1,1
+Jundiá,2023,S1,1
+Jundiá,2024,S1,1
+Jundiá,2026,S1,1
+Junqueiro,2012,S1,3
+Junqueiro,2012,S2,2
+Junqueiro,2013,S1,8
+Junqueiro,2013,S2,6
+Junqueiro,2014,S1,11
+Junqueiro,2014,S2,5
+Junqueiro,2015,S1,3
+Junqueiro,2015,S2,6
+Junqueiro,2016,S1,7
+Junqueiro,2016,S2,5
+Junqueiro,2017,S1,6
+Junqueiro,2017,S2,2
+Junqueiro,2018,S1,1
+Junqueiro,2018,S2,4
+Junqueiro,2019,S1,3
+Junqueiro,2019,S2,3
+Junqueiro,2020,S1,5
+Junqueiro,2020,S2,8
+Junqueiro,2021,S1,3
+Junqueiro,2021,S2,3
+Junqueiro,2022,S1,4
+Junqueiro,2022,S2,1
+Junqueiro,2023,S1,2
+Junqueiro,2024,S1,2
+Junqueiro,2024,S2,1
+Junqueiro,2025,S1,1
+Junqueiro,2026,S1,4
+Lagoa da Canoa,2012,S1,5
+Lagoa da Canoa,2012,S2,7
+Lagoa da Canoa,2013,S1,3
+Lagoa da Canoa,2013,S2,5
+Lagoa da Canoa,2014,S1,10
+Lagoa da Canoa,2014,S2,5
+Lagoa da Canoa,2015,S1,4
+Lagoa da Canoa,2015,S2,4
+Lagoa da Canoa,2016,S1,5
+Lagoa da Canoa,2016,S2,2
+Lagoa da Canoa,2017,S1,9
+Lagoa da Canoa,2017,S2,7
+Lagoa da Canoa,2018,S1,6
+Lagoa da Canoa,2018,S2,1
+Lagoa da Canoa,2019,S1,5
+Lagoa da Canoa,2019,S2,2
+Lagoa da Canoa,2020,S1,6
+Lagoa da Canoa,2020,S2,1
+Lagoa da Canoa,2021,S1,3
+Lagoa da Canoa,2021,S2,6
+Lagoa da Canoa,2022,S1,3
+Lagoa da Canoa,2022,S2,5
+Lagoa da Canoa,2023,S1,2
+Lagoa da Canoa,2023,S2,2
+Lagoa da Canoa,2024,S1,4
+Lagoa da Canoa,2024,S2,5
+Lagoa da Canoa,2025,S1,4
+Lagoa da Canoa,2025,S2,5
+Lagoa da Canoa,2026,S1,2
+Limoeiro de Anadia,2012,S1,3
+Limoeiro de Anadia,2013,S1,9
+Limoeiro de Anadia,2013,S2,6
+Limoeiro de Anadia,2014,S1,4
+Limoeiro de Anadia,2014,S2,4
+Limoeiro de Anadia,2015,S1,7
+Limoeiro de Anadia,2015,S2,1
+Limoeiro de Anadia,2016,S1,11
+Limoeiro de Anadia,2016,S2,3
+Limoeiro de Anadia,2017,S1,4
+Limoeiro de Anadia,2018,S1,5
+Limoeiro de Anadia,2018,S2,4
+Limoeiro de Anadia,2019,S1,1
+Limoeiro de Anadia,2019,S2,1
+Limoeiro de Anadia,2020,S1,2
+Limoeiro de Anadia,2020,S2,2
+Limoeiro de Anadia,2021,S1,8
+Limoeiro de Anadia,2021,S2,1
+Limoeiro de Anadia,2023,S1,1
+Limoeiro de Anadia,2023,S2,1
+Limoeiro de Anadia,2024,S1,3
+Limoeiro de Anadia,2024,S2,1
+Limoeiro de Anadia,2025,S1,1
+Limoeiro de Anadia,2026,S1,2
+Maceió,2012,S1,441
+Maceió,2012,S2,333
+Maceió,2013,S1,423
+Maceió,2013,S2,372
+Maceió,2014,S1,393
+Maceió,2014,S2,291
+Maceió,2015,S1,273
+Maceió,2015,S2,240
+Maceió,2016,S1,189
+Maceió,2016,S2,266
+Maceió,2017,S1,332
+Maceió,2017,S2,257
+Maceió,2018,S1,230
+Maceió,2018,S2,223
+Maceió,2019,S1,144
+Maceió,2019,S2,147
+Maceió,2020,S1,186
+Maceió,2020,S2,181
+Maceió,2021,S1,152
+Maceió,2021,S2,154
+Maceió,2022,S1,172
+Maceió,2022,S2,194
+Maceió,2023,S1,199
+Maceió,2023,S2,198
+Maceió,2024,S1,177
+Maceió,2024,S2,168
+Maceió,2025,S1,173
+Maceió,2025,S2,180
+Maceió,2026,S1,101
+Major Isidoro,2012,S1,2
+Major Isidoro,2012,S2,8
+Major Isidoro,2013,S1,2
+Major Isidoro,2013,S2,8
+Major Isidoro,2014,S1,6
+Major Isidoro,2014,S2,6
+Major Isidoro,2015,S1,8
+Major Isidoro,2015,S2,4
+Major Isidoro,2016,S1,2
+Major Isidoro,2016,S2,4
+Major Isidoro,2017,S1,3
+Major Isidoro,2017,S2,3
+Major Isidoro,2018,S1,3
+Major Isidoro,2018,S2,2
+Major Isidoro,2019,S1,3
+Major Isidoro,2019,S2,1
+Major Isidoro,2020,S1,6
+Major Isidoro,2020,S2,1
+Major Isidoro,2021,S1,2
+Major Isidoro,2021,S2,4
+Major Isidoro,2022,S1,3
+Major Isidoro,2022,S2,2
+Major Isidoro,2023,S1,3
+Major Isidoro,2023,S2,2
+Major Isidoro,2024,S1,4
+Major Isidoro,2025,S2,1
+Major Isidoro,2026,S1,1
+Mar Vermelho,2014,S2,1
+Mar Vermelho,2017,S2,1
+Mar Vermelho,2020,S2,1
+Mar Vermelho,2021,S2,1
+Mar Vermelho,2022,S1,1
+Mar Vermelho,2023,S1,1
+Mar Vermelho,2023,S2,1
+Maragogi,2012,S1,6
+Maragogi,2012,S2,2
+Maragogi,2013,S1,7
+Maragogi,2013,S2,14
+Maragogi,2014,S1,11
+Maragogi,2014,S2,10
+Maragogi,2015,S1,4
+Maragogi,2015,S2,8
+Maragogi,2016,S1,10
+Maragogi,2016,S2,13
+Maragogi,2017,S1,15
+Maragogi,2017,S2,14
+Maragogi,2018,S1,4
+Maragogi,2018,S2,5
+Maragogi,2019,S1,10
+Maragogi,2019,S2,2
+Maragogi,2020,S1,9
+Maragogi,2020,S2,8
+Maragogi,2021,S1,11
+Maragogi,2021,S2,10
+Maragogi,2022,S1,11
+Maragogi,2022,S2,5
+Maragogi,2023,S1,7
+Maragogi,2023,S2,13
+Maragogi,2024,S1,10
+Maragogi,2024,S2,7
+Maragogi,2025,S1,5
+Maragogi,2025,S2,4
+Maragogi,2026,S1,2
+Maravilha,2012,S1,2
+Maravilha,2012,S2,3
+Maravilha,2013,S1,1
+Maravilha,2013,S2,3
+Maravilha,2014,S1,1
+Maravilha,2014,S2,1
+Maravilha,2015,S2,1
+Maravilha,2016,S1,3
+Maravilha,2016,S2,2
+Maravilha,2017,S2,4
+Maravilha,2018,S1,1
+Maravilha,2018,S2,1
+Maravilha,2019,S1,1
+Maravilha,2019,S2,1
+Maravilha,2020,S1,1
+Maravilha,2020,S2,1
+Maravilha,2021,S1,2
+Maravilha,2022,S1,4
+Maravilha,2023,S1,1
+Maravilha,2023,S2,2
+Maravilha,2024,S1,1
+Maravilha,2024,S2,5
+Maravilha,2025,S1,2
+Maravilha,2025,S2,3
+Marechal Deodoro,2012,S1,39
+Marechal Deodoro,2012,S2,24
+Marechal Deodoro,2013,S1,30
+Marechal Deodoro,2013,S2,41
+Marechal Deodoro,2014,S1,30
+Marechal Deodoro,2014,S2,23
+Marechal Deodoro,2015,S1,25
+Marechal Deodoro,2015,S2,12
+Marechal Deodoro,2016,S1,14
+Marechal Deodoro,2016,S2,17
+Marechal Deodoro,2017,S1,19
+Marechal Deodoro,2017,S2,12
+Marechal Deodoro,2018,S1,7
+Marechal Deodoro,2018,S2,9
+Marechal Deodoro,2019,S1,14
+Marechal Deodoro,2019,S2,4
+Marechal Deodoro,2020,S1,10
+Marechal Deodoro,2020,S2,6
+Marechal Deodoro,2021,S1,4
+Marechal Deodoro,2021,S2,9
+Marechal Deodoro,2022,S1,13
+Marechal Deodoro,2022,S2,8
+Marechal Deodoro,2023,S1,8
+Marechal Deodoro,2023,S2,9
+Marechal Deodoro,2024,S1,9
+Marechal Deodoro,2024,S2,13
+Marechal Deodoro,2025,S1,12
+Marechal Deodoro,2025,S2,12
+Marechal Deodoro,2026,S1,7
+Maribondo,2012,S1,3
+Maribondo,2012,S2,10
+Maribondo,2013,S1,5
+Maribondo,2013,S2,3
+Maribondo,2014,S1,5
+Maribondo,2014,S2,5
+Maribondo,2015,S1,5
+Maribondo,2015,S2,4
+Maribondo,2016,S1,3
+Maribondo,2016,S2,5
+Maribondo,2017,S1,2
+Maribondo,2017,S2,3
+Maribondo,2018,S1,1
+Maribondo,2018,S2,1
+Maribondo,2019,S2,1
+Maribondo,2020,S1,7
+Maribondo,2020,S2,6
+Maribondo,2021,S1,9
+Maribondo,2021,S2,2
+Maribondo,2022,S1,3
+Maribondo,2022,S2,3
+Maribondo,2023,S1,2
+Maribondo,2023,S2,1
+Maribondo,2024,S1,3
+Maribondo,2024,S2,4
+Maribondo,2025,S1,3
+Maribondo,2025,S2,8
+Maribondo,2026,S1,1
+Mata Grande,2012,S1,5
+Mata Grande,2012,S2,5
+Mata Grande,2013,S1,3
+Mata Grande,2013,S2,6
+Mata Grande,2014,S1,4
+Mata Grande,2014,S2,4
+Mata Grande,2015,S1,3
+Mata Grande,2015,S2,2
+Mata Grande,2016,S1,7
+Mata Grande,2016,S2,4
+Mata Grande,2017,S1,5
+Mata Grande,2017,S2,2
+Mata Grande,2018,S1,3
+Mata Grande,2019,S1,4
+Mata Grande,2019,S2,3
+Mata Grande,2020,S1,8
+Mata Grande,2021,S1,4
+Mata Grande,2021,S2,7
+Mata Grande,2022,S1,5
+Mata Grande,2022,S2,7
+Mata Grande,2023,S1,3
+Mata Grande,2023,S2,3
+Mata Grande,2024,S1,3
+Mata Grande,2024,S2,1
+Mata Grande,2025,S1,2
+Mata Grande,2025,S2,1
+Mata Grande,2026,S1,1
+Matriz de Camaragibe,2012,S1,10
+Matriz de Camaragibe,2012,S2,7
+Matriz de Camaragibe,2013,S1,3
+Matriz de Camaragibe,2013,S2,10
+Matriz de Camaragibe,2014,S1,10
+Matriz de Camaragibe,2014,S2,10
+Matriz de Camaragibe,2015,S1,13
+Matriz de Camaragibe,2015,S2,8
+Matriz de Camaragibe,2016,S1,8
+Matriz de Camaragibe,2016,S2,5
+Matriz de Camaragibe,2017,S1,7
+Matriz de Camaragibe,2017,S2,4
+Matriz de Camaragibe,2018,S1,4
+Matriz de Camaragibe,2018,S2,4
+Matriz de Camaragibe,2019,S1,6
+Matriz de Camaragibe,2019,S2,4
+Matriz de Camaragibe,2020,S1,6
+Matriz de Camaragibe,2020,S2,4
+Matriz de Camaragibe,2021,S1,2
+Matriz de Camaragibe,2021,S2,3
+Matriz de Camaragibe,2022,S1,7
+Matriz de Camaragibe,2022,S2,4
+Matriz de Camaragibe,2023,S1,6
+Matriz de Camaragibe,2023,S2,1
+Matriz de Camaragibe,2024,S1,2
+Matriz de Camaragibe,2024,S2,5
+Matriz de Camaragibe,2025,S1,7
+Matriz de Camaragibe,2025,S2,4
+Matriz de Camaragibe,2026,S1,7
+Messias,2012,S1,8
+Messias,2012,S2,4
+Messias,2013,S1,8
+Messias,2013,S2,3
+Messias,2014,S1,7
+Messias,2014,S2,6
+Messias,2015,S1,6
+Messias,2015,S2,6
+Messias,2016,S1,5
+Messias,2016,S2,4
+Messias,2017,S1,3
+Messias,2017,S2,3
+Messias,2018,S1,5
+Messias,2018,S2,9
+Messias,2019,S1,4
+Messias,2019,S2,3
+Messias,2020,S1,2
+Messias,2020,S2,3
+Messias,2021,S1,2
+Messias,2021,S2,1
+Messias,2022,S1,1
+Messias,2022,S2,3
+Messias,2023,S1,7
+Messias,2023,S2,2
+Messias,2024,S1,1
+Messias,2024,S2,2
+Messias,2025,S1,1
+Minador do Negrão,2015,S1,2
+Minador do Negrão,2017,S1,1
+Minador do Negrão,2018,S1,3
+Minador do Negrão,2019,S2,2
+Minador do Negrão,2023,S1,1
+Minador do Negrão,2023,S2,1
+Minador do Negrão,2024,S1,2
+Minador do Negrão,2025,S2,1
+Monteirópolis,2012,S1,1
+Monteirópolis,2013,S2,1
+Monteirópolis,2014,S2,2
+Monteirópolis,2015,S2,2
+Monteirópolis,2017,S1,1
+Monteirópolis,2017,S2,1
+Monteirópolis,2019,S1,4
+Monteirópolis,2020,S1,1
+Monteirópolis,2020,S2,1
+Monteirópolis,2022,S1,1
+Monteirópolis,2023,S1,1
+Monteirópolis,2024,S2,1
+Monteirópolis,2025,S1,2
+Murici,2012,S1,12
+Murici,2012,S2,18
+Murici,2013,S1,25
+Murici,2013,S2,25
+Murici,2014,S1,20
+Murici,2014,S2,6
+Murici,2015,S1,10
+Murici,2015,S2,16
+Murici,2016,S1,13
+Murici,2016,S2,6
+Murici,2017,S1,8
+Murici,2017,S2,12
+Murici,2018,S1,10
+Murici,2018,S2,8
+Murici,2019,S1,2
+Murici,2019,S2,4
+Murici,2020,S1,8
+Murici,2020,S2,2
+Murici,2021,S1,1
+Murici,2021,S2,5
+Murici,2022,S1,6
+Murici,2022,S2,8
+Murici,2023,S1,9
+Murici,2023,S2,3
+Murici,2024,S1,6
+Murici,2024,S2,3
+Murici,2025,S1,6
+Murici,2025,S2,2
+Novo Lino,2012,S1,1
+Novo Lino,2012,S2,2
+Novo Lino,2014,S1,4
+Novo Lino,2015,S1,4
+Novo Lino,2015,S2,6
+Novo Lino,2016,S1,4
+Novo Lino,2016,S2,2
+Novo Lino,2017,S1,1
+Novo Lino,2017,S2,2
+Novo Lino,2018,S1,2
+Novo Lino,2018,S2,3
+Novo Lino,2019,S1,1
+Novo Lino,2019,S2,3
+Novo Lino,2020,S1,1
+Novo Lino,2021,S1,3
+Novo Lino,2021,S2,3
+Novo Lino,2022,S1,1
+Novo Lino,2023,S1,1
+Novo Lino,2024,S1,2
+Novo Lino,2024,S2,3
+Novo Lino,2025,S1,3
+Novo Lino,2025,S2,1
+Novo Lino,2026,S1,2
+Olho d Água Grande,2012,S1,2
+Olho d Água Grande,2012,S2,1
+Olho d Água Grande,2013,S1,3
+Olho d Água Grande,2013,S2,1
+Olho d Água Grande,2014,S1,3
+Olho d Água Grande,2015,S1,5
+Olho d Água Grande,2016,S1,3
+Olho d Água Grande,2016,S2,2
+Olho d Água Grande,2017,S1,1
+Olho d Água Grande,2019,S2,2
+Olho d Água Grande,2021,S2,1
+Olho d Água Grande,2022,S1,1
+Olho d Água Grande,2022,S2,3
+Olho d Água Grande,2023,S2,1
+Olho d Água Grande,2024,S1,3
+Olho d Água Grande,2024,S2,1
+Olho d Água das Flores,2012,S1,7
+Olho d Água das Flores,2012,S2,3
+Olho d Água das Flores,2013,S1,4
+Olho d Água das Flores,2013,S2,6
+Olho d Água das Flores,2014,S1,4
+Olho d Água das Flores,2014,S2,10
+Olho d Água das Flores,2015,S1,4
+Olho d Água das Flores,2015,S2,2
+Olho d Água das Flores,2016,S1,4
+Olho d Água das Flores,2016,S2,6
+Olho d Água das Flores,2017,S1,8
+Olho d Água das Flores,2017,S2,5
+Olho d Água das Flores,2018,S1,3
+Olho d Água das Flores,2018,S2,2
+Olho d Água das Flores,2019,S1,5
+Olho d Água das Flores,2019,S2,4
+Olho d Água das Flores,2020,S1,3
+Olho d Água das Flores,2020,S2,5
+Olho d Água das Flores,2021,S1,6
+Olho d Água das Flores,2021,S2,1
+Olho d Água das Flores,2022,S1,6
+Olho d Água das Flores,2022,S2,3
+Olho d Água das Flores,2023,S1,5
+Olho d Água das Flores,2024,S1,1
+Olho d Água das Flores,2024,S2,1
+Olho d Água das Flores,2025,S1,3
+Olho d Água das Flores,2025,S2,1
+Olho d Água das Flores,2026,S1,2
+Olho d Água do Casado,2012,S2,1
+Olho d Água do Casado,2013,S1,2
+Olho d Água do Casado,2013,S2,1
+Olho d Água do Casado,2014,S1,2
+Olho d Água do Casado,2014,S2,3
+Olho d Água do Casado,2015,S1,4
+Olho d Água do Casado,2015,S2,1
+Olho d Água do Casado,2016,S1,4
+Olho d Água do Casado,2016,S2,2
+Olho d Água do Casado,2017,S1,2
+Olho d Água do Casado,2018,S2,2
+Olho d Água do Casado,2019,S1,2
+Olho d Água do Casado,2020,S1,2
+Olho d Água do Casado,2020,S2,2
+Olho d Água do Casado,2021,S1,1
+Olho d Água do Casado,2022,S1,1
+Olho d Água do Casado,2022,S2,1
+Olho d Água do Casado,2023,S2,3
+Olho d Água do Casado,2024,S1,2
+Olho d Água do Casado,2024,S2,1
+Olho d Água do Casado,2025,S1,1
+Olho d Água do Casado,2026,S1,1
+Olivença,2012,S1,3
+Olivença,2013,S1,2
+Olivença,2014,S1,2
+Olivença,2014,S2,2
+Olivença,2015,S1,1
+Olivença,2015,S2,1
+Olivença,2016,S2,1
+Olivença,2017,S1,3
+Olivença,2018,S1,1
+Olivença,2019,S1,1
+Olivença,2020,S1,1
+Olivença,2020,S2,3
+Olivença,2021,S1,1
+Olivença,2021,S2,1
+Olivença,2022,S1,1
+Olivença,2022,S2,2
+Olivença,2023,S1,1
+Olivença,2023,S2,1
+Olivença,2024,S1,3
+Olivença,2024,S2,3
+Olivença,2025,S1,2
+Olivença,2025,S2,1
+Ouro Branco,2012,S1,2
+Ouro Branco,2013,S2,1
+Ouro Branco,2014,S1,2
+Ouro Branco,2014,S2,1
+Ouro Branco,2015,S1,2
+Ouro Branco,2015,S2,1
+Ouro Branco,2016,S2,1
+Ouro Branco,2017,S1,1
+Ouro Branco,2018,S1,2
+Ouro Branco,2018,S2,2
+Ouro Branco,2020,S2,1
+Ouro Branco,2021,S1,1
+Ouro Branco,2021,S2,3
+Ouro Branco,2023,S1,1
+Ouro Branco,2023,S2,1
+Ouro Branco,2024,S1,1
+Ouro Branco,2025,S2,1
+Ouro Branco,2026,S1,1
+Palestina,2012,S1,1
+Palestina,2013,S1,1
+Palestina,2014,S1,2
+Palestina,2014,S2,1
+Palestina,2015,S2,1
+Palestina,2020,S2,1
+Palestina,2024,S2,1
+Palestina,2025,S1,1
+Palestina,2026,S1,1
+Palmeira dos Índios,2012,S1,35
+Palmeira dos Índios,2012,S2,21
+Palmeira dos Índios,2013,S1,19
+Palmeira dos Índios,2013,S2,22
+Palmeira dos Índios,2014,S1,26
+Palmeira dos Índios,2014,S2,12
+Palmeira dos Índios,2015,S1,18
+Palmeira dos Índios,2015,S2,26
+Palmeira dos Índios,2016,S1,18
+Palmeira dos Índios,2016,S2,15
+Palmeira dos Índios,2017,S1,17
+Palmeira dos Índios,2017,S2,16
+Palmeira dos Índios,2018,S1,17
+Palmeira dos Índios,2018,S2,13
+Palmeira dos Índios,2019,S1,10
+Palmeira dos Índios,2019,S2,9
+Palmeira dos Índios,2020,S1,16
+Palmeira dos Índios,2020,S2,6
+Palmeira dos Índios,2021,S1,15
+Palmeira dos Índios,2021,S2,6
+Palmeira dos Índios,2022,S1,4
+Palmeira dos Índios,2022,S2,8
+Palmeira dos Índios,2023,S1,17
+Palmeira dos Índios,2023,S2,7
+Palmeira dos Índios,2024,S1,6
+Palmeira dos Índios,2024,S2,9
+Palmeira dos Índios,2025,S1,8
+Palmeira dos Índios,2025,S2,6
+Palmeira dos Índios,2026,S1,3
+Pariconha,2012,S1,1
+Pariconha,2014,S1,1
+Pariconha,2014,S2,1
+Pariconha,2015,S1,1
+Pariconha,2015,S2,1
+Pariconha,2017,S2,2
+Pariconha,2018,S1,1
+Pariconha,2018,S2,2
+Pariconha,2019,S1,1
+Pariconha,2022,S1,1
+Pariconha,2023,S2,1
+Paripueira,2012,S2,7
+Paripueira,2013,S2,4
+Paripueira,2014,S1,5
+Paripueira,2014,S2,3
+Paripueira,2015,S1,1
+Paripueira,2015,S2,1
+Paripueira,2016,S1,5
+Paripueira,2016,S2,3
+Paripueira,2017,S1,1
+Paripueira,2017,S2,4
+Paripueira,2018,S1,6
+Paripueira,2018,S2,3
+Paripueira,2019,S1,1
+Paripueira,2019,S2,6
+Paripueira,2020,S1,2
+Paripueira,2020,S2,1
+Paripueira,2021,S1,2
+Paripueira,2021,S2,3
+Paripueira,2022,S1,3
+Paripueira,2023,S1,1
+Paripueira,2023,S2,3
+Paripueira,2024,S1,4
+Paripueira,2024,S2,6
+Paripueira,2025,S1,2
+Paripueira,2025,S2,1
+Passo de Camaragibe,2012,S1,3
+Passo de Camaragibe,2012,S2,2
+Passo de Camaragibe,2013,S1,5
+Passo de Camaragibe,2013,S2,5
+Passo de Camaragibe,2014,S1,4
+Passo de Camaragibe,2014,S2,1
+Passo de Camaragibe,2015,S1,3
+Passo de Camaragibe,2015,S2,7
+Passo de Camaragibe,2016,S1,1
+Passo de Camaragibe,2016,S2,3
+Passo de Camaragibe,2017,S1,10
+Passo de Camaragibe,2018,S1,4
+Passo de Camaragibe,2018,S2,2
+Passo de Camaragibe,2019,S1,3
+Passo de Camaragibe,2019,S2,4
+Passo de Camaragibe,2020,S1,5
+Passo de Camaragibe,2020,S2,4
+Passo de Camaragibe,2021,S1,3
+Passo de Camaragibe,2021,S2,1
+Passo de Camaragibe,2022,S1,3
+Passo de Camaragibe,2022,S2,7
+Passo de Camaragibe,2023,S1,2
+Passo de Camaragibe,2023,S2,1
+Passo de Camaragibe,2024,S1,4
+Passo de Camaragibe,2024,S2,2
+Passo de Camaragibe,2025,S1,3
+Passo de Camaragibe,2025,S2,3
+Passo de Camaragibe,2026,S1,4
+Paulo Jacinto,2012,S1,1
+Paulo Jacinto,2012,S2,4
+Paulo Jacinto,2013,S1,1
+Paulo Jacinto,2013,S2,2
+Paulo Jacinto,2014,S1,3
+Paulo Jacinto,2014,S2,2
+Paulo Jacinto,2016,S1,3
+Paulo Jacinto,2016,S2,1
+Paulo Jacinto,2017,S1,1
+Paulo Jacinto,2018,S1,1
+Paulo Jacinto,2018,S2,1
+Paulo Jacinto,2019,S1,2
+Paulo Jacinto,2019,S2,3
+Paulo Jacinto,2020,S1,1
+Paulo Jacinto,2020,S2,3
+Paulo Jacinto,2021,S1,1
+Paulo Jacinto,2021,S2,1
+Paulo Jacinto,2022,S1,2
+Paulo Jacinto,2022,S2,1
+Penedo,2012,S1,11
+Penedo,2012,S2,19
+Penedo,2013,S1,14
+Penedo,2013,S2,9
+Penedo,2014,S1,23
+Penedo,2014,S2,17
+Penedo,2015,S1,19
+Penedo,2015,S2,16
+Penedo,2016,S1,13
+Penedo,2016,S2,14
+Penedo,2017,S1,26
+Penedo,2017,S2,16
+Penedo,2018,S1,14
+Penedo,2018,S2,7
+Penedo,2019,S1,10
+Penedo,2019,S2,6
+Penedo,2020,S1,13
+Penedo,2020,S2,9
+Penedo,2021,S1,14
+Penedo,2021,S2,13
+Penedo,2022,S1,13
+Penedo,2022,S2,5
+Penedo,2023,S1,14
+Penedo,2023,S2,3
+Penedo,2024,S1,8
+Penedo,2024,S2,8
+Penedo,2025,S1,3
+Penedo,2025,S2,7
+Penedo,2026,S1,6
+Piaçabuçu,2012,S1,3
+Piaçabuçu,2012,S2,6
+Piaçabuçu,2013,S1,7
+Piaçabuçu,2013,S2,3
+Piaçabuçu,2014,S1,12
+Piaçabuçu,2014,S2,10
+Piaçabuçu,2015,S1,5
+Piaçabuçu,2015,S2,2
+Piaçabuçu,2016,S1,1
+Piaçabuçu,2016,S2,1
+Piaçabuçu,2017,S1,4
+Piaçabuçu,2017,S2,6
+Piaçabuçu,2018,S1,4
+Piaçabuçu,2018,S2,2
+Piaçabuçu,2019,S1,1
+Piaçabuçu,2019,S2,5
+Piaçabuçu,2020,S1,3
+Piaçabuçu,2020,S2,4
+Piaçabuçu,2021,S1,4
+Piaçabuçu,2021,S2,6
+Piaçabuçu,2022,S1,8
+Piaçabuçu,2022,S2,6
+Piaçabuçu,2023,S1,5
+Piaçabuçu,2023,S2,1
+Piaçabuçu,2024,S1,5
+Piaçabuçu,2024,S2,1
+Piaçabuçu,2025,S1,7
+Piaçabuçu,2025,S2,2
+Piaçabuçu,2026,S1,2
+Pilar,2012,S1,26
+Pilar,2012,S2,26
+Pilar,2013,S1,27
+Pilar,2013,S2,24
+Pilar,2014,S1,8
+Pilar,2014,S2,23
+Pilar,2015,S1,8
+Pilar,2015,S2,14
+Pilar,2016,S1,21
+Pilar,2016,S2,14
+Pilar,2017,S1,18
+Pilar,2017,S2,21
+Pilar,2018,S1,20
+Pilar,2018,S2,9
+Pilar,2019,S1,6
+Pilar,2019,S2,7
+Pilar,2020,S1,10
+Pilar,2020,S2,9
+Pilar,2021,S1,2
+Pilar,2022,S1,5
+Pilar,2022,S2,8
+Pilar,2023,S1,8
+Pilar,2023,S2,3
+Pilar,2024,S1,6
+Pilar,2024,S2,2
+Pilar,2025,S1,7
+Pilar,2025,S2,3
+Pilar,2026,S1,5
+Pindoba,2012,S2,1
+Pindoba,2014,S1,1
+Pindoba,2016,S1,1
+Pindoba,2016,S2,1
+Pindoba,2022,S2,1
+Pindoba,2023,S1,1
+Pindoba,2024,S2,1
+Piranhas,2012,S1,5
+Piranhas,2012,S2,5
+Piranhas,2013,S1,10
+Piranhas,2013,S2,4
+Piranhas,2014,S1,5
+Piranhas,2014,S2,4
+Piranhas,2015,S1,8
+Piranhas,2015,S2,5
+Piranhas,2016,S1,3
+Piranhas,2016,S2,9
+Piranhas,2017,S1,9
+Piranhas,2017,S2,3
+Piranhas,2018,S1,5
+Piranhas,2018,S2,1
+Piranhas,2019,S1,2
+Piranhas,2019,S2,5
+Piranhas,2020,S1,1
+Piranhas,2020,S2,3
+Piranhas,2021,S1,2
+Piranhas,2021,S2,5
+Piranhas,2022,S1,4
+Piranhas,2022,S2,2
+Piranhas,2024,S1,1
+Piranhas,2024,S2,3
+Piranhas,2025,S2,1
+Piranhas,2026,S1,1
+Porto Calvo,2012,S1,7
+Porto Calvo,2012,S2,4
+Porto Calvo,2013,S1,6
+Porto Calvo,2013,S2,2
+Porto Calvo,2014,S1,9
+Porto Calvo,2014,S2,6
+Porto Calvo,2015,S1,11
+Porto Calvo,2015,S2,7
+Porto Calvo,2016,S1,8
+Porto Calvo,2016,S2,6
+Porto Calvo,2017,S1,10
+Porto Calvo,2017,S2,9
+Porto Calvo,2018,S1,7
+Porto Calvo,2018,S2,9
+Porto Calvo,2019,S1,7
+Porto Calvo,2019,S2,10
+Porto Calvo,2020,S1,5
+Porto Calvo,2020,S2,5
+Porto Calvo,2021,S1,4
+Porto Calvo,2021,S2,5
+Porto Calvo,2022,S1,2
+Porto Calvo,2022,S2,5
+Porto Calvo,2023,S1,4
+Porto Calvo,2023,S2,4
+Porto Calvo,2024,S1,7
+Porto Calvo,2024,S2,1
+Porto Calvo,2025,S1,4
+Porto Calvo,2025,S2,2
+Porto Calvo,2026,S1,2
+Porto Real do Colégio,2012,S1,1
+Porto Real do Colégio,2012,S2,4
+Porto Real do Colégio,2013,S1,6
+Porto Real do Colégio,2013,S2,5
+Porto Real do Colégio,2014,S1,4
+Porto Real do Colégio,2014,S2,1
+Porto Real do Colégio,2015,S1,4
+Porto Real do Colégio,2015,S2,3
+Porto Real do Colégio,2016,S1,5
+Porto Real do Colégio,2016,S2,2
+Porto Real do Colégio,2017,S1,6
+Porto Real do Colégio,2017,S2,8
+Porto Real do Colégio,2018,S1,3
+Porto Real do Colégio,2018,S2,4
+Porto Real do Colégio,2019,S1,4
+Porto Real do Colégio,2020,S1,2
+Porto Real do Colégio,2020,S2,1
+Porto Real do Colégio,2021,S1,4
+Porto Real do Colégio,2021,S2,3
+Porto Real do Colégio,2022,S1,2
+Porto Real do Colégio,2022,S2,3
+Porto Real do Colégio,2023,S1,2
+Porto Real do Colégio,2023,S2,2
+Porto Real do Colégio,2024,S1,2
+Porto Real do Colégio,2024,S2,2
+Porto Real do Colégio,2025,S1,7
+Porto Real do Colégio,2025,S2,2
+Porto Real do Colégio,2026,S1,1
+Porto de Pedras,2012,S1,1
+Porto de Pedras,2013,S1,2
+Porto de Pedras,2013,S2,2
+Porto de Pedras,2014,S1,3
+Porto de Pedras,2014,S2,2
+Porto de Pedras,2015,S1,2
+Porto de Pedras,2016,S1,1
+Porto de Pedras,2017,S1,2
+Porto de Pedras,2017,S2,1
+Porto de Pedras,2018,S1,1
+Porto de Pedras,2019,S2,1
+Porto de Pedras,2020,S1,2
+Porto de Pedras,2020,S2,1
+Porto de Pedras,2021,S2,1
+Porto de Pedras,2022,S1,5
+Porto de Pedras,2022,S2,2
+Porto de Pedras,2023,S1,5
+Porto de Pedras,2023,S2,8
+Porto de Pedras,2024,S1,5
+Porto de Pedras,2024,S2,5
+Porto de Pedras,2025,S1,2
+Porto de Pedras,2025,S2,5
+Porto de Pedras,2026,S1,2
+Poço das Trincheiras,2012,S1,1
+Poço das Trincheiras,2012,S2,1
+Poço das Trincheiras,2013,S2,1
+Poço das Trincheiras,2014,S1,2
+Poço das Trincheiras,2014,S2,1
+Poço das Trincheiras,2015,S1,1
+Poço das Trincheiras,2015,S2,1
+Poço das Trincheiras,2016,S1,3
+Poço das Trincheiras,2016,S2,2
+Poço das Trincheiras,2017,S2,1
+Poço das Trincheiras,2018,S1,1
+Poço das Trincheiras,2019,S1,2
+Poço das Trincheiras,2019,S2,1
+Poço das Trincheiras,2020,S1,2
+Poço das Trincheiras,2020,S2,1
+Poço das Trincheiras,2021,S2,2
+Poço das Trincheiras,2022,S1,2
+Poço das Trincheiras,2022,S2,2
+Poço das Trincheiras,2023,S1,2
+Poço das Trincheiras,2023,S2,2
+Poço das Trincheiras,2024,S2,1
+Pão de Açúcar,2012,S1,2
+Pão de Açúcar,2012,S2,2
+Pão de Açúcar,2013,S1,2
+Pão de Açúcar,2013,S2,6
+Pão de Açúcar,2014,S1,3
+Pão de Açúcar,2014,S2,3
+Pão de Açúcar,2015,S1,4
+Pão de Açúcar,2015,S2,5
+Pão de Açúcar,2016,S1,5
+Pão de Açúcar,2016,S2,7
+Pão de Açúcar,2017,S1,8
+Pão de Açúcar,2017,S2,1
+Pão de Açúcar,2018,S2,6
+Pão de Açúcar,2019,S1,4
+Pão de Açúcar,2019,S2,1
+Pão de Açúcar,2020,S2,2
+Pão de Açúcar,2021,S1,2
+Pão de Açúcar,2021,S2,1
+Pão de Açúcar,2022,S1,3
+Pão de Açúcar,2024,S1,2
+Pão de Açúcar,2024,S2,2
+Pão de Açúcar,2025,S1,1
+Pão de Açúcar,2025,S2,1
+Quebrangulo,2012,S1,3
+Quebrangulo,2012,S2,1
+Quebrangulo,2013,S1,3
+Quebrangulo,2013,S2,2
+Quebrangulo,2014,S1,2
+Quebrangulo,2015,S1,3
+Quebrangulo,2016,S1,3
+Quebrangulo,2016,S2,2
+Quebrangulo,2017,S1,1
+Quebrangulo,2017,S2,3
+Quebrangulo,2018,S2,1
+Quebrangulo,2019,S1,1
+Quebrangulo,2021,S1,1
+Quebrangulo,2021,S2,1
+Quebrangulo,2022,S1,1
+Quebrangulo,2022,S2,2
+Quebrangulo,2023,S1,6
+Quebrangulo,2023,S2,3
+Quebrangulo,2024,S1,2
+Quebrangulo,2026,S1,1
+Rio Largo,2012,S1,55
+Rio Largo,2012,S2,44
+Rio Largo,2013,S1,35
+Rio Largo,2013,S2,42
+Rio Largo,2014,S1,39
+Rio Largo,2014,S2,43
+Rio Largo,2015,S1,27
+Rio Largo,2015,S2,25
+Rio Largo,2016,S1,35
+Rio Largo,2016,S2,34
+Rio Largo,2017,S1,25
+Rio Largo,2017,S2,33
+Rio Largo,2018,S1,48
+Rio Largo,2018,S2,28
+Rio Largo,2019,S1,19
+Rio Largo,2019,S2,17
+Rio Largo,2020,S1,22
+Rio Largo,2020,S2,19
+Rio Largo,2021,S1,18
+Rio Largo,2021,S2,13
+Rio Largo,2022,S1,21
+Rio Largo,2022,S2,19
+Rio Largo,2023,S1,26
+Rio Largo,2023,S2,38
+Rio Largo,2024,S1,26
+Rio Largo,2024,S2,34
+Rio Largo,2025,S1,36
+Rio Largo,2025,S2,16
+Rio Largo,2026,S1,8
+Roteiro,2012,S1,2
+Roteiro,2013,S1,2
+Roteiro,2013,S2,3
+Roteiro,2014,S1,4
+Roteiro,2014,S2,3
+Roteiro,2015,S1,2
+Roteiro,2015,S2,1
+Roteiro,2016,S1,1
+Roteiro,2016,S2,4
+Roteiro,2017,S1,7
+Roteiro,2017,S2,5
+Roteiro,2018,S1,6
+Roteiro,2018,S2,4
+Roteiro,2019,S1,3
+Roteiro,2019,S2,1
+Roteiro,2020,S1,5
+Roteiro,2021,S1,3
+Roteiro,2021,S2,1
+Roteiro,2023,S1,2
+Roteiro,2023,S2,1
+Roteiro,2024,S1,2
+Roteiro,2025,S1,3
+Roteiro,2025,S2,1
+Roteiro,2026,S1,1
+Santa Luzia do Norte,2012,S2,2
+Santa Luzia do Norte,2013,S1,2
+Santa Luzia do Norte,2013,S2,6
+Santa Luzia do Norte,2014,S1,3
+Santa Luzia do Norte,2014,S2,2
+Santa Luzia do Norte,2015,S1,1
+Santa Luzia do Norte,2015,S2,3
+Santa Luzia do Norte,2016,S1,3
+Santa Luzia do Norte,2016,S2,3
+Santa Luzia do Norte,2017,S2,3
+Santa Luzia do Norte,2018,S1,3
+Santa Luzia do Norte,2018,S2,3
+Santa Luzia do Norte,2019,S1,3
+Santa Luzia do Norte,2019,S2,3
+Santa Luzia do Norte,2020,S1,2
+Santa Luzia do Norte,2021,S1,2
+Santa Luzia do Norte,2022,S2,2
+Santa Luzia do Norte,2023,S1,1
+Santa Luzia do Norte,2023,S2,2
+Santa Luzia do Norte,2024,S1,1
+Santa Luzia do Norte,2024,S2,1
+Santa Luzia do Norte,2025,S2,1
+Santana do Ipanema,2012,S1,14
+Santana do Ipanema,2012,S2,19
+Santana do Ipanema,2013,S1,16
+Santana do Ipanema,2013,S2,14
+Santana do Ipanema,2014,S1,15
+Santana do Ipanema,2014,S2,20
+Santana do Ipanema,2015,S1,13
+Santana do Ipanema,2015,S2,10
+Santana do Ipanema,2016,S1,13
+Santana do Ipanema,2016,S2,9
+Santana do Ipanema,2017,S1,7
+Santana do Ipanema,2017,S2,9
+Santana do Ipanema,2018,S1,4
+Santana do Ipanema,2018,S2,6
+Santana do Ipanema,2019,S1,7
+Santana do Ipanema,2019,S2,4
+Santana do Ipanema,2020,S1,4
+Santana do Ipanema,2020,S2,5
+Santana do Ipanema,2021,S1,5
+Santana do Ipanema,2021,S2,9
+Santana do Ipanema,2022,S1,11
+Santana do Ipanema,2022,S2,6
+Santana do Ipanema,2023,S1,4
+Santana do Ipanema,2023,S2,11
+Santana do Ipanema,2024,S1,4
+Santana do Ipanema,2024,S2,5
+Santana do Ipanema,2025,S1,6
+Santana do Ipanema,2025,S2,5
+Santana do Ipanema,2026,S1,1
+Santana do Mundaú,2012,S1,4
+Santana do Mundaú,2012,S2,1
+Santana do Mundaú,2013,S1,1
+Santana do Mundaú,2013,S2,4
+Santana do Mundaú,2014,S1,2
+Santana do Mundaú,2014,S2,5
+Santana do Mundaú,2015,S1,6
+Santana do Mundaú,2015,S2,3
+Santana do Mundaú,2016,S1,5
+Santana do Mundaú,2016,S2,9
+Santana do Mundaú,2017,S1,3
+Santana do Mundaú,2017,S2,4
+Santana do Mundaú,2018,S1,2
+Santana do Mundaú,2018,S2,2
+Santana do Mundaú,2019,S1,1
+Santana do Mundaú,2019,S2,1
+Santana do Mundaú,2020,S2,1
+Santana do Mundaú,2021,S1,1
+Santana do Mundaú,2021,S2,2
+Santana do Mundaú,2022,S1,1
+Santana do Mundaú,2022,S2,1
+Santana do Mundaú,2023,S1,3
+Santana do Mundaú,2023,S2,3
+Santana do Mundaú,2024,S1,1
+Santana do Mundaú,2026,S1,1
+Satuba,2012,S1,12
+Satuba,2012,S2,12
+Satuba,2013,S1,14
+Satuba,2013,S2,14
+Satuba,2014,S1,7
+Satuba,2014,S2,5
+Satuba,2015,S1,1
+Satuba,2015,S2,1
+Satuba,2016,S1,4
+Satuba,2016,S2,4
+Satuba,2017,S1,4
+Satuba,2017,S2,4
+Satuba,2018,S1,1
+Satuba,2018,S2,4
+Satuba,2019,S1,5
+Satuba,2019,S2,1
+Satuba,2020,S1,4
+Satuba,2021,S1,4
+Satuba,2021,S2,4
+Satuba,2022,S1,4
+Satuba,2023,S1,9
+Satuba,2023,S2,1
+Satuba,2024,S1,1
+Satuba,2024,S2,3
+Satuba,2025,S1,1
+Satuba,2025,S2,1
+Satuba,2026,S1,3
+Senador Rui Palmeira,2012,S1,3
+Senador Rui Palmeira,2012,S2,1
+Senador Rui Palmeira,2013,S1,1
+Senador Rui Palmeira,2013,S2,1
+Senador Rui Palmeira,2014,S1,1
+Senador Rui Palmeira,2014,S2,3
+Senador Rui Palmeira,2015,S1,1
+Senador Rui Palmeira,2015,S2,2
+Senador Rui Palmeira,2016,S2,2
+Senador Rui Palmeira,2017,S2,2
+Senador Rui Palmeira,2018,S1,2
+Senador Rui Palmeira,2018,S2,4
+Senador Rui Palmeira,2019,S1,1
+Senador Rui Palmeira,2019,S2,2
+Senador Rui Palmeira,2020,S1,4
+Senador Rui Palmeira,2020,S2,1
+Senador Rui Palmeira,2021,S1,1
+Senador Rui Palmeira,2021,S2,3
+Senador Rui Palmeira,2022,S1,2
+Senador Rui Palmeira,2022,S2,3
+Senador Rui Palmeira,2023,S1,1
+Senador Rui Palmeira,2024,S1,1
+Senador Rui Palmeira,2025,S2,5
+Senador Rui Palmeira,2026,S1,2
+São Brás,2012,S1,1
+São Brás,2012,S2,1
+São Brás,2013,S1,1
+São Brás,2014,S1,1
+São Brás,2014,S2,1
+São Brás,2015,S1,1
+São Brás,2015,S2,1
+São Brás,2016,S1,2
+São Brás,2017,S1,1
+São Brás,2017,S2,1
+São Brás,2018,S2,1
+São Brás,2019,S1,2
+São Brás,2019,S2,1
+São Brás,2021,S1,1
+São Brás,2022,S1,1
+São Brás,2023,S1,2
+São Brás,2023,S2,1
+São Brás,2025,S1,1
+São Brás,2025,S2,1
+São Brás,2026,S1,1
+São José da Laje,2012,S1,8
+São José da Laje,2012,S2,7
+São José da Laje,2013,S1,4
+São José da Laje,2013,S2,13
+São José da Laje,2014,S1,15
+São José da Laje,2014,S2,12
+São José da Laje,2015,S1,9
+São José da Laje,2015,S2,9
+São José da Laje,2016,S1,7
+São José da Laje,2016,S2,6
+São José da Laje,2017,S1,7
+São José da Laje,2017,S2,5
+São José da Laje,2018,S1,4
+São José da Laje,2018,S2,4
+São José da Laje,2019,S1,3
+São José da Laje,2019,S2,3
+São José da Laje,2020,S1,3
+São José da Laje,2020,S2,7
+São José da Laje,2021,S1,4
+São José da Laje,2021,S2,4
+São José da Laje,2022,S1,4
+São José da Laje,2022,S2,3
+São José da Laje,2023,S1,4
+São José da Laje,2023,S2,6
+São José da Laje,2024,S1,1
+São José da Laje,2024,S2,1
+São José da Laje,2026,S1,2
+São José da Tapera,2012,S1,7
+São José da Tapera,2012,S2,6
+São José da Tapera,2013,S1,9
+São José da Tapera,2013,S2,9
+São José da Tapera,2014,S1,2
+São José da Tapera,2014,S2,8
+São José da Tapera,2015,S1,13
+São José da Tapera,2015,S2,9
+São José da Tapera,2016,S1,12
+São José da Tapera,2016,S2,7
+São José da Tapera,2017,S1,7
+São José da Tapera,2017,S2,3
+São José da Tapera,2018,S1,3
+São José da Tapera,2018,S2,9
+São José da Tapera,2019,S1,4
+São José da Tapera,2019,S2,6
+São José da Tapera,2020,S1,3
+São José da Tapera,2020,S2,5
+São José da Tapera,2021,S1,4
+São José da Tapera,2021,S2,2
+São José da Tapera,2022,S1,3
+São José da Tapera,2022,S2,6
+São José da Tapera,2023,S1,6
+São José da Tapera,2023,S2,2
+São José da Tapera,2024,S1,2
+São José da Tapera,2024,S2,5
+São José da Tapera,2025,S1,2
+São José da Tapera,2025,S2,1
+São José da Tapera,2026,S1,1
+São Luís do Quitunde,2012,S1,11
+São Luís do Quitunde,2012,S2,4
+São Luís do Quitunde,2013,S1,10
+São Luís do Quitunde,2013,S2,10
+São Luís do Quitunde,2014,S1,8
+São Luís do Quitunde,2014,S2,3
+São Luís do Quitunde,2015,S1,9
+São Luís do Quitunde,2015,S2,15
+São Luís do Quitunde,2016,S1,12
+São Luís do Quitunde,2016,S2,9
+São Luís do Quitunde,2017,S1,5
+São Luís do Quitunde,2017,S2,6
+São Luís do Quitunde,2018,S1,9
+São Luís do Quitunde,2018,S2,7
+São Luís do Quitunde,2019,S1,3
+São Luís do Quitunde,2019,S2,8
+São Luís do Quitunde,2020,S1,12
+São Luís do Quitunde,2020,S2,8
+São Luís do Quitunde,2021,S1,9
+São Luís do Quitunde,2021,S2,6
+São Luís do Quitunde,2022,S1,14
+São Luís do Quitunde,2023,S1,5
+São Luís do Quitunde,2023,S2,4
+São Luís do Quitunde,2024,S1,9
+São Luís do Quitunde,2024,S2,5
+São Luís do Quitunde,2025,S1,6
+São Luís do Quitunde,2025,S2,4
+São Luís do Quitunde,2026,S1,2
+São Miguel dos Campos,2012,S1,36
+São Miguel dos Campos,2012,S2,20
+São Miguel dos Campos,2013,S1,18
+São Miguel dos Campos,2013,S2,21
+São Miguel dos Campos,2014,S1,32
+São Miguel dos Campos,2014,S2,24
+São Miguel dos Campos,2015,S1,19
+São Miguel dos Campos,2015,S2,13
+São Miguel dos Campos,2016,S1,11
+São Miguel dos Campos,2016,S2,12
+São Miguel dos Campos,2017,S1,9
+São Miguel dos Campos,2017,S2,13
+São Miguel dos Campos,2018,S1,10
+São Miguel dos Campos,2018,S2,7
+São Miguel dos Campos,2019,S1,8
+São Miguel dos Campos,2019,S2,9
+São Miguel dos Campos,2020,S1,16
+São Miguel dos Campos,2020,S2,7
+São Miguel dos Campos,2021,S1,11
+São Miguel dos Campos,2021,S2,7
+São Miguel dos Campos,2022,S1,9
+São Miguel dos Campos,2022,S2,13
+São Miguel dos Campos,2023,S1,9
+São Miguel dos Campos,2023,S2,12
+São Miguel dos Campos,2024,S1,11
+São Miguel dos Campos,2024,S2,12
+São Miguel dos Campos,2025,S1,21
+São Miguel dos Campos,2025,S2,14
+São Miguel dos Campos,2026,S1,5
+São Miguel dos Milagres,2012,S1,2
+São Miguel dos Milagres,2012,S2,2
+São Miguel dos Milagres,2013,S2,1
+São Miguel dos Milagres,2014,S1,1
+São Miguel dos Milagres,2014,S2,4
+São Miguel dos Milagres,2015,S1,4
+São Miguel dos Milagres,2015,S2,1
+São Miguel dos Milagres,2016,S1,2
+São Miguel dos Milagres,2016,S2,3
+São Miguel dos Milagres,2017,S1,2
+São Miguel dos Milagres,2018,S1,1
+São Miguel dos Milagres,2018,S2,2
+São Miguel dos Milagres,2019,S1,1
+São Miguel dos Milagres,2019,S2,1
+São Miguel dos Milagres,2020,S2,2
+São Miguel dos Milagres,2021,S2,2
+São Miguel dos Milagres,2022,S1,4
+São Miguel dos Milagres,2022,S2,4
+São Miguel dos Milagres,2023,S1,2
+São Miguel dos Milagres,2023,S2,2
+São Miguel dos Milagres,2024,S1,1
+São Miguel dos Milagres,2024,S2,2
+São Miguel dos Milagres,2025,S1,8
+São Miguel dos Milagres,2025,S2,3
+São Miguel dos Milagres,2026,S1,1
+São Sebastião,2012,S1,4
+São Sebastião,2012,S2,14
+São Sebastião,2013,S1,13
+São Sebastião,2013,S2,21
+São Sebastião,2014,S1,19
+São Sebastião,2014,S2,10
+São Sebastião,2015,S1,14
+São Sebastião,2015,S2,7
+São Sebastião,2016,S1,10
+São Sebastião,2016,S2,17
+São Sebastião,2017,S1,6
+São Sebastião,2017,S2,10
+São Sebastião,2018,S1,8
+São Sebastião,2018,S2,5
+São Sebastião,2019,S1,5
+São Sebastião,2019,S2,7
+São Sebastião,2020,S1,8
+São Sebastião,2020,S2,10
+São Sebastião,2021,S1,10
+São Sebastião,2021,S2,8
+São Sebastião,2022,S1,6
+São Sebastião,2022,S2,8
+São Sebastião,2023,S1,8
+São Sebastião,2023,S2,1
+São Sebastião,2024,S1,5
+São Sebastião,2024,S2,5
+São Sebastião,2025,S1,4
+São Sebastião,2025,S2,5
+São Sebastião,2026,S1,2
+Tanque d Arca,2012,S2,1
+Tanque d Arca,2013,S1,2
+Tanque d Arca,2013,S2,3
+Tanque d Arca,2014,S1,5
+Tanque d Arca,2014,S2,1
+Tanque d Arca,2015,S2,2
+Tanque d Arca,2016,S1,2
+Tanque d Arca,2016,S2,3
+Tanque d Arca,2017,S1,2
+Tanque d Arca,2017,S2,1
+Tanque d Arca,2019,S1,1
+Tanque d Arca,2020,S1,2
+Tanque d Arca,2020,S2,1
+Tanque d Arca,2021,S1,1
+Tanque d Arca,2022,S1,2
+Taquarana,2012,S1,6
+Taquarana,2013,S1,5
+Taquarana,2013,S2,6
+Taquarana,2014,S1,3
+Taquarana,2014,S2,6
+Taquarana,2015,S1,8
+Taquarana,2015,S2,1
+Taquarana,2016,S1,1
+Taquarana,2016,S2,2
+Taquarana,2017,S1,1
+Taquarana,2017,S2,2
+Taquarana,2018,S1,3
+Taquarana,2018,S2,1
+Taquarana,2019,S1,2
+Taquarana,2019,S2,2
+Taquarana,2020,S1,5
+Taquarana,2020,S2,8
+Taquarana,2021,S1,4
+Taquarana,2021,S2,6
+Taquarana,2022,S1,5
+Taquarana,2022,S2,1
+Taquarana,2023,S1,2
+Taquarana,2023,S2,4
+Taquarana,2024,S1,5
+Taquarana,2024,S2,1
+Taquarana,2025,S1,3
+Taquarana,2025,S2,2
+Teotônio Vilela,2012,S1,10
+Teotônio Vilela,2012,S2,16
+Teotônio Vilela,2013,S1,13
+Teotônio Vilela,2013,S2,18
+Teotônio Vilela,2014,S1,17
+Teotônio Vilela,2014,S2,10
+Teotônio Vilela,2015,S1,7
+Teotônio Vilela,2015,S2,16
+Teotônio Vilela,2016,S1,14
+Teotônio Vilela,2016,S2,19
+Teotônio Vilela,2017,S1,25
+Teotônio Vilela,2017,S2,16
+Teotônio Vilela,2018,S1,12
+Teotônio Vilela,2018,S2,4
+Teotônio Vilela,2019,S1,3
+Teotônio Vilela,2019,S2,8
+Teotônio Vilela,2020,S1,6
+Teotônio Vilela,2020,S2,6
+Teotônio Vilela,2021,S1,4
+Teotônio Vilela,2022,S1,3
+Teotônio Vilela,2022,S2,2
+Teotônio Vilela,2023,S1,9
+Teotônio Vilela,2023,S2,6
+Teotônio Vilela,2024,S1,4
+Teotônio Vilela,2024,S2,2
+Teotônio Vilela,2025,S1,7
+Teotônio Vilela,2025,S2,4
+Teotônio Vilela,2026,S1,7
+Traipu,2012,S1,3
+Traipu,2012,S2,6
+Traipu,2013,S1,1
+Traipu,2014,S1,4
+Traipu,2014,S2,4
+Traipu,2015,S1,5
+Traipu,2015,S2,2
+Traipu,2016,S1,2
+Traipu,2016,S2,4
+Traipu,2017,S1,4
+Traipu,2017,S2,1
+Traipu,2018,S1,2
+Traipu,2018,S2,1
+Traipu,2019,S1,1
+Traipu,2019,S2,2
+Traipu,2020,S1,2
+Traipu,2020,S2,6
+Traipu,2021,S2,2
+Traipu,2022,S1,1
+Traipu,2022,S2,3
+Traipu,2023,S1,1
+Traipu,2023,S2,1
+Traipu,2024,S1,2
+Traipu,2024,S2,2
+Traipu,2025,S1,3
+Traipu,2025,S2,2
+Traipu,2026,S1,1
+União dos Palmares,2012,S1,24
+União dos Palmares,2012,S2,19
+União dos Palmares,2013,S1,25
+União dos Palmares,2013,S2,27
+União dos Palmares,2014,S1,25
+União dos Palmares,2014,S2,17
+União dos Palmares,2015,S1,23
+União dos Palmares,2015,S2,17
+União dos Palmares,2016,S1,28
+União dos Palmares,2016,S2,24
+União dos Palmares,2017,S1,15
+União dos Palmares,2017,S2,14
+União dos Palmares,2018,S1,5
+União dos Palmares,2018,S2,5
+União dos Palmares,2019,S1,16
+União dos Palmares,2019,S2,12
+União dos Palmares,2020,S1,23
+União dos Palmares,2020,S2,17
+União dos Palmares,2021,S1,18
+União dos Palmares,2021,S2,17
+União dos Palmares,2022,S1,15
+União dos Palmares,2022,S2,14
+União dos Palmares,2023,S1,13
+União dos Palmares,2023,S2,8
+União dos Palmares,2024,S1,10
+União dos Palmares,2024,S2,10
+União dos Palmares,2025,S1,8
+União dos Palmares,2025,S2,7
+União dos Palmares,2026,S1,1
+Viçosa,2012,S1,13
+Viçosa,2012,S2,9
+Viçosa,2013,S1,3
+Viçosa,2013,S2,10
+Viçosa,2014,S1,5
+Viçosa,2014,S2,10
+Viçosa,2015,S1,9
+Viçosa,2015,S2,13
+Viçosa,2016,S1,6
+Viçosa,2016,S2,3
+Viçosa,2017,S1,12
+Viçosa,2017,S2,4
+Viçosa,2018,S1,5
+Viçosa,2018,S2,3
+Viçosa,2019,S1,5
+Viçosa,2019,S2,10
+Viçosa,2020,S1,8
+Viçosa,2020,S2,5
+Viçosa,2021,S1,4
+Viçosa,2021,S2,2
+Viçosa,2022,S1,2
+Viçosa,2022,S2,2
+Viçosa,2023,S1,3
+Viçosa,2023,S2,5
+Viçosa,2024,S1,1
+Viçosa,2024,S2,1
+Viçosa,2025,S1,1
+Viçosa,2025,S2,1
+Viçosa,2026,S1,3
+Água Branca,2012,S1,3
+Água Branca,2012,S2,4
+Água Branca,2013,S1,1
+Água Branca,2013,S2,2
+Água Branca,2014,S1,1
+Água Branca,2014,S2,1
+Água Branca,2015,S1,3
+Água Branca,2016,S1,1
+Água Branca,2016,S2,5
+Água Branca,2017,S1,1
+Água Branca,2017,S2,2
+Água Branca,2018,S1,3
+Água Branca,2018,S2,1
+Água Branca,2020,S1,1
+Água Branca,2020,S2,2
+Água Branca,2021,S1,1
+Água Branca,2021,S2,3
+Água Branca,2022,S1,2
+Água Branca,2023,S2,3
+Água Branca,2024,S1,2
+Água Branca,2024,S2,4
+Água Branca,2025,S1,1
+Água Branca,2026,S1,1
