@@ -11,11 +11,12 @@ st.markdown(
     Use o menu lateral para navegar entre as abas:
     - 🗺️ **Mapa** — visualização espaço-temporal de CVLI em Alagoas
     - 🎯 **Preditor (Densidade)** — classificador original por prevalência
-    - 📈 **Risco Real (Dashboard)** — análise de taxa por 100k hab (IBGE)
-    - 🎯 **Preditor (Risco Real)** — novo modelo Poisson com denominador IBGE
     - 📊 **Sobre** — metodologia, limitações éticas, reprodutibilidade
     
-    **Equipe:** Antônio Guilherme · Antônio Rodrigo · Sandro Gomes
+    **Equipe:** 
+    - Antônio Guilherme
+    - Antônio Rodrigo
+    - Sandro Gomes
     """
 )
 st.info("👈 Use o menu lateral para começar")

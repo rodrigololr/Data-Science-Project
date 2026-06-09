@@ -19,11 +19,12 @@ Segurança pública em Alagoas é estruturalmente crítica. O estado carece de f
 | Item | Status | Valor |
 |---|---|---|
 | EDA documentada (NB01) | ✅ Done | Visão geral + qualidade de dados |
-| Clustering de perfis (NB02) | 🟡 WIP | Personas de vítimas |
-| Mapa espaço-temporal (NB03) | ⏳ Pending | Choropleth AL + HeatMap top 5 cidades |
-| Preditor Maceió (NB04) | ⏳ Pending | Risco em 3 classes (baixa/média/alta) |
-| Dashboard Streamlit | ⏳ Pending | 2 abas: mapa + preditor |
-| Documento SBC | ⏳ Pending | ≤12 pgs, formato conferência |
+| Clustering de perfis (NB02) | ✅ Done | Personas de vítimas |
+| Mapa espaço-temporal (NB03) | ✅ Done | Choropleth AL + HeatMap top 5 cidades |
+| Preditor Maceió (NB04) | ✅ Done | Taxa Risco Real (Poisson) + Denominador IBGE |
+| Explicação IA (Gemini) | ✅ Done | SHAP + Google GenAI para causa raiz |
+| Dashboard Streamlit | ✅ Done | Modularizado: ui_components, ai_engine, domain |
+| Documento SBC | ✅ Done | ≤12 pgs, formato conferência |
 | Pitch + técnica | ⏳ Pending | 5 min + 15 min |
 
 ## 4. Decisões Arquiteturais (TLC)
@@ -31,11 +32,11 @@ Segurança pública em Alagoas é estruturalmente crítica. O estado carece de f
 | # | Decisão | Data | Razão |
 |---|---|---|---|
 | D1 | Apenas Maceió no preditor | 2026-06-06 | 33% da base + viés populacional em outras cidades |
-| D2 | Saída em 3 classes (baixa/média/alta) | 2026-06-06 | Honestidade epistemológica (não promete probabilidade) |
-| D3 | Sem IBGE no MVP | 2026-06-06 | Tercis de contagem bastam para ranking; +1 dia economizado |
-| D4 | Storage em CSV (não Parquet) | 2026-06-06 | Familiaridade do time; debug mais fácil |
-| D5 | Top 5 cidades por volume CVLI | 2026-06-06 | Representam 48,7% dos registros |
-| D6 | Stack Streamlit | 2026-06-06 | Python-only, curva rápida, 1-2 dias |
+| D2 | Regressão de Poisson | 2026-06-08 | Ideal para modelar taxa/contagem contínua de eventos raros |
+| D3 | Imputação Proxy IBGE | 2026-06-08 | Risco não é volume; calcula taxa por 100k hab. do perfil específico |
+| D4 | Recalibração de Média Intra-grupo | 2026-06-08 | Compara risco da mulher com média de mulheres, garantindo justiça demográfica |
+| D5 | Explicação por IA (Gemini) | 2026-06-08 | Traduz SHAP matematicamente e cruza com dataset real para o usuário final |
+| D6 | Stack Streamlit Modular | 2026-06-08 | Separação de preocupações (UI vs Core Logic) |
 | D7 | Nada commitado em git | 2026-06-06 | Decisão do time: working tree only |
 
 ## 5. Critérios de Sucesso

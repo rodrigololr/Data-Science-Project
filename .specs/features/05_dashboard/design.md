@@ -33,21 +33,26 @@ app/
 - **Auto-switch:** se filtro de cidade incluir top 5 + zoom_in flag → heatmap de bairro
 - **Hover:** nº casos, % do total, ranking
 
-## Tab 2 — Preditor
+## Tab 2 — Preditor (Risco Real)
 
 ### Form
 - Sexo (radio: Masculino / Feminino)
 - Idade (slider 0-100)
-- Cidade (selectbox — default Maceió, outras = "fora do escopo")
-- Dia da semana (radio 7 opções)
-- Período do dia (radio 4 opções)
+- Bairro do fato (selectbox)
+- Dia da semana (selectbox 7 opções)
+- Hora do fato (slider 0-23)
 - Local do fato (selectbox)
 
-### Output
-- Card grande com classe (`baixa` verde, `média` amarelo, `alta` vermelho)
-- Comparação: "X% acima/abaixo da média Maceió"
-- SHAP waterfall (top 5 contribuidoras)
-- Texto disclaimer: "ferramenta estatística, não predição individual"
+### Output Visual
+- **Card Categórico:** Classe (`baixa` verde, `média` amarelo, `alta` vermelho) baseada na Média de Referência do Sexo.
+- **Gráfico (Gauge):** Medidor contínuo mostrando a Taxa de Crimes Prevista por 100k habitantes, com a linha de threshold na média de Maceió.
+- **Risco Relativo:** Multiplicador "Xx a média do seu perfil na cidade".
+
+### Inteligência Artificial (Explainable AI)
+- Botão "✨ Gerar Explicação por IA" (com cooldown de 60s anti-abuso).
+- Extrai os top 3 fatores via SHAP.
+- Cruza com a base de dados em tempo real (data-driven prompt).
+- Chama o Google Gemini (1.5 Flash) para gerar 1 parágrafo analítico de causa raiz citando os números reais daquele bairro.
 
 ## Tab 3 — Sobre
 

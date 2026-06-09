@@ -15,9 +15,10 @@
 ## Marcos
 
 - [x] F0: SDD skeleton
-- [ ] F1: Data quality
-- [ ] F2: NB03 Geo
-- [ ] F3: NB04 Preditor
-- [ ] F4: Streamlit
-- [ ] F5: Doc + Slides
+- [x] F1: Data quality
+- [x] F2: NB03 Geo
+- [x] F3: NB04 Preditor (Poisson/IBGE)
+- [x] F4: Streamlit Dashboard (Modular + IA)
+- [x] F5: Doc + Slides
 - [ ] F6: Apresentação banca
+

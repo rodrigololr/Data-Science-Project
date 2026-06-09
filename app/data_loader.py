@@ -53,19 +53,14 @@ def load_agg_bairro():
 
 
 @lru_cache(maxsize=1)
-def load_populacao_maceio():
-    return pd.read_csv(DATA_DIR / "geo" / "populacao_maceio_bairros.csv")
-
-
-@lru_cache(maxsize=1)
 def load_model():
     import joblib
-    return joblib.load(MODELS_DIR / "preditor_maceio.joblib")
+    return joblib.load(MODELS_DIR / "preditor_poisson_final.joblib")
 
 
 @lru_cache(maxsize=1)
 def load_meta():
-    with open(MODELS_DIR / "preditor_meta.json") as f:
+    with open(MODELS_DIR / "preditor_poisson_final_meta.json") as f:
         return json.load(f)
 
 
