@@ -1,6 +1,10 @@
+.venv/
 __pycache__/
 .ipynb_checkpoints/
-.venv/
+.env
+.env.local
 *.pyc
 .notebook/
+.vscode/
+.DS_Store
 

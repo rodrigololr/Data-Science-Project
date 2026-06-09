@@ -16,3 +16,5 @@ joblib
 contextily
 branca
 pyproj
+python-dotenv
+google-generativeai
