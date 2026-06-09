@@ -42,6 +42,7 @@ class AnimatedHeatMap(JSCSSMixin, MacroElement):
             const map = {{ this._parent.get_name() }};
             const frames = {{ this.frames_json }};
             const labels = {{ this.labels_json }};
+            const counts = {{ this.counts_json }};
             const heatLayer = L.heatLayer(frames[0] || [], {
                 radius: {{ this.radius }},
                 blur: {{ this.blur }},
@@ -51,6 +52,10 @@ class AnimatedHeatMap(JSCSSMixin, MacroElement):
 
             let current = 0;
             let timer = null;
+            function formatCount(value) {
+                const total = value || 0;
+                return `${total} ${total === 1 ? "ocorrência" : "ocorrências"}`;
+            }
             const control = L.control({position: "bottomleft"});
             control.onAdd = function() {
                 const div = L.DomUtil.create("div", "leaflet-bar temporal-control");
@@ -61,6 +66,7 @@ class AnimatedHeatMap(JSCSSMixin, MacroElement):
                 div.innerHTML = `
                     <div style="font-weight:700;margin-bottom:6px;color:#111">CVLI acumulado</div>
                     <div data-role="label" style="margin-bottom:6px;color:#111">${labels[0] || ""}</div>
+                    <div data-role="count" style="margin-bottom:6px;color:#111">${formatCount(counts[0])}</div>
                     <input data-role="range" type="range" min="0" max="${frames.length - 1}" value="0" step="1" style="width:100%" />
                     <button data-role="play" type="button" style="margin-top:6px;color:#111">Pausar</button>
                 `;
@@ -72,6 +78,7 @@ class AnimatedHeatMap(JSCSSMixin, MacroElement):
 
             const container = control.getContainer();
             const label = container.querySelector('[data-role="label"]');
+            const count = container.querySelector('[data-role="count"]');
             const range = container.querySelector('[data-role="range"]');
             const play = container.querySelector('[data-role="play"]');
 
@@ -79,6 +86,7 @@ class AnimatedHeatMap(JSCSSMixin, MacroElement):
                 current = Number(index);
                 heatLayer.setLatLngs(frames[current] || []);
                 label.textContent = labels[current] || "";
+                count.textContent = formatCount(counts[current]);
                 range.value = current;
             }
 
@@ -116,11 +124,12 @@ class AnimatedHeatMap(JSCSSMixin, MacroElement):
         )
     ]
 
-    def __init__(self, frames, labels, radius=22, blur=15, min_opacity=0.25):
+    def __init__(self, frames, labels, counts, radius=22, blur=15, min_opacity=0.25):
         super().__init__()
         self._name = "AnimatedHeatMap"
         self.frames_json = json.dumps(frames)
         self.labels_json = json.dumps(labels)
+        self.counts_json = json.dumps(counts)
         self.radius = radius
         self.blur = blur
         self.min_opacity = min_opacity
@@ -245,7 +254,9 @@ def render_temporal_heatmap(
 
     max_count = max(geo_data_all["count"].max(), 1)
     frames = []
+    frame_counts = []
     for frame in geo_frames:
+        frame_counts.append(int(frame["count"].sum()) if len(frame) else 0)
         points = [
             [row["lat"], row["lng"], max(row["count"] / max_count, 0.05)]
             for _, row in frame.iterrows()
@@ -253,7 +264,7 @@ def render_temporal_heatmap(
         frames.append(points)
 
     m = folium.Map(location=centro, zoom_start=zoom_start, tiles="OpenStreetMap")
-    AnimatedHeatMap(frames, labels, radius=radius).add_to(m)
+    AnimatedHeatMap(frames, labels, frame_counts, radius=radius).add_to(m)
     st_folium(m, width=1200, height=600, returned_objects=[])
 
 
