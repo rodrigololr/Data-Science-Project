@@ -14,7 +14,7 @@
 Análise de 14 anos de microdados de Crimes Violentos Letais Intencionais (CVLI) em Alagoas, com entrega de:
 
 1. **EDA documentada** (NB01 + NB01b)
-2. **Mapa espaço-temporal interativo** (NB03)
+2. **Mapa espaço-temporal interativo** com modo temporal animado (NB03 + Dashboard)
 3. **Preditor de Risco Real** para Maceió via **Regressão de Poisson** (NB04)
 4. **Dashboard Streamlit Modular** com Mapa + Preditor + Explicação por IA (Gemini)
 
@@ -65,6 +65,23 @@ python scripts/train_poisson_risk.py
 # 4. Subir dashboard
 streamlit run app/streamlit_app.py
 ```
+
+## Mapa Espaço-Temporal
+
+A aba **Mapa** possui dois modos de visualização:
+
+- **Mapa atual:** visualização estática já existente, com filtros por período, janela temporal, sexo, instrumento e zoom por cidade.
+- **Mapa temporal:** visualização animada da concentração de CVLI ao longo do tempo, sem substituir o mapa atual.
+
+No **Mapa temporal**, os filtros de período e janela ficam desativados porque a janela temporal é definida pelos controles próprios da animação:
+
+- **Data central da animação:** ponto central da análise temporal.
+- **Hora central:** hora de referência da data central.
+- **Alcance:** quantidade de dias antes e depois da data central exibidos na animação.
+- **Acumular por quadro:** janela móvel de eventos agregados em cada quadro, evitando frames vazios em dados esparsos.
+- **Intervalo entre quadros:** distância temporal entre os frames da animação.
+
+O controle no mapa exibe a janela temporal atual e o número de **ocorrências** representadas naquele quadro. A intensidade do heatmap aumenta conforme a concentração de eventos por município ou bairro.
 
 ## Decisões Arquiteturais Evoluídas
 

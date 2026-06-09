@@ -1,5 +1,7 @@
 """Pagina 1 - Mapa espaco-temporal."""
 from __future__ import annotations
+import datetime as dt
+import json
 import sys
 from pathlib import Path
 
@@ -7,6 +9,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import folium
+from branca.element import MacroElement, Template
+from folium.elements import JSCSSMixin
 from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 
@@ -19,6 +23,283 @@ st.markdown(
     "Visualize a distribuição geográfica de CVLI com filtro de **ano**, "
     "**janela temporal**, **sexo** e **instrumento**."
 )
+
+modo_mapa = st.radio(
+    "Modo de visualização",
+    ["Mapa atual", "Mapa temporal"],
+    horizontal=True,
+)
+is_temporal = modo_mapa == "Mapa temporal"
+
+
+class AnimatedHeatMap(JSCSSMixin, MacroElement):
+    """Animated Leaflet heat layer without the TimeDimension plugin."""
+
+    _template = Template(
+        """
+        {% macro script(this, kwargs) %}
+        (function() {
+            const map = {{ this._parent.get_name() }};
+            const frames = {{ this.frames_json }};
+            const labels = {{ this.labels_json }};
+            const counts = {{ this.counts_json }};
+            const heatLayer = L.heatLayer(frames[0] || [], {
+                radius: {{ this.radius }},
+                blur: {{ this.blur }},
+                minOpacity: {{ this.min_opacity }},
+                gradient: {{ this.gradient_json }}
+            }).addTo(map);
+
+            let current = 0;
+            let timer = null;
+            function formatCount(value) {
+                const total = value || 0;
+                return `${total} ${total === 1 ? "ocorrência" : "ocorrências"}`;
+            }
+            const control = L.control({position: "bottomleft"});
+            control.onAdd = function() {
+                const div = L.DomUtil.create("div", "leaflet-bar temporal-control");
+                div.style.background = "white";
+                div.style.padding = "8px";
+                div.style.minWidth = "260px";
+                div.style.boxShadow = "0 1px 5px rgba(0,0,0,0.35)";
+                div.innerHTML = `
+                    <div style="font-weight:700;margin-bottom:6px;color:#111">CVLI acumulado</div>
+                    <div data-role="label" style="margin-bottom:6px;color:#111">${labels[0] || ""}</div>
+                    <div data-role="count" style="margin-bottom:6px;color:#111">${formatCount(counts[0])}</div>
+                    <input data-role="range" type="range" min="0" max="${frames.length - 1}" value="0" step="1" style="width:100%" />
+                    <button data-role="play" type="button" style="margin-top:6px;color:#111">Pausar</button>
+                `;
+                L.DomEvent.disableClickPropagation(div);
+                L.DomEvent.disableScrollPropagation(div);
+                return div;
+            };
+            control.addTo(map);
+
+            const container = control.getContainer();
+            const label = container.querySelector('[data-role="label"]');
+            const count = container.querySelector('[data-role="count"]');
+            const range = container.querySelector('[data-role="range"]');
+            const play = container.querySelector('[data-role="play"]');
+
+            function showFrame(index) {
+                current = Number(index);
+                heatLayer.setLatLngs(frames[current] || []);
+                label.textContent = labels[current] || "";
+                count.textContent = formatCount(counts[current]);
+                range.value = current;
+            }
+
+            function start() {
+                if (timer) return;
+                play.textContent = "Pausar";
+                timer = window.setInterval(function() {
+                    showFrame((current + 1) % frames.length);
+                }, 900);
+            }
+
+            function stop() {
+                window.clearInterval(timer);
+                timer = null;
+                play.textContent = "Play";
+            }
+
+            range.addEventListener("input", function(event) {
+                stop();
+                showFrame(event.target.value);
+            });
+            play.addEventListener("click", function() {
+                timer ? stop() : start();
+            });
+            start();
+        })();
+        {% endmacro %}
+        """
+    )
+
+    default_js = [
+        (
+            "leaflet_heat",
+            "https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet_heat.min.js",
+        )
+    ]
+
+    def __init__(self, frames, labels, counts, radius=22, blur=15, min_opacity=0.25):
+        super().__init__()
+        self._name = "AnimatedHeatMap"
+        self.frames_json = json.dumps(frames)
+        self.labels_json = json.dumps(labels)
+        self.counts_json = json.dumps(counts)
+        self.radius = radius
+        self.blur = blur
+        self.min_opacity = min_opacity
+        self.gradient_json = json.dumps(
+            {0.2: "blue", 0.4: "lime", 0.6: "yellow", 0.8: "orange", 1.0: "red"}
+        )
+
+
+def with_event_datetime(data: pd.DataFrame) -> pd.DataFrame:
+    """Adiciona timestamp do evento a partir da data e hora registradas."""
+    result = data.copy()
+    result["evento_dt"] = pd.to_datetime(result["data_fato"], errors="coerce") + pd.to_timedelta(
+        result["hora"].fillna(0).astype(int), unit="h"
+    )
+    return result
+
+
+def offset_hash(value: str) -> tuple[float, float]:
+    import hashlib
+
+    h = int(hashlib.md5(str(value).encode()).hexdigest()[:4], 16)
+    return ((h % 201) - 100) * 0.001, ((h >> 8) % 201 - 100) * 0.001
+
+
+def add_missing_bairro_coords(cidade_data: pd.DataFrame, cidade: str, mun: pd.DataFrame) -> pd.DataFrame:
+    if not cidade_data["lat"].isna().any():
+        return cidade_data
+
+    mun_row = mun[mun.cidade_norm == cidade]
+    if len(mun_row) > 0:
+        lat_c, lng_c = mun_row.iloc[0].lat, mun_row.iloc[0].lng
+    else:
+        lat_c = cidade_data["lat"].mean()
+        lng_c = cidade_data["lng"].mean()
+
+    for idx, row in cidade_data.iterrows():
+        if pd.isna(row["lat"]) or pd.isna(row["lng"]):
+            dlat, dlng = offset_hash(row["bairro"])
+            cidade_data.at[idx, "lat"] = lat_c + dlat
+            cidade_data.at[idx, "lng"] = lng_c + dlng
+
+    return cidade_data
+
+
+def render_temporal_heatmap(
+    df_window: pd.DataFrame,
+    zoom_cidade: str,
+    mun: pd.DataFrame,
+    frames_tempo: pd.DatetimeIndex,
+    acumulacao: pd.Timedelta,
+) -> None:
+    labels = [
+        f"{(fim - acumulacao):%d/%m %Hh} -> {fim:%d/%m %Hh}"
+        for fim in frames_tempo
+    ]
+    geo_frames = []
+    all_geo_data = []
+
+    if zoom_cidade == "(Visão geral Alagoas)":
+        centro = [-9.5, -36.5]
+        zoom_start = 7
+        radius = 22
+
+        for fim in frames_tempo:
+            inicio = fim - acumulacao
+            frame_df = df_window[df_window["evento_dt"].between(inicio, fim)]
+            grouped = frame_df.groupby("cidade_match").size().reset_index(name="count")
+            geo_data = grouped.merge(
+                mun[["cidade_norm", "lat", "lng"]],
+                left_on="cidade_match",
+                right_on="cidade_norm",
+                how="left",
+            ).dropna(subset=["lat", "lng"])
+            geo_frames.append(geo_data)
+            all_geo_data.append(geo_data)
+    else:
+        bairros_geo = load_bairros_top5()
+        bairros_geo_cidade = bairros_geo[bairros_geo["cidade"] == zoom_cidade].copy()
+        bairros_geo_cidade["bairro_norm"] = (
+            bairros_geo_cidade["bairro"].astype(str).str.strip().str.upper()
+        )
+
+        for fim in frames_tempo:
+            inicio = fim - acumulacao
+            df_cidade = df_window[
+                (df_window["cidade_match"] == zoom_cidade)
+                & df_window["evento_dt"].between(inicio, fim)
+            ].copy()
+            grouped = (
+                df_cidade.groupby("BAIRRO DO FATO")
+                .size()
+                .reset_index(name="count")
+                .rename(columns={"BAIRRO DO FATO": "bairro"})
+            )
+            grouped["bairro_norm"] = grouped["bairro"].astype(str).str.strip().str.upper()
+            geo_data = grouped.merge(
+                bairros_geo_cidade[["bairro_norm", "lat", "lng"]],
+                on="bairro_norm",
+                how="left",
+            ).drop(columns=["bairro_norm"])
+            geo_data = add_missing_bairro_coords(geo_data, zoom_cidade, mun).dropna(
+                subset=["lat", "lng"]
+            )
+            geo_frames.append(geo_data)
+            all_geo_data.append(geo_data)
+
+        geo_data_all = pd.concat(all_geo_data, ignore_index=True) if all_geo_data else pd.DataFrame()
+
+        if len(geo_data_all) > 0:
+            coord = geo_data_all[["lat", "lng"]].mean()
+            centro = [coord["lat"], coord["lng"]]
+        else:
+            mun_row = mun[mun.cidade_norm == zoom_cidade]
+            centro = [mun_row.iloc[0].lat, mun_row.iloc[0].lng] if len(mun_row) else [-9.5, -36.5]
+        zoom_start = 12
+        radius = 18
+
+    geo_data_all = pd.concat(all_geo_data, ignore_index=True) if all_geo_data else pd.DataFrame()
+    if len(geo_data_all) == 0:
+        st.warning("Sem coordenadas para os eventos na janela selecionada.")
+        return
+
+    max_count = max(geo_data_all["count"].max(), 1)
+    frames = []
+    frame_counts = []
+    for frame in geo_frames:
+        frame_counts.append(int(frame["count"].sum()) if len(frame) else 0)
+        points = [
+            [row["lat"], row["lng"], max(row["count"] / max_count, 0.05)]
+            for _, row in frame.iterrows()
+        ]
+        frames.append(points)
+
+    m = folium.Map(location=centro, zoom_start=zoom_start, tiles="OpenStreetMap")
+    AnimatedHeatMap(frames, labels, frame_counts, radius=radius).add_to(m)
+    st_folium(m, width=1200, height=600, returned_objects=[])
+
+
+def render_empty_map(zoom_cidade: str, mun: pd.DataFrame) -> None:
+    if zoom_cidade == "(Visão geral Alagoas)":
+        centro = [-9.5, -36.5]
+        zoom_start = 7
+    else:
+        mun_row = mun[mun.cidade_norm == zoom_cidade]
+        centro = [mun_row.iloc[0].lat, mun_row.iloc[0].lng] if len(mun_row) else [-9.5, -36.5]
+        zoom_start = 12
+
+    m = folium.Map(location=centro, zoom_start=zoom_start, tiles="OpenStreetMap")
+    st_folium(m, width=1200, height=600, returned_objects=[])
+
+
+def show_nearest_event_hint(
+    df_base: pd.DataFrame,
+    center_dt: pd.Timestamp,
+    zoom_cidade: str,
+) -> None:
+    nearby = df_base.copy()
+    if zoom_cidade != "(Visão geral Alagoas)":
+        nearby = nearby[nearby["cidade_match"] == zoom_cidade]
+
+    if len(nearby) == 0:
+        return
+
+    distances = (nearby["evento_dt"] - center_dt).abs()
+    nearest = nearby.loc[distances.idxmin()]
+    delta_hours = distances.min() / pd.Timedelta(hours=1)
+    st.info(
+        f"Evento mais próximo para este recorte: "
+        f"{nearest['evento_dt']:%d/%m/%Y %H:00} ({delta_hours:.0f}h de distância)."
+    )
 
 # === Dados brutos (cacheado) ===
 df_full = load_clean()
@@ -39,6 +320,7 @@ with col1:
         "📅 Período",
         options=ano_options,
         index=0,  # default: Todo o tempo
+        disabled=is_temporal,
     )
 
 # Flag Todo o tempo
@@ -51,10 +333,10 @@ with col2:
         ["Ano inteiro", "Semestre", "Trimestre", "Mês"],
         index=0,
         horizontal=True,
-        disabled=is_all_time,  # desabilitado em Todo o tempo
+        disabled=is_all_time or is_temporal,  # desabilitado em Todo o tempo/temporal
     )
-    # Forçar "Ano inteiro" em Todo o tempo
-    if is_all_time:
+    # Forçar "Ano inteiro" quando o controle temporal principal esta desativado.
+    if is_all_time or is_temporal:
         janela = "Ano inteiro"
 
 with col3:
@@ -71,6 +353,11 @@ with col4:
         default=["Arma de fogo", "Arma branca", "Espancamento", "Outros"],
     )
 
+sexo_filter_eff = sexo_filter or ["Masculino", "Feminino"]
+instrumento_filter_eff = instrumento_filter or [
+    "Arma de fogo", "Arma branca", "Espancamento", "Outros"
+]
+
 # === Filtro adicional: cidade (top 5 ativa heatmap de bairro) ===
 top5 = ["Maceio", "Arapiraca", "Rio Largo", "Uniao dos Palmares", "Marechal Deodoro"]
 zoom_cidade = st.selectbox(
@@ -79,15 +366,77 @@ zoom_cidade = st.selectbox(
     index=0,
 )
 
+center_dt = None
+inicio_temporal = None
+fim_temporal = None
+frames_tempo = None
+acumulacao = None
+if is_temporal:
+    df_temporal_base = with_event_datetime(df_full).dropna(subset=["evento_dt"])
+    df_temporal_base["cidade_match"] = (
+        df_temporal_base["CIDADE DO FATO"]
+        .astype(str)
+        .str.strip()
+        .replace({"Maceió": "Maceio", "União dos Palmares": "Uniao dos Palmares"})
+    )
+    min_date = df_temporal_base["evento_dt"].min().date()
+    max_date = df_temporal_base["evento_dt"].max().date()
+    tcol1, tcol2, tcol3, tcol4 = st.columns([2, 1, 1, 1])
+    with tcol1:
+        data_centro = st.date_input(
+            "Data central da animação",
+            value=max_date,
+            min_value=min_date,
+            max_value=max_date,
+        )
+    with tcol2:
+        hora_centro = st.slider("Hora central", 0, 23, 12)
+    with tcol3:
+        alcance_label = st.selectbox(
+            "Alcance",
+            ["7 dias", "15 dias", "30 dias"],
+            index=2,
+        )
+    with tcol4:
+        acumulacao_label = st.selectbox(
+            "Acumular por quadro",
+            ["24 horas", "3 dias", "7 dias"],
+            index=2,
+        )
+
+    passo_label = st.radio(
+        "Intervalo entre quadros",
+        ["6 horas", "12 horas", "1 dia"],
+        index=2,
+        horizontal=True,
+    )
+
+    center_dt = pd.Timestamp(dt.datetime.combine(data_centro, dt.time(hour=hora_centro)))
+    alcance = pd.Timedelta(days=int(alcance_label.split()[0]))
+    acumulacao = pd.Timedelta(hours=24) if acumulacao_label == "24 horas" else pd.Timedelta(
+        days=int(acumulacao_label.split()[0])
+    )
+    passo = {"6 horas": "6h", "12 horas": "12h", "1 dia": "24h"}[passo_label]
+    inicio_temporal = center_dt - alcance
+    fim_temporal = center_dt + alcance
+    frames_tempo = pd.date_range(inicio_temporal, fim_temporal, freq=passo)
+    st.caption(
+        "No modo temporal, os filtros de período e janela ficam desativados. "
+        "Cada quadro acumula eventos no período anterior, reduzindo quadros vazios."
+    )
+
 # === APLICAR FILTROS ===
 # Filtro por ano (ou Todo o tempo)
-if is_all_time:
+if is_temporal:
+    df = with_event_datetime(df_full)
+    df = df[df["evento_dt"].between(inicio_temporal - acumulacao, fim_temporal)].copy()
+elif is_all_time:
     df = df_full.copy()
 else:
     df = df_full[df_full["ano"] == ano_filter].copy()
 
-# Filtro de janela dentro do ano (so aplica se NAO for Todo o tempo)
-if not is_all_time:
+# Filtro de janela dentro do ano (so aplica no mapa atual com ano especifico)
+if not is_all_time and not is_temporal:
     if janela == "Semestre":
         semestre = st.radio(
             "Semestre",
@@ -122,8 +471,8 @@ if not is_all_time:
         df = df[df["mes"] == mes]
 
 # Filtros demograficos
-df = df[df["SEXO DA VITIMA"].isin(sexo_filter)]
-df = df[df["grupo_instrumento"].isin(instrumento_filter)]
+df = df[df["SEXO DA VITIMA"].isin(sexo_filter_eff)]
+df = df[df["grupo_instrumento"].isin(instrumento_filter_eff)]
 
 # Normalizar cidade para match com geo
 df["cidade_match"] = (
@@ -143,7 +492,11 @@ mun_data = mun.merge(
 mun_data["count"] = mun_data["count"].fillna(0)
 
 # === Construir mapa ===
-if is_all_time:
+if is_temporal:
+    periodo_label = (
+        f" — {inicio_temporal:%d/%m/%Y %H:00} a {fim_temporal:%d/%m/%Y %H:00}"
+    )
+elif is_all_time:
     periodo_label = f" — {all_time_label}"
 else:
     periodo_label = f" — {ano_filter}"
@@ -154,7 +507,26 @@ else:
     elif janela == "Mês":
         periodo_label += f"/{mes:02d}"
 
-if zoom_cidade == "(Visão geral Alagoas)":
+if is_temporal:
+    titulo_area = "Alagoas" if zoom_cidade == "(Visão geral Alagoas)" else zoom_cidade
+    df_window_title = df[df["evento_dt"].between(inicio_temporal, fim_temporal)]
+    if zoom_cidade != "(Visão geral Alagoas)":
+        df_window_title = df_window_title[df_window_title["cidade_match"] == zoom_cidade]
+    st.subheader(
+        f"Mapa temporal — {titulo_area}{periodo_label} — {len(df_window_title):,} casos"
+    )
+    if len(df) == 0:
+        st.warning("Sem eventos na janela temporal com os filtros selecionados.")
+        render_empty_map(zoom_cidade, mun)
+        hint_base = df_temporal_base[
+            df_temporal_base["SEXO DA VITIMA"].isin(sexo_filter_eff)
+            & df_temporal_base["grupo_instrumento"].isin(instrumento_filter_eff)
+        ]
+        show_nearest_event_hint(hint_base, center_dt, zoom_cidade)
+    else:
+        render_temporal_heatmap(df, zoom_cidade, mun, frames_tempo, acumulacao)
+
+elif zoom_cidade == "(Visão geral Alagoas)":
     st.subheader(f"Visão geral de Alagoas{periodo_label} — {len(df):,} casos no total")
     m = folium.Map(location=[-9.5, -36.5], zoom_start=7, tiles="OpenStreetMap")
     max_count = max(mun_data["count"].max(), 1)
@@ -205,26 +577,8 @@ else:
         )
         cidade_data = cidade_data.drop(columns=["bairro_norm"])
 
-        # Fallback para bairros sem coords Nominatim:
-        # centroide da cidade + offset hash (pequeno, ~1km)
-        if cidade_data["lat"].isna().any():
-            import hashlib
-            mun_row = mun[mun.cidade_norm == zoom_cidade]
-            if len(mun_row) > 0:
-                lat_c, lng_c = mun_row.iloc[0].lat, mun_row.iloc[0].lng
-            else:
-                lat_c = cidade_data["lat"].mean()
-                lng_c = cidade_data["lng"].mean()
-
-            def offset_hash(bairro):
-                h = int(hashlib.md5(str(bairro).encode()).hexdigest()[:4], 16)
-                return ((h % 201) - 100) * 0.001, ((h >> 8) % 201 - 100) * 0.001
-
-            for idx, row in cidade_data.iterrows():
-                if pd.isna(row["lat"]) or pd.isna(row["lng"]):
-                    dlat, dlng = offset_hash(row["bairro"])
-                    cidade_data.at[idx, "lat"] = lat_c + dlat
-                    cidade_data.at[idx, "lng"] = lng_c + dlng
+        # Fallback para bairros sem coords Nominatim: centroide + offset hash pequeno.
+        cidade_data = add_missing_bairro_coords(cidade_data, zoom_cidade, mun)
 
         cidade_data = cidade_data.dropna(subset=["lat", "lng", "count"])
         cidade_data["count"] = cidade_data["count"].fillna(0).astype(int)
