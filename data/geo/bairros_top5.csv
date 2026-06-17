@@ -1,172 +1,170 @@
 cidade,bairro,count,lat,lng
-Maceio,Benedito Bentes,874,-9.5561682,-35.7237673
-Maceio,Cidade Universitária,748,-9.5474019,-35.7653816
-Maceio,Jacintinho,727,-9.6395847,-35.7177349
-Maceio,Tabuleiro do Martins,486,-9.5943923,-35.7509295
-Maceio,Clima Bom,458,-9.5744116,-35.7852824
-Maceio,Vergel do Lago,355,-9.6549289,-35.7578074
-Maceio,Levada,206,-9.6592319,-35.7454189
-Maceio,Feitosa,195,-9.6284871,-35.721956
-Maceio,Santos Dumont,184,-9.5567283,-35.7884923
-Maceio,Trapiche da Barra,175,-9.6716977,-35.7592837
-Maceio,Santa Lúcia,165,-9.5813609,-35.7535285
-Maceio,Chã da Jaqueira,157,-9.6160875,-35.7484338
-Maceio,Ponta Grossa,138,-9.6616365,-35.7544695
-Maceio,Poço,124,-9.6629654,-35.723402
-Maceio,Centro,104,-9.6664457,-35.7371385
-Maceio,Antares,99,-9.5794626,-35.7362542
-Maceio,Ipioca,99,-9.5102735,-35.5947164
-Maceio,Farol,93,-9.6499931,-35.7347635
-Maceio,Petrópolis,91,-9.605307,-35.7574033
-Maceio,Bebedouro,86,-9.6251394,-35.7525875
-Maceio,Prado,80,-9.6694197,-35.7490135
-Maceio,Jatiúca,79,-9.6503095,-35.7060709
-Maceio,Riacho Doce,78,-9.5584921,-35.6469817
-Maceio,Chã de Bebedouro,77,-9.6195126,-35.7572043
-Maceio,Barro Duro,70,-9.6189777,-35.7192917
-Maceio,São Jorge,70,-9.6178778,-35.7058252
-Maceio,Bom Parto,64,-9.6518915,-35.743108
-Maceio,Rio Novo,63,-9.5797789,-35.8032391
-Maceio,Serraria,63,-9.6024662,-35.721639
-Maceio,Pajuçara,59,-9.667561,-35.7181859
-Maceio,Santa Amélia,59,-9.5885348,-35.7752337
-Maceio,Cruz das Almas,54,-9.6335312,-35.6996166
-Maceio,Fernão Velho,52,-9.5902515,-35.7848113
-Maceio,Pontal da Barra,52,-9.6937793,-35.7750969
-Maceio,Ouro Preto,52,-9.604452,-35.7306858
-Maceio,Jacarecica,50,-9.6178488,-35.6931586
-Maceio,Pinheiro,49,-9.6321474,-35.7419526
-Maceio,Guaxuma,44,-9.5944229,-35.6764744
-Maceio,Jaraguá,41,-9.6702423,-35.7238513
-Maceio,Gruta de Lourdes,41,-9.6208518,-35.7342209
-Maceio,Pitanguinha,39,-9.6372814,-35.7325694
-Maceio,Canaã,38,-9.6047767,-35.7389067
-Maceio,Mutange,28,-9.6386023,-35.7472803
-Maceio,Ponta da Terra,28,-9.6639778,-35.7151858
-Maceio,Jardim Petrópolis,24,-9.5980076,-35.7425776
-Maceio,Mangabeiras,20,-9.6470188,-35.7147364
-Maceio,Pescaria,20,-9.5472179,-35.6247223
-Maceio,Ponta Verde,17,-9.6604975,-35.7034391
-Maceio,Garça Torta,17,-9.5834105,-35.6638105
-Maceio,Santo Amaro,13,-9.608248,-35.742415
-Maceio,Zona Rural,5,,
-Maceio,Bairro não Informado,3,,
-Arapiraca,Primavera,113,-9.7643923,-36.6597569
-Arapiraca,Olho d Água dos Cazuzinhos,103,,
-Arapiraca,Manoel Teles,95,-9.7552779,-36.6685438
-Arapiraca,Canafístula,90,-9.7617449,-36.6313661
-Arapiraca,Planalto,79,-9.723661,-36.6645742
-Arapiraca,Centro,56,-9.7521269,-36.6616988
-Arapiraca,Brasília,55,-9.7533429,-36.6472793
-Arapiraca,Bom Sucesso,54,-9.7136457,-36.6912037
-Arapiraca,Zona Rural Leste,52,,
-Arapiraca,Cacimbas,46,-9.7609136,-36.6643167
-Arapiraca,Zona Rural Oeste,38,,
-Arapiraca,Zélia Barbosa Rocha,35,-9.7486107,-36.6843569
-Arapiraca,Alto do Cruzeiro,33,-9.7478551,-36.6546822
-Arapiraca,Senador Nilo Coelho,28,-9.7303027,-36.6955922
-Arapiraca,Baixão,27,-9.7493143,-36.6697455
-Arapiraca,Vila Bananeira,24,,
-Arapiraca,Ouro Preto,22,-9.7598193,-36.6543871
-Arapiraca,Jardim Esperança,22,-9.7251161,-36.6835889
-Arapiraca,Boa Vista,21,-9.7787041,-36.6354595
-Arapiraca,Sítio Cangandu,20,,
-Arapiraca,Caititus,20,-9.7387931,-36.6566777
-Arapiraca,Itapoã,19,-9.7478445,-36.6389966
-Arapiraca,Cavaco,18,-9.7391949,-36.6752172
-Arapiraca,Verdes Campos,18,-9.7796543,-36.6483947
-Arapiraca,Massaranduba,17,-9.7087505,-36.6630971
-Arapiraca,Senador Arnon de Melo,16,-9.7340811,-36.6389097
-Arapiraca,Jardim Tropical,16,,
-Arapiraca,Brasiliana,15,-9.7333262,-36.6648209
-Arapiraca,Nova Esperança,15,-9.6428691,-36.6826596
-Arapiraca,Povoado Canaã,14,,
-Arapiraca,Batingas,14,,
-Arapiraca,João Paulo II,14,-9.7718596,-36.6663908
-Arapiraca,Povoado Capim,13,,
-Arapiraca,Sítio Pau d Arco,13,,
-Arapiraca,Baixa Grande,13,-9.7336276,-36.6727817
-Arapiraca,Senador Teotônio Vilela,12,-9.7439427,-36.6587055
-Arapiraca,Vila São José,12,,
-Arapiraca,Povoado Fazenda Velha,12,,
-Arapiraca,Mangabeiras,11,-9.7231176,-36.6457827
-Arapiraca,Guaribas,10,-9.7850164,-36.6587819
-Arapiraca,Santa Edwiges,10,-9.7358746,-36.6597784
-Arapiraca,Sítio Alazão,10,,
-Arapiraca,Sítio Barreiras,10,,
-Arapiraca,Capiatã,9,-9.7419336,-36.662482
-Arapiraca,Eldorado,9,-9.7424306,-36.6676962
-Arapiraca,Sítio Laranjal,9,,
-Arapiraca,Sítio Mulungu,8,,
-Arapiraca,Padre Antônio Lima Neto,8,-9.7626054,-36.6686136
-Arapiraca,Sítio Bom Nome,8,,
-Arapiraca,Sítio Bom Jardim,8,,
-Arapiraca,Sítio Breu,7,,
-Arapiraca,Povoado Baixa da Onça,7,,
-Arapiraca,São Luiz II,7,-9.7692455,-36.6549182
-Arapiraca,Sítio Bálsamo,7,,
-Arapiraca,Sítio Fernandes,6,,
-Arapiraca,São Luiz,6,-9.7649315,-36.6479016
-Arapiraca,Sítio Flexeiras,6,,
-Arapiraca,Sítio Poção,5,,
-Arapiraca,Sítio Corredor,5,,
-Arapiraca,Sítio Xexéu,5,,
-Arapiraca,Sítio Ponto Novo,4,,
-Arapiraca,Sítio Carrasco,4,,
-Arapiraca,Povoado Pau Ferro,4,,
-Arapiraca,Santa Esmeralda,4,-9.7398505,-36.6507554
-Arapiraca,Sítio Mundo Novo,3,,
-Arapiraca,Sítio Lagoa do Rancho,3,,
-Arapiraca,Sítio Piauí,3,,
-Arapiraca,Bairro não Informado,3,,
-Arapiraca,Povoado Lagoa Cavada,3,,
-Arapiraca,Sítio Furnas,3,,
-Arapiraca,Vila São Francisco,3,,
-Arapiraca,Novo Horizonte,2,-9.7439639,-36.645273
-Arapiraca,Sítio Sapucaia,2,,
-Arapiraca,Sítio Baixa do Capim,2,,
-Arapiraca,Sítio Gruta d Água,2,,
-Arapiraca,Vila Aparecida,2,,
-Arapiraca,Sítio Taquara,2,,
-Arapiraca,Sítio Cajarana,2,-9.8227578,-36.6086886
-Arapiraca,Sítio Itapicuru,2,,
-Arapiraca,Povoado Mocó,1,,
-Arapiraca,Sítio Batingas,1,,
-Arapiraca,Sítio Sementeira,1,,
-Arapiraca,Sítio Oitizeiro,1,,
-Arapiraca,Sítio Tingui,1,,
-Arapiraca,Sítio Braúnas,1,,
-Arapiraca,Sítio Poço da Pedra,1,,
-Arapiraca,Sítio Varginha,1,,
-Arapiraca,Jardim de Maria,1,-9.7777687,-36.6472397
-Rio Largo,Mata do Rolo,349,-9.474311,-35.822876
-Rio Largo,Tabuleiro do Pinto,231,-9.5037697,-35.8135258
-Rio Largo,Centro,192,-9.4664597,-35.8304353
-Rio Largo,Zona Rural,90,,
-Rio Largo,Utinga Leão,14,-9.5506828,-35.8693029
-Rio Largo,Bairro não Informado,2,,
-Uniao dos Palmares,Centro,125,,
-Uniao dos Palmares,Zona Rural,118,,
-Uniao dos Palmares,Roberto Correia de Araújo,65,,
-Uniao dos Palmares,Santa Fé,31,,
-Uniao dos Palmares,Nova Esperança,27,,
-Uniao dos Palmares,Abolição,20,,
-Uniao dos Palmares,Sagrada Família,16,,
-Uniao dos Palmares,Várzea Grande,12,,
-Uniao dos Palmares,Padre Donald,9,-9.1595368,-36.0262463
-Uniao dos Palmares,Santa Maria Madalena,8,-9.1586442,-36.0310077
-Uniao dos Palmares,Alto do Cruzeiro,7,-9.1614292,-36.0275299
-Uniao dos Palmares,Vaquejada,7,,
-Uniao dos Palmares,Rocha Cavalcante,7,-9.088872,-36.0683357
-Uniao dos Palmares,Costa e Silva,4,,
-Uniao dos Palmares,Taquari,4,,
-Uniao dos Palmares,Bairro não Informado,3,,
-Uniao dos Palmares,Timbó,3,-9.1819056,-36.0468352
-Uniao dos Palmares,Cohab (Velha),2,,
-Uniao dos Palmares,Bairro de Fátima,2,-9.1553324,-36.0298904
-Uniao dos Palmares,Usina Laginha,1,-9.1839564,-36.0450276
-Marechal Deodoro,Zona Rural,331,-4.0207258,-44.9504914
-Marechal Deodoro,Centro,52,-9.715875,-35.8945826
-Marechal Deodoro,Barra Nova,28,-9.7132349,-35.8171263
-Marechal Deodoro,Massagueira,24,-9.7328438,-35.8392631
-Marechal Deodoro,Francês,23,-9.7672135,-35.8510199
+Maceio,Benedito Bentes,831,-9.629080136095892,-35.72469770246539
+Maceio,Cidade Universitária,732,-9.642270530866988,-35.71027752980841
+Maceio,Jacintinho,720,-9.642032018503649,-35.71126315424027
+Maceio,Tabuleiro do Martins,473,-9.645891404014987,-35.69155679667416
+Maceio,Clima Bom,450,-9.645939899646198,-35.71382202500578
+Maceio,Vergel do Lago,343,-9.62952123993205,-35.72363397544812
+Maceio,Feitosa,194,-9.656988102750152,-35.72152763244743
+Maceio,Levada,192,-9.637384165370229,-35.690185827398835
+Maceio,Santos Dumont,178,-9.660389514180457,-35.6855494926069
+Maceio,Trapiche da Barra,170,-9.637202560331954,-35.6903359370634
+Maceio,Santa Lúcia,158,-9.6709617692714,-35.7155676955511
+Maceio,Chã da Jaqueira,156,-9.666029809713837,-35.73206386871929
+Maceio,Ponta Grossa,134,-9.643643119106919,-35.68665593416364
+Maceio,Poço,119,-9.63299474539212,-35.697290601964994
+Maceio,Antares,98,-9.642244420738017,-35.70841242887753
+Maceio,Ipioca,97,-9.645737377370647,-35.6996957547381
+Maceio,Centro,96,-9.626383181333631,-35.70721633533428
+Maceio,Petrópolis,89,-9.648010398695249,-35.68811357207331
+Maceio,Farol,89,-9.638775349269803,-35.71801550817175
+Maceio,Bebedouro,84,-9.636725824187215,-35.71537006684017
+Maceio,Prado,78,-9.637165164331247,-35.706325518434596
+Maceio,Chã de Bebedouro,77,-9.667599242316467,-35.68799109926645
+Maceio,Jatiúca,76,-9.660444589139997,-35.71000510881667
+Maceio,Riacho Doce,75,-9.631822462460917,-35.691938280894526
+Maceio,Barro Duro,67,-9.649680515254309,-35.685753741461376
+Maceio,São Jorge,66,-9.640514336784026,-35.733172643134296
+Maceio,Bom Parto,61,-9.652126915826958,-35.702903993870926
+Maceio,Serraria,61,-9.649430615016128,-35.72651643668698
+Maceio,Rio Novo,59,-9.672006930955222,-35.684830902653125
+Maceio,Santa Amélia,58,-9.660340987908734,-35.721693404641044
+Maceio,Pajuçara,53,-9.658889893296848,-35.72336573483745
+Maceio,Fernão Velho,51,-9.636854683526991,-35.716313879871
+Maceio,Ouro Preto,51,-9.65103066693224,-35.733228971537606
+Maceio,Cruz das Almas,49,-9.669276278753598,-35.72613685087455
+Maceio,Jacarecica,49,-9.635272215272131,-35.717061374247436
+Maceio,Pontal da Barra,48,-9.666721805867908,-35.73078786459083
+Maceio,Pinheiro,45,-9.653883058407784,-35.724086432036614
+Maceio,Guaxuma,42,-9.632213304878263,-35.71018812573997
+Maceio,Gruta de Lourdes,41,-9.657131884077828,-35.703201001767
+Maceio,Jaraguá,40,-9.626666497949667,-35.72772161643445
+Maceio,Pitanguinha,38,-9.639923390991969,-35.71191322292723
+Maceio,Canaã,37,-9.661637681100434,-35.69222067413915
+Maceio,Ponta da Terra,27,-9.663319778088322,-35.70331560425782
+Maceio,Mutange,26,-9.64739791583582,-35.72354700503034
+Maceio,Jardim Petrópolis,23,-9.626421560589788,-35.70168600215162
+Maceio,Mangabeiras,19,-9.628112446957761,-35.69293311372014
+Maceio,Pescaria,19,-9.655801620863333,-35.69383540823924
+Maceio,Ponta Verde,17,-9.627867112947598,-35.698332532169026
+Maceio,Garça Torta,16,-9.654008266404274,-35.70887524738428
+Maceio,Santo Amaro,13,-9.632906233775175,-35.727295814449384
+Maceio,Zona Rural,4,-9.67333351676104,-35.68841542774786
+Arapiraca,Primavera,108,-9.75605381649629,-36.6841887121839
+Arapiraca,Olho d Água dos Cazuzinhos,102,-9.77646087632467,-36.64863790666839
+Arapiraca,Manoel Teles,90,-9.73618968833417,-36.68085995228469
+Arapiraca,Canafístula,87,-9.768297419610851,-36.68287086928517
+Arapiraca,Planalto,78,-9.735087513596888,-36.64377500974382
+Arapiraca,Brasília,54,-9.754079778519362,-36.67206160630101
+Arapiraca,Bom Sucesso,53,-9.74246630970248,-36.67704536030419
+Arapiraca,Centro,51,-9.753349406101007,-36.68143866016051
+Arapiraca,Zona Rural Leste,50,-9.747672485783504,-36.64236305283391
+Arapiraca,Cacimbas,45,-9.739855476911496,-36.672200402736244
+Arapiraca,Zona Rural Oeste,37,-9.750104411985166,-36.64872451694373
+Arapiraca,Zélia Barbosa Rocha,34,-9.777758126016533,-36.662436742533565
+Arapiraca,Alto do Cruzeiro,32,-9.730070404822838,-36.63785127051544
+Arapiraca,Senador Nilo Coelho,28,-9.758640360930036,-36.67416353127038
+Arapiraca,Baixão,27,-9.735781884437259,-36.64622640751401
+Arapiraca,Vila Bananeira,23,-9.738969734613892,-36.67114836321193
+Arapiraca,Boa Vista,21,-9.73535720258878,-36.66862536632843
+Arapiraca,Ouro Preto,21,-9.755548097907344,-36.65484047026673
+Arapiraca,Jardim Esperança,21,-9.740567214217052,-36.65695759638794
+Arapiraca,Caititus,20,-9.764582057000622,-36.657502551410694
+Arapiraca,Sítio Cangandu,19,-9.772680234369863,-36.65805205178821
+Arapiraca,Itapoã,19,-9.763714889594171,-36.65038464138945
+Arapiraca,Verdes Campos,18,-9.768277485861857,-36.64862729346767
+Arapiraca,Cavaco,17,-9.738196491391793,-36.68524476269336
+Arapiraca,Massaranduba,17,-9.742524476047612,-36.6720010092156
+Arapiraca,Senador Arnon de Melo,16,-9.73951321225637,-36.67997924351785
+Arapiraca,Jardim Tropical,16,-9.731440867726445,-36.662031729915185
+Arapiraca,Brasiliana,15,-9.731093718226205,-36.67935324245304
+Arapiraca,Nova Esperança,15,-9.739675717242335,-36.6747251517169
+Arapiraca,Povoado Canaã,14,-9.775808793547867,-36.68087771917202
+Arapiraca,Batingas,14,-9.750050329629227,-36.6681576560615
+Arapiraca,João Paulo II,14,-9.753485912611938,-36.6468186242587
+Arapiraca,Povoado Capim,13,-9.741422906809701,-36.673204743725066
+Arapiraca,Sítio Pau d Arco,13,-9.778408201723337,-36.63969659140047
+Arapiraca,Baixa Grande,13,-9.737817440426284,-36.65641250403002
+Arapiraca,Senador Teotônio Vilela,12,-9.776967252345864,-36.657832899234684
+Arapiraca,Vila São José,12,-9.773225655181967,-36.65031238690445
+Arapiraca,Povoado Fazenda Velha,12,-9.772818822992107,-36.65256447505452
+Arapiraca,Mangabeiras,11,-9.743178475812234,-36.67044849641585
+Arapiraca,Guaribas,10,-9.74746331782289,-36.68512245463746
+Arapiraca,Santa Edwiges,10,-9.741666579014428,-36.64523385087569
+Arapiraca,Sítio Barreiras,10,-9.758733101345188,-36.665000471368664
+Arapiraca,Capiatã,9,-9.7478151608513,-36.65447765091492
+Arapiraca,Eldorado,9,-9.739129343372916,-36.64681684251055
+Arapiraca,Sítio Alazão,9,-9.736165413993332,-36.64986280956954
+Arapiraca,Sítio Mulungu,8,-9.741162300576145,-36.68134391319923
+Arapiraca,Sítio Laranjal,8,-9.765974962741014,-36.64712767100081
+Arapiraca,Padre Antônio Lima Neto,8,-9.770084481914896,-36.67969506493949
+Arapiraca,Sítio Bom Jardim,8,-9.778847370492375,-36.684477823838236
+Arapiraca,Sítio Breu,7,-9.765141448256708,-36.68435203460333
+Arapiraca,Povoado Baixa da Onça,7,-9.742448362790501,-36.686356023483526
+Arapiraca,São Luiz II,7,-9.740291883040172,-36.64780823291182
+Arapiraca,Sítio Bálsamo,7,-9.777753965821875,-36.682801092385965
+Arapiraca,Sítio Fernandes,6,-9.76515304918323,-36.67314585919053
+Arapiraca,São Luiz,6,-9.775222409909293,-36.66037892919229
+Arapiraca,Sítio Bom Nome,6,-9.739770511596294,-36.64587555122186
+Arapiraca,Sítio Flexeiras,6,-9.776756679298881,-36.656224446940286
+Arapiraca,Sítio Poção,5,-9.739817529905428,-36.662290697067576
+Arapiraca,Sítio Ponto Novo,4,-9.741612093430737,-36.68584234085257
+Arapiraca,Sítio Carrasco,4,-9.76543583078937,-36.67319351120647
+Arapiraca,Povoado Pau Ferro,4,-9.768988724490741,-36.6688392953381
+Arapiraca,Santa Esmeralda,4,-9.776081706557326,-36.683470362453136
+Arapiraca,Sítio Xexéu,4,-9.736758988815886,-36.67893406023899
+Arapiraca,Sítio Mundo Novo,3,-9.744439370989785,-36.6717290733265
+Arapiraca,Sítio Lagoa do Rancho,3,-9.776368209833247,-36.68343363985686
+Arapiraca,Sítio Piauí,3,-9.77353825094994,-36.669497906581384
+Arapiraca,Sítio Corredor,3,-9.738201796193538,-36.680102693247164
+Arapiraca,Povoado Lagoa Cavada,3,-9.743294281420482,-36.64367583536815
+Arapiraca,Sítio Furnas,3,-9.755732200729481,-36.642776143662815
+Arapiraca,Vila São Francisco,3,-9.732692888913254,-36.655081608447496
+Arapiraca,Bairro não Informado,2,-9.768177177205141,-36.64629028967681
+Arapiraca,Novo Horizonte,2,-9.754749951701669,-36.675634390887254
+Arapiraca,Sítio Sapucaia,2,-9.758103911478445,-36.68583920234205
+Arapiraca,Sítio Gruta d Água,2,-9.733179076678278,-36.64449629984621
+Arapiraca,Vila Aparecida,2,-9.750874974115838,-36.674876346779726
+Arapiraca,Sítio Taquara,2,-9.743065149885268,-36.67181024219836
+Arapiraca,Sítio Cajarana,2,-9.7469491488902,-36.638297303760496
+Arapiraca,Sítio Itapicuru,2,-9.748572871254309,-36.64777757187508
+Arapiraca,Povoado Mocó,1,-9.76453447706905,-36.642655180366866
+Arapiraca,Sítio Batingas,1,-9.768432338065452,-36.653147262111574
+Arapiraca,Sítio Sementeira,1,-9.759212192385624,-36.65747889921663
+Arapiraca,Sítio Oitizeiro,1,-9.751513022816043,-36.65760162545964
+Arapiraca,Sítio Tingui,1,-9.730648616781027,-36.67867419132187
+Arapiraca,Sítio Braúnas,1,-9.74579122343736,-36.65140142128556
+Arapiraca,Sítio Baixa do Capim,1,-9.742113509949672,-36.66079694214249
+Arapiraca,Sítio Poço da Pedra,1,-9.766865910351827,-36.66084204893532
+Arapiraca,Jardim de Maria,1,-9.778680598395919,-36.68232840646997
+Rio Largo,Mata do Rolo,340,-9.462173858025501,-35.847934336854706
+Rio Largo,Tabuleiro do Pinto,222,-9.493583926783662,-35.86263124093207
+Rio Largo,Centro,188,-9.501599845715123,-35.82837876382444
+Rio Largo,Zona Rural,81,-9.50316628605981,-35.87426550509938
+Rio Largo,Utinga Leão,13,-9.467326384629317,-35.851837428030635
+Rio Largo,Bairro não Informado,1,-9.459101210099785,-35.86356406171388
+Uniao dos Palmares,Centro,123,-9.185447485054947,-36.03605763394655
+Uniao dos Palmares,Zona Rural,108,-9.181733319101095,-36.02642534598986
+Uniao dos Palmares,Roberto Correia de Araújo,65,-9.172681637311747,-36.01445942734134
+Uniao dos Palmares,Santa Fé,31,-9.15773852600454,-36.01715935780729
+Uniao dos Palmares,Nova Esperança,27,-9.16168024222429,-36.047952503870114
+Uniao dos Palmares,Abolição,20,-9.139137463339171,-36.012266257719084
+Uniao dos Palmares,Sagrada Família,16,-9.159150339793449,-36.04684490533135
+Uniao dos Palmares,Várzea Grande,12,-9.149566122586972,-36.04415720024371
+Uniao dos Palmares,Padre Donald,9,-9.18054583346973,-36.02948405663832
+Uniao dos Palmares,Santa Maria Madalena,8,-9.153574512783573,-36.041068286256994
+Uniao dos Palmares,Alto do Cruzeiro,7,-9.149667249748173,-36.009050337189
+Uniao dos Palmares,Vaquejada,7,-9.186825799741277,-36.050620314475644
+Uniao dos Palmares,Rocha Cavalcante,7,-9.144651806469927,-36.03126684384578
+Uniao dos Palmares,Costa e Silva,4,-9.145175065518398,-36.04224095243908
+Uniao dos Palmares,Taquari,4,-9.157027782431811,-36.03483389537324
+Uniao dos Palmares,Timbó,3,-9.14552838180599,-36.04885741569669
+Uniao dos Palmares,Cohab (Velha),2,-9.175786320498863,-36.0467027690453
+Uniao dos Palmares,Bairro de Fátima,2,-9.158116435587667,-36.04174498725386
+Uniao dos Palmares,Bairro não Informado,1,-9.146210372249413,-36.00820516957755
+Uniao dos Palmares,Usina Laginha,1,-9.155617080339375,-36.03982977166896
+Marechal Deodoro,Zona Rural,317,-9.705242010038404,-35.88967343376476
+Marechal Deodoro,Centro,51,-9.726769510761782,-35.885633937708484
+Marechal Deodoro,Barra Nova,28,-9.722675091341994,-35.90697811399749
+Marechal Deodoro,Massagueira,22,-9.704666630651259,-35.90143511451349
+Marechal Deodoro,Francês,22,-9.733057969146888,-35.87804254415167
