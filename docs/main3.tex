@@ -1,0 +1,581 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{float}
+\sloppy
+\raggedbottom
+\title{Manchas Criminais em Alagoas: Uma Análise Espaço-Temporal dos\\
+Crimes Violentos Letais Intencionais para Apoio à Tomada de\\
+Decisão em Segurança Pública}
+\author{Antonio Guilherme da Silva\inst{1}, Antonio Rodrigo L. A. Tenório\inst{1},
+  Sandro Gomes Paulino\inst{1}}
+\address{Instituto de Computação -- Universidade Federal de Alagoas (UFAL)\\
+  Maceió -- AL -- Brasil
+  \email{ags2@ic.ufal.br, arlat@ic.ufal.br, sgp@ic.ufal.br}
+}
+\begin{document}
+\maketitle
+\begin{abstract}
+  The state of Alagoas historically presents one of the highest rates of
+  intentional lethal violent crimes (CVLI) in Brazil. This paper presents a
+  spatio-temporal analysis of a public CVLI microdata set covering 2012--2026
+  (21,217 raw records; 20,369 after cleaning). Through exploratory analysis,
+  temporal heatmaps, and geographic visualisation, we identified that 60.36\%
+  of crimes occur during nighttime and early morning (18h--5h), 37.88\% on
+  weekends, and Maceió accounts for 33.33\% of all state occurrences. As an
+  operational component, an XGBoost Poisson regressor was trained on a full
+  scenario grid, normalised by demographic population estimates from the 2022
+  IBGE Census, to score relative risk by profile. A comparison of supervised
+  classifiers (Logistic Regression, Random Forest and XGBoost) was also carried
+  out; the XGBoost classifier reached 92.42\% accuracy and 94.70\% ± 0.71\% in
+  5-fold cross-validation, but these figures are optimistic and not reliable,
+  because the risk label is derived from whole-sample aggregates and causes
+  target leakage (Section~6). Results support a data-driven predictive
+  patrolling protocol for dynamic resource allocation, subject to the caveats
+  discussed.
+\end{abstract}
+\begin{resumo}
+  Alagoas historicamente apresenta um dos maiores índices de Crimes Violentos
+  Letais Intencionais (CVLI) do Brasil. Este trabalho apresenta uma análise
+  espaço-temporal de uma base pública de microdados de CVLI (2012--2026):
+  21.217 registros brutos e 20.369 após a limpeza. Por meio de análise
+  exploratória, mapas de calor e visualização geográfica, identificou-se que
+  60,36\% dos crimes ocorrem no período noturno e de madrugada (18h--5h),
+  37,88\% nos fins de semana, e Maceió responde por 33,33\% das ocorrências.
+  Como componente operacional, treinou-se um XGBoost Poisson Regressor sobre
+  uma matriz completa de cenários, normalizado por estimativas populacionais
+  do Censo IBGE 2022, para pontuar o risco relativo por perfil. Também foi
+  realizada uma comparação de classificadores supervisionados (Regressão
+  Logística, Random Forest e XGBoost); o classificador XGBoost atingiu 92,42\%
+  de acurácia e 94,70\% ± 0,71\% em validação cruzada de 5 \textit{folds}, mas
+  esses valores são otimistas e não confiáveis, pois o rótulo de risco é
+  derivado de agregados de toda a base, gerando vazamento de alvo (Seção~6).
+  Os resultados embasam um protocolo de patrulhamento preditivo orientado a
+  dados, sujeito às ressalvas discutidas.
+\end{resumo}
+\section{Introdução}
+O Brasil é um dos países com maior número absoluto de homicídios no mundo,
+e o estado de Alagoas historicamente figura entre as unidades federativas com
+maiores taxas de mortalidade violenta por habitante~\cite{ipea:2021}. Os
+Crimes Violentos Letais Intencionais (CVLI) — categoria que engloba homicídios
+dolosos, latrocínios e lesões corporais seguidas de morte — representam não
+apenas uma tragédia humana de proporções alarmantes, mas também um grave
+problema socioeconômico, com impactos diretos sobre o desenvolvimento
+regional, o capital social e a qualidade de vida da
+população~\cite{cerqueira:2014}.
+
+Apesar da gravidade do problema, os recursos de segurança pública são
+frequentemente alocados de maneira uniforme e reativa, sem considerar os
+padrões espaço-temporais da criminalidade. Abordagens tradicionais de
+policiamento tendem a responder ao crime após sua ocorrência, em vez de
+antecipá-lo por meio da análise de dados históricos~\cite{sherman:1989}.
+Com o advento da Ciência de Dados e da Aprendizagem de Máquina, tornou-se
+tecnicamente viável transformar grandes volumes de registros históricos de
+criminalidade em inteligência operacional capaz de orientar decisões de
+policiamento preventivo~\cite{buczak:2016}.
+
+O presente trabalho aborda a seguinte questão de pesquisa: \textit{Existem
+padrões de sazonalidade — por dia da semana, mês do ano ou faixa de horário
+— associados a surtos de violência em microrregiões específicas de Alagoas
+que precedem aumentos nos índices de CVLI?} Para respondê-la, foi realizada
+uma análise espaço-temporal sobre a base pública de microdados de CVLI
+disponibilizada pela Secretaria de Estado da Segurança Pública de Alagoas
+(SSP-AL), cobrindo 14 anos de registros (2012--2026).
+
+As principais contribuições deste trabalho são: (i)~identificação de padrões
+temporais e geográficos de concentração do CVLI em Alagoas; (ii)~construção
+e avaliação de um modelo preditivo de risco relativo baseado em XGBoost
+Poisson, normalizado por população exposta; e (iii)~proposição de
+recomendações acionáveis para gestores de segurança pública fundamentadas
+nos dados analisados.
+
+O restante deste artigo está organizado da seguinte forma: a Seção~2
+descreve a base de dados e o pré-processamento; a Seção~3 apresenta a
+análise exploratória; a Seção~4 detalha os métodos aplicados; a Seção~5
+apresenta as métricas e a estratégia de avaliação; a Seção~6 discute os
+resultados; e a Seção~7 conclui o trabalho.
+
+\section{Base de Dados}
+\subsection{Origem e Descrição}
+A base de dados utilizada é a \textit{CVLI~AL -- Base de Microdados},
+disponibilizada publicamente pelo Portal de Dados Abertos do Estado de
+Alagoas, mantido pela Secretaria de Estado da Segurança Pública
+(SSP-AL)~\cite{sspAL:2024}. O conjunto de dados abrange o período de
+janeiro de 2012 a abril de 2026, totalizando \textbf{21.217 registros} e
+\textbf{14 colunas}, entre as quais: identificador do registro
+(\texttt{ID\_CONTROLE}), tipo de crime (\texttt{SUBJETIVIDADE}), data e
+hora do fato, município, bairro, sexo, cor/raça, idade e escolaridade da
+vítima, local do fato e instrumento utilizado. A versão utilizada neste
+trabalho cobre registros até 30 de abril de 2026. Como o recurso é
+atualizado periodicamente no portal, recomenda-se citar sempre a data de
+acesso e a versão obtida, evitando divergências com revisões posteriores
+do conjunto.
+
+\subsection{Pré-processamento}
+A base apresentou importantes desafios de qualidade, refletindo a realidade
+de registros administrativos de segurança pública no Brasil. As principais
+etapas de pré-processamento realizadas foram as seguintes.
+
+\textbf{Tratamento de valores ausentes:} As variáveis \texttt{ESCOLARIDADE}
+(74,15\% de valores faltantes) e \texttt{OCUPAÇÃO} (67,59\%) foram descartadas
+por inviabilidade de imputação. A variável \texttt{COR/RAÇA} (5,12\% de
+ausência) foi imputada pela moda --- a categoria ``Parda'' ---, enquanto
+\texttt{IDADE} (2,11\%), \texttt{INSTRUMENTO} (1,87\%) e \texttt{LOCAL DO
+FATO} (0,43\%) foram tratados por exclusão dos registros faltantes. Ressalte-se
+que a imputação de cor/raça pela moda reforça a categoria majoritária e,
+portanto, infla estatísticas descritivas baseadas nessa variável; tais
+números devem ser lidos com essa ressalva (Seção~6).
+
+\textbf{Engenharia de atributos temporais:} A partir da coluna de data, foram
+criadas as variáveis: \texttt{ano}, \texttt{mes}, \texttt{dia\_semana} e
+\texttt{periodo\_dia}, segmentado em quatro faixas: Madrugada (0h--5h),
+Manhã (6h--11h), Tarde (12h--17h) e Noite (18h--23h).
+
+\textbf{Discretização de idade:} A idade contínua foi transformada na variável
+categórica \texttt{faixa\_etaria} com os grupos: 0--11, 12--17, 18--24,
+25--29, 30--39, 40--59 e 60+.
+
+\textbf{Agrupamento de variáveis categóricas:} O instrumento utilizado foi
+consolidado em quatro categorias (\texttt{grupo\_instrumento}): Arma de fogo,
+Arma branca, Espancamento e Outros. O local do fato foi consolidado em
+\texttt{grupo\_local}: Espaço público, Entorno de casa, Ambiente interno e
+Área externa/isolada.
+
+\textbf{Normalização de nomes:} Nomes de municípios e bairros foram
+normalizados (remoção de acentos, padronização de maiúsculas/minúsculas) para
+viabilizar a junção com dados geográficos de centroide do IBGE.
+
+Após o pré-processamento, a base resultante continha \textbf{20.369 registros}
+(dos 21.217 originais) com todas as variáveis essenciais preenchidas,
+utilizados de forma consistente em todas as análises descritivas e na
+modelagem subsequentes.
+
+\section{Estatística Descritiva e Análise Exploratória}
+\subsection{Evolução Temporal}
+A análise da evolução anual do CVLI em Alagoas revela uma tendência de queda
+ao longo da série histórica, com pico em 2013 (2.181 registros) e mínimo em
+2021 (1.028 registros, desconsiderando-se 2026, ainda parcial), conforme a
+Figura~\ref{fig:serie_mensal}. Este
+comportamento pode ser parcialmente associado a políticas públicas de
+segurança implementadas no período, como o fortalecimento de programas
+estaduais de combate à violência~\cite{ratton:2014}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.9\textwidth]{serie_mensal_al.png}
+\caption{Evolução mensal do CVLI em Alagoas (2012--2026), evidenciando
+  sazonalidade intra-anual e tendência de queda ao longo da série histórica.}
+\label{fig:serie_mensal}
+\end{figure}
+
+\subsection{Padrões Temporais}
+A distribuição por período do dia revela forte concentração noturna: o
+período Noite (18h--23h) concentra 42,89\% das ocorrências, seguido por
+Tarde (22,72\%), Madrugada (17,47\%) e Manhã (16,92\%). Combinando-se os
+períodos Noite e Madrugada, \textbf{60,36\% dos CVLI ocorrem entre 18h e 5h}.
+A análise por dia da semana indica que \textbf{37,88\% das ocorrências
+concentram-se nos finais de semana} (sábado e domingo).
+
+O mapa de calor da Figura~\ref{fig:heatmap} cruza o período do dia com o
+dia da semana, revelando padrões claros e repetíveis: a concentração nas
+noites de sexta-feira, sábado e domingo é consistente ao longo de toda a
+série histórica, sugerindo uma sazonalidade semanal estrutural do fenômeno.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.85\textwidth]{heatmap_dia_hora.png}
+\caption{Mapa de calor: distribuição dos CVLI por dia da semana e período do
+  dia (2012--2026). Cores mais intensas indicam maior concentração de
+  ocorrências.}
+\label{fig:heatmap}
+\end{figure}
+
+\subsection{Distribuição Geográfica}
+A distribuição geográfica dos CVLI em Alagoas é marcadamente concentrada.
+O município de Maceió, capital do estado, responde sozinho por
+\textbf{33,33\% (6.789 registros)} de todas as ocorrências. As cinco cidades
+com maior incidência — Maceió, Arapiraca (7,24\%), Rio Largo (4,15\%), União
+dos Palmares (2,24\%) e Marechal Deodoro (2,16\%) — concentram \textbf{49,12\%}
+dos CVLI do estado, ou seja, praticamente metade das ocorrências. A
+Figura~\ref{fig:choropleth} apresenta a distribuição geográfica acumulada por
+município por meio de um mapa de bolhas posicionado nos centroides
+municipais (não há geometria de polígonos, de modo que não se trata de um
+mapa coroplético propriamente dito).
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.6\textwidth]{choropleth_municipios.png}
+\caption{Distribuição geográfica acumulada dos CVLI por município de Alagoas
+  (2012--2026), representada por um mapa de bolhas posicionado nos centroides
+  municipais. O tamanho e a cor dos marcadores indicam o volume de ocorrências,
+  evidenciando a concentração em Maceió e em polos urbanos específicos do
+  estado.}
+\label{fig:choropleth}
+\end{figure}
+
+A persistência dessas manchas ao longo do tempo é ilustrada na
+Figura~\ref{fig:janelas}, que compara a distribuição geográfica em quatro
+janelas temporais agregadas: os mesmos polos urbanos concentram os casos de
+forma recorrente em toda a série histórica.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{evolucao_janelas.png}
+\caption{Evolução espaço-temporal dos CVLI por janelas temporais em Alagoas
+  (2012--2026). Cada painel representa um intervalo agregado de anos,
+  permitindo comparar a persistência e a redistribuição das manchas criminais
+  ao longo do tempo. O tamanho dos marcadores indica o volume de ocorrências
+  por município em cada janela, evidenciando a concentração recorrente dos
+  casos em polos urbanos específicos, especialmente na região de Maceió e em
+  municípios de maior incidência no estado.}
+\label{fig:janelas}
+\end{figure}
+
+\subsection{Perfil das Vítimas}
+A análise do perfil demográfico das vítimas confirma padrões amplamente
+documentados na literatura sobre violência letal no
+Brasil~\cite{ipea:2021}: \textbf{93,44\% das vítimas são do sexo masculino};
+\textbf{59,19\% têm entre 15 e 29 anos}; e \textbf{87,89\% são pardas ou
+pretas} (na base limpa, em que a cor/raça ausente foi imputada como ``Parda'';
+considerando apenas os registros com cor/raça informada, a proporção é
+87,47\%). A interseção desses três fatores — homens jovens pardos ou pretos —
+representa 50,59\% de todas as vítimas, evidenciando uma vulnerabilidade
+estrutural acentuada nesse grupo.
+
+Quanto ao instrumento utilizado, \textbf{79,07\% dos CVLI foram cometidos com
+arma de fogo} (Projetil de Arma de Fogo -- PAF). Entre homens de 15 a 29
+anos, essa proporção sobe para 85,27\%. Em contraste, arma branca ou
+espancamento são relativamente mais frequentes entre vítimas do sexo feminino
+(36,05\%) e em ambientes internos (27,24\%), sugerindo um perfil de violência
+doméstica nesses casos.
+
+Para verificar se os padrões descritos são estatisticamente significativos
+e não artefatos de amostragem, aplicou-se o teste qui-quadrado de
+independência. A associação entre o sexo da vítima e o instrumento utilizado
+é altamente significativa ($\chi^2(3) = 551{,}2$; $p < 0{,}001$; V de
+Cramér $= 0{,}165$): entre vítimas do sexo feminino, arma branca (25,2\%) e
+espancamento (10,8\%) são proporcionalmente mais frequentes do que entre as
+masculinas (13,0\% e 5,1\%), ao passo que a arma de fogo predomina entre
+homens (80,6\% contra 56,9\%). Esse resultado sustenta estatisticamente a
+hipótese de um perfil distinto de violência associado a vítimas femininas
+(Seção~1). As concentrações temporais também rejeitam a hipótese de
+independência --- período do dia $\times$ dia da semana ($\chi^2(18) =
+350{,}1$; $p < 0{,}001$) e fim de semana $\times$ período do dia ($\chi^2(3)
+= 107{,}0$; $p < 0{,}001$) --- embora com tamanho de efeito fraco ($V \approx
+0{,}07$), indicando que o padrão é consistente, porém de magnitude modesta.
+
+\section{Métodos Avaliados}
+A análise foi conduzida em duas frentes complementares: (i)~análise
+exploratória espaço-temporal para identificação de padrões e manchas
+criminais; e (ii)~modelagem preditiva baseada em taxa de risco relativo por
+perfil demográfico-contextual.
+
+\subsection{Análise Espaço-Temporal}
+A construção dos mapas de calor temporais utilizou tabelas dinâmicas
+(\textit{pivot tables}) cruzando as variáveis \texttt{dia\_semana} e
+\texttt{periodo\_dia}, agregando a contagem de ocorrências. Para a análise
+geográfica, foram calculados centroides municipais a partir de dados do IBGE,
+permitindo a construção de mapas de bolhas por centroide --- e não mapas
+coropléticos, dada a ausência de geometria de polígonos --- e mapas de calor
+interativos com a biblioteca \textit{Folium}~\cite{folium:2023}.
+
+\subsection{Modelagem Preditiva de Risco}
+A modelagem preditiva foi restrita ao município de Maceió por duas razões
+objetivas: (i)~o município concentra 33,33\% de todos os registros de CVLI da
+base, fornecendo volume suficiente para treinamento; e (ii)~dispõe de dados
+populacionais por bairro no Censo IBGE 2022, o que permite calcular uma
+\textbf{taxa de risco relativo por perfil demográfico}, mais justa do que a
+simples contagem absoluta de ocorrências.
+
+\textbf{Construção da matriz de cenários:} O modelo não foi treinado sobre
+registros individuais, mas sobre uma matriz completa de cenários possíveis,
+formada pela combinação de:
+
+\begin{center}
+$\text{bairro} \times \text{sexo} \times \text{faixa etária} \times
+\text{dia da semana} \times \text{turno} \times \text{tipo de local}$
+\end{center}
+
+Para cada cenário foi contabilizado o número histórico de CVLI. Os cenários
+sem ocorrência foram mantidos com valor zero, permitindo que o modelo
+aprendesse também perfis de baixo risco.
+
+\textbf{Normalização por população exposta:} Para evitar que bairros mais
+populosos ou grupos majoritários dominassem a análise por volume bruto, foi
+estimada a população de cada perfil a partir do Censo IBGE 2022:
+
+\begin{equation}
+\text{pop\_perfil} = \text{pop\_bairro}
+  \times \text{prop\_sexo}
+  \times \text{prop\_faixa\_etária}
+\end{equation}
+
+A variável-alvo do modelo foi a \textbf{taxa anualizada de CVLI por
+100 mil habitantes}:
+
+\begin{equation}
+\text{taxa\_risco} = \frac{\text{crimes\_anuais}}{\text{pop\_perfil}}
+  \times 100.000
+\end{equation}
+
+em que \texttt{crimes\_anuais} é a contagem histórica do cenário dividida
+pelo número de anos da série. Na implementação atual utilizou-se o número de
+anos-calendário distintos (15) como divisor; como o período efetivamente
+coberto corresponde a aproximadamente 14,3 anos (jan/2012--abr/2026, com 2026
+ainda parcial), esse divisor subestima levemente a taxa anualizada --- para
+Maceió, por exemplo, a taxa real passa de 47,34 para cerca de 49,58/100 mil ---
+e deve ser ajustado ao intervalo efetivo em versões futuras.
+
+Essa taxa foi classificada em três níveis operacionais ---
+\textit{baixo}, \textit{médio} e \textit{alto} --- com base em uma média de
+referência recalibrada sobre os cenários com crimes reais, separada por sexo,
+para evitar distorções causadas pelo grande número de combinações zeradas no
+grid. Cabe registrar que essa média de referência é estimada sobre toda a
+base, o que vincula a definição das classes ao conjunto completo (ver a
+discussão sobre vazamento de alvo na Seção~6).
+
+\textbf{Algoritmo e codificação:} O algoritmo escolhido foi o
+\textbf{XGBoost Regressor com objetivo Poisson}~\cite{chen:2016}, adequado
+para eventos raros baseados em contagens, pois penaliza corretamente a cauda
+da distribuição sem inflar previsões em cenários de zero ocorrências. As
+variáveis categóricas (bairro, sexo, faixa etária, dia da semana, turno e
+local do fato) foram codificadas via \texttt{OneHotEncoder} antes do
+treinamento, resultando em 6 atributos base expandidos por
+\textit{one-hot encoding}.
+
+\textbf{Explicabilidade com SHAP:} Para suporte à interpretação operacional,
+o modelo incorpora valores SHAP (\textit{SHapley Additive
+exPlanations})~\cite{lundberg:2017}, que quantificam a contribuição individual
+de cada atributo na previsão de risco. Isso permite que gestores de segurança
+compreendam, em linguagem natural, por que determinado perfil, bairro ou
+horário recebeu alta classificação de risco.
+
+É importante distinguir dois artefatos. O modelo \textbf{operacional},
+efetivamente carregado pelo \textit{dashboard}, é o XGBoost Poisson Regressor
+descrito acima, ajustado sobre todo o \textit{grid} de cenários sem conjunto de
+teste apartado e sem validação cruzada. Separadamente, e apenas para fins de
+comparação e linha de base, foi conduzido um \textbf{experimento de
+classificação} sobre os registros individuais de Maceió (6.789 ocorrências),
+em que cada ocorrência recebe um rótulo de risco (\textit{baixo}, \textit{médio}
+ou \textit{alto}) derivado do percentil de frequência de seu contexto dentro do
+grupo demográfico. Nesse experimento avaliaram-se \textbf{Regressão
+Logística}~\cite{hastie:2009}, \textbf{Random Forest}~\cite{breiman:2001} e
+\textbf{XGBoost} (classificador), com divisão treino/teste 80/20 estratificada
+pela variável-alvo. Como o rótulo é construído a partir de contagens da base
+inteira e essas mesmas contagens determinam as variáveis de entrada, esse
+experimento sofre de \textbf{vazamento de alvo} --- suas métricas, reportadas na
+Seção~6, são otimistas e não devem ser interpretadas como medida de
+generalização (ver Seção~6).
+
+\section{Métricas e Estratégia de Avaliação}
+\subsection{Métricas}
+A avaliação dos modelos utilizou as seguintes métricas: \textbf{Acurácia}
+(proporção de classificações corretas no total); \textbf{F1-Score macro}
+(média aritmética do F1-Score por classe, adequada para avaliar desempenho
+equilibrado entre todas as classes); e \textbf{Precisão} e \textbf{Revocação}
+por classe, para análise detalhada do comportamento do modelo em cada
+categoria de risco. A Matriz de Confusão foi utilizada para inspeção dos
+erros de classificação.
+
+\subsection{Estratégia de Avaliação}
+Além da divisão treino/teste (80/20), foi realizada \textbf{validação cruzada
+estratificada com 5 \textit{folds}} para estimar a variância do desempenho e
+garantir que os resultados não fossem sensíveis à partição específica dos
+dados~\cite{hastie:2009}. Esta estratégia é recomendada para conjuntos de
+dados de tamanho moderado, pois oferece estimativas mais robustas da
+capacidade de generalização do modelo. A estratificação por classe garantiu
+que a distribuição das categorias de risco fosse mantida em cada
+\textit{fold}. Cabe a ressalva, no entanto, de que a validação cruzada acima
+se aplica ao \textbf{experimento de classificação} e \textit{não} corrige o
+vazamento de alvo: como o rótulo de risco é definido a partir de agregados de
+toda a base, a separação em \textit{folds} não isola informação entre treino e
+teste, de modo que as estimativas permanecem otimistas (Seção~6). O modelo
+Poisson operacional, por sua vez, não foi submetido a partição de teste nem a
+validação cruzada no \textit{pipeline} de treino.
+
+\section{Resultados e Discussão}
+\subsection{Desempenho dos Modelos (Experimento de Classificação)}
+A Tabela~\ref{tab:modelos} apresenta os resultados do experimento de
+classificação descrito na Seção~4.2 --- treinado sobre os registros
+individuais de Maceió, distinto do modelo Poisson operacional --- no conjunto
+de teste (20\% dos dados). \textbf{Estes resultados devem ser lidos com forte
+ressalva}, pois o rótulo de risco sofre vazamento de alvo, conforme detalhado
+adiante.
+
+\begin{table}[ht]
+\centering
+\caption{Comparação de desempenho no experimento de classificação sobre
+  registros individuais de Maceió (conjunto de teste). \textbf{Atenção:}
+  métricas otimistas devido a vazamento de alvo (ver Seção~6); não
+  correspondem ao modelo Poisson operacional.}
+\label{tab:modelos}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Modelo} & \textbf{Acurácia} & \textbf{F1-Score Macro} \\
+\hline
+Regressão Logística  & 84,02\% & 83,98\% \\
+Random Forest        & 89,40\% & 89,19\% \\
+\textbf{XGBoost}     & \textbf{92,42\%} & \textbf{92,35\%} \\
+\hline
+\end{tabular}
+\end{table}
+
+Nesse experimento, o XGBoost obteve os maiores valores em ambas as métricas,
+superando a Regressão Logística em 8,4 pontos percentuais e o Random Forest em
+3,0 pontos percentuais de acurácia, com 94,70\% ± 0,71\% na validação cruzada
+de 5 \textit{folds}.
+
+\textbf{Ressalva metodológica (vazamento de alvo).} As métricas acima
+\emph{superestimam} a capacidade real de generalização e não devem ser
+interpretadas como evidência de um preditor de alta acurácia. O rótulo
+\texttt{classe\_risco} é construído a partir de contagens de frequência
+calculadas sobre \emph{toda} a base, antes da divisão treino/teste, e essas
+mesmas contagens são determinadas pelas variáveis usadas como entrada do
+modelo. Em consequência, o alvo é praticamente uma função determinística das
+\textit{features}: ao reproduzir a partição, verificou-se que \textbf{80,78\%
+das linhas de teste compartilham com o treino a mesma combinação que define o
+rótulo}, de modo que o modelo essencialmente recupera um valor já presente nos
+dados de treino. A validação cruzada \emph{não} mitiga esse problema, pois o
+vazamento ocorre na própria definição do alvo. Em uma verificação fora da
+amostra do modelo Poisson operacional (divisão 80/20 sobre combinações de
+cenário não vistas), o poder preditivo é fraco ($R^2 \approx 0{,}10$), o que
+reforça que esse componente deve ser usado como ferramenta de
+pontuação/triagem de risco relativo, e não como classificador de alta
+acurácia.
+
+A Figura~\ref{fig:comparacao} apresenta a comparação visual entre os modelos,
+e a Tabela~\ref{tab:report} detalha as métricas por classe para o modelo
+XGBoost.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{comparacao_modelos.png}
+\caption{Comparação de desempenho entre os modelos avaliados: Regressão
+  Logística, Random Forest e XGBoost.}
+\label{fig:comparacao}
+\end{figure}
+
+\begin{table}[ht]
+\centering
+\caption{Métricas por classe --- XGBoost no experimento de classificação.
+  Valores afetados pelo vazamento de alvo discutido na Seção~6.}
+\label{tab:report}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Classe} & \textbf{Precisão} & \textbf{Revocação} & \textbf{F1-Score} \\
+\hline
+Alta   & 94\% & 96\% & 95\% \\
+Baixa  & 93\% & 94\% & 94\% \\
+Média  & 90\% & 87\% & 88\% \\
+\hline
+\end{tabular}
+\end{table}
+
+A maior taxa de confusão ocorreu entre as classes \textit{média} e as demais,
+o que é esperado dado o caráter limítrofe dos casos de risco intermediário.
+A classe \textit{alta} obteve o melhor desempenho (F1 = 95\%), o que é
+particularmente relevante do ponto de vista operacional, pois erros de
+classificação na direção de subestimar o risco alto têm maior custo social.
+
+\subsection{Insight Acionável}
+Os resultados da análise espaço-temporal convergem para uma recomendação
+central: \textit{60,36\% dos CVLI em Alagoas ocorrem no período noturno e de
+madrugada (18h--5h), concentrados em manchas criminais identificáveis em
+Maceió e em outras quatro cidades que, juntas, respondem por praticamente
+metade (49,12\%) de todos os CVLI do estado. Esse padrão sugere que o
+patrulhamento uniforme aloca parte expressiva dos recursos em zonas e períodos
+de baixo risco --- a magnitude exata desse desperdício, porém, não foi
+quantificada neste estudo e permanece como hipótese a ser testada. Diante
+disso, recomendamos avaliar um protocolo de patrulhamento preditivo dinâmico,
+alocando viaturas por faixa de horário e microrregião conforme as
+concentrações identificadas. A recomendação apoia-se sobretudo na
+concentração espaço-temporal evidenciada pela análise descritiva e pelo
+mapa de calor (60,36\% dos CVLI no período noturno e nas cinco principais
+microrregiões); ela \emph{não} se apoia nas métricas do experimento de
+classificação, que são otimistas por vazamento de alvo (Seção~6). Após seis
+meses, o efeito da ação poderia ser avaliado pela redução do CVLI nas áreas de
+intervenção, acompanhando-se a taxa de incidentes nas zonas adjacentes como
+controle do efeito de deslocamento. A título de meta operacional --- e não de
+previsão derivada do modelo ---, a literatura de \textit{hot spots policing}
+sugere quedas da ordem de 10\% a 20\% em áreas de intervenção concentrada,
+parâmetro que poderia balizar a avaliação.}
+
+Esta recomendação é consistente com a literatura de \textit{hot spots
+policing}, que demonstra reduções médias de 10--20\% na criminalidade em
+áreas de intervenção concentrada~\cite{sherman:1989, weisburd:2016}.
+
+\subsection{Limitações}
+Algumas limitações devem ser consideradas na interpretação dos resultados.
+Primeiro, e de forma mais crítica, o \textbf{experimento de classificação}
+(Tabela~\ref{tab:modelos}) sofre de vazamento de alvo: o rótulo de risco é
+derivado de contagens calculadas sobre toda a base e essas mesmas contagens
+determinam as \textit{features}, de modo que 80,78\% das linhas de teste
+reaparecem, na prática, no treino. Suas métricas são, portanto, otimistas e não
+medem generalização. O modelo Poisson operacional, por sua vez, foi ajustado
+sobre todo o \textit{grid} sem conjunto de teste apartado; uma verificação
+posterior fora da amostra indicou poder preditivo fraco ($R^2 \approx 0{,}10$),
+o que o caracteriza como ferramenta de triagem de risco relativo, não como
+preditor de alta acurácia.
+
+Segundo, a base apresenta altas taxas de valores ausentes nas variáveis de
+escolaridade e ocupação, limitando análises socioeconômicas mais aprofundadas;
+além disso, a cor/raça foi imputada pela moda (``Parda''), o que infla
+estatísticas descritivas baseadas nessa variável e deve ser considerado ao
+ler a proporção de 87,89\% de vítimas pardas ou pretas. Terceiro, o modelo
+preditivo foi treinado exclusivamente com dados de Maceió, podendo não
+generalizar para municípios menores com dinâmicas distintas. Quarto, a ausência
+de coordenadas geográficas precisas para cada ocorrência limitou a análise ao
+nível de município e bairro; as visualizações ``geográficas'' são mapas de
+bolhas posicionados em centroides (no caso dos bairros, coordenadas
+aproximadas geradas por deslocamento determinístico em torno do centro da
+cidade), e não mapas coropléticos nem produto de clusterização espacial.
+Quinto, a análise descritiva foi complementada por testes qui-quadrado de
+independência, que confirmam a significância estatística das associações
+identificadas (Seção~3.4); contudo, não foi conduzida análise causal, de modo
+que afirmações sobre o efeito de intervenções permanecem hipóteses. Sexto, a
+taxa anualizada utiliza como divisor o número de anos-calendário (15) em vez
+do intervalo efetivo (cerca de 14,3 anos), subestimando levemente as taxas.
+Por fim, o modelo não incorpora \texttt{COR/RAÇA} como atributo de
+normalização da taxa de risco, pois dados populacionais por raça/cor na
+granularidade de bairro não estão disponíveis no Censo IBGE 2022.
+
+\section{Conclusão}
+Este trabalho mostrou que os Crimes Violentos Letais Intencionais em
+Alagoas apresentam padrões espaço-temporais claros e consistentes. A
+concentração de 60,36\% das ocorrências no período noturno e de madrugada,
+de 37,88\% nos finais de semana e de 33,33\% no município de Maceió evidencia
+que o fenômeno da violência letal não é aleatório — é estruturado e recorrente
+ao longo da série histórica.
+
+A partir desses padrões, construiu-se um modelo XGBoost Poisson, treinado sobre
+uma matriz de cenários normalizada por estimativas populacionais do Censo IBGE
+2022, como ferramenta operacional de pontuação de risco relativo por perfil.
+Cabe registrar que a verificação fora da amostra indica poder preditivo ainda
+limitado ($R^2 \approx 0{,}10$) e que as métricas elevadas do experimento de
+classificação (92,42\% de acurácia; 94,70\% em validação cruzada) refletem
+vazamento de alvo, não devendo ser tomadas como medida de acurácia do
+instrumento. Ainda assim, o trabalho demonstra ser viável organizar dados
+públicos já disponíveis em um instrumento de apoio à decisão, sem custo
+adicional de coleta, desde que aprimorados o desenho do alvo e a validação do
+modelo. A título de referência, a literatura de \textit{hot spots policing}
+associa intervenções concentradas a reduções da ordem de 10\% a 20\% nas
+áreas-alvo, parâmetro que pode orientar a avaliação de um eventual protocolo de
+patrulhamento preditivo.
+
+Como trabalhos futuros, destacam-se: (i)~expansão do modelo para os 102
+municípios de Alagoas; (ii)~integração com dados socioeconômicos do IBGE e
+com variáveis de raça/cor para análise de fatores estruturais; (iii)~implantação
+de um \textit{dashboard} interativo para uso operacional pela SSP-AL com
+explicações em linguagem natural via SHAP; e (iv)~aplicação de modelos de
+séries temporais para previsão de tendências de médio prazo.
+
+A base de dados utilizada é pública e está disponível em:
+\url{dados.al.gov.br/catalogo/dataset/cvli-2012-a-2023-base-microdados}.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+\end{document}
