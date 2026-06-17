@@ -86,16 +86,21 @@ def get_ai_explanation(_model: Any, X_json: str, taxa_predita: float, media_cida
         # 3. Prompt Engineering Avançado
         prompt = (
             f"Aja como um Cientista de Dados e Especialista em Segurança Pública de Alagoas. "
-            f"O modelo matemático calculou um risco de {taxa_predita:.1f} para este perfil "
-            f"(a média de referência deste grupo é {media_cidade:.1f}). O risco relativo é {(taxa_predita/media_cidade) if media_cidade > 0 else 0:.1f}x a média.\n\n"
-            f"Perfil Testado: {perfil['sexo_input']}, {perfil['faixa_input']} anos, bairro {perfil['bairro_input']}, ambiente: {perfil['local_input']}, turno: {perfil['hora_input']}.\n"
+            f"Um modelo de Regressão de Poisson ESTIMOU a taxa de risco relativo de CVLI deste PERFIL "
+            f"demográfico-contextual em {taxa_predita:.1f} (a média de referência deste grupo é {media_cidade:.1f}), "
+            f"ou seja, {(taxa_predita/media_cidade) if media_cidade > 0 else 0:.1f}x a média do grupo. "
+            f"Atenção: este número é uma ESTIMATIVA DE RISCO RELATIVO baseada na densidade histórica de ocorrências, "
+            f"NÃO é uma previsão de que um crime irá acontecer com um indivíduo específico. "
+            f"Trate-o como uma comparação entre perfis, nunca como uma profecia individual.\n\n"
+            f"Perfil Analisado: {perfil['sexo_input']}, {perfil['faixa_input']} anos, bairro {perfil['bairro_input']}, ambiente: {perfil['local_input']}, turno: {perfil['hora_input']}.\n"
             f"Fatores matemáticos (SHAP) dominantes: {fatores_str}.\n"
             f"{stats_context}\n"
             f"Instrução Crucial:\n"
-            f"Escreva exatamente 1 parágrafo fluido, analítico e jornalístico (3 a 4 frases) focado na CAUSA RAIZ (Root Cause) matemática desse resultado.\n"
+            f"Escreva exatamente 1 parágrafo fluido, analítico e jornalístico (3 a 4 frases) focado na CAUSA RAIZ (Root Cause) matemática dessa ESTIMATIVA de risco relativo.\n"
+            f"NUNCA afirme ou sugira que um crime vai acontecer; fale sempre em termos de risco relativo estimado entre perfis. "
             f"NUNCA use a estrutura repetitiva 'Como você é...'. NUNCA divida em tópicos.\n"
             f"CITE OBRIGATORIAMENTE os números exatos do 'Estatísticas Reais do Dataset' fornecidos acima para dar peso probatório à explicação "
-            f"(ex: 'O algoritmo atribuiu esse nível de alerta porque em nossa base histórica de 14 anos cruzamos [X] casos...').\n"
+            f"(ex: 'O algoritmo estimou esse nível de risco relativo porque em nossa base histórica de 14 anos cruzamos [X] casos...').\n"
             f"Conecte os dados à realidade urbana de forma séria e descritiva."
         )
 
@@ -104,7 +109,7 @@ def get_ai_explanation(_model: Any, X_json: str, taxa_predita: float, media_cida
 
             return "Erro: GEMINI_API_KEY não configurada no arquivo .env."
 
-        # Modelo Gemini 1.5 Flash (Rápido e estável para explicações curtas)
+        # Modelo Gemini 3.1 Flash Lite (Rápido e estável para explicações curtas)
         model_gemini = genai.GenerativeModel('gemini-3.1-flash-lite')
         
         response = model_gemini.generate_content(prompt)
