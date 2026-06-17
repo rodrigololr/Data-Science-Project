@@ -37,13 +37,13 @@ st.markdown(
     - **Conclusão:** Matematicamente, a chance individual de vitimização (Risco Relativo) é estratosfericamente maior nestes locais esvaziados do que nos bairros superpopulosos.
 
     ### 4. Calibração e Ranking
-    O sistema classifica o risco como **BAIXA, MEDIA ou ALTA** comparando a predição individual com 
+    O sistema classifica o risco como **BAIXA, MEDIA ou ALTA** comparando a estimativa individual com
     uma **Média de Referência Recalibrada (3.04)**. Essa média é baseada nos locais onde crimes 
     realmente ocorrem, garantindo que o ranking seja justo e reflita a periculosidade relativa real intra-grupo.
 
     ### 5. Explicabilidade (XAI + LLM)
     Utilizamos o algoritmo **SHAP (SHapley Additive exPlanations)** para abrir a "caixa-preta" do modelo.
-    Os fatores que mais pesaram na sua predição são identificados matematicamente e enviados ao 
+    Os fatores que mais pesaram na sua estimativa são identificados matematicamente e enviados ao
     **Google Gemini**, que traduz os dados técnicos em uma explicação humana direta.
 
     ---
@@ -52,7 +52,7 @@ st.markdown(
     
     1. **Dados Históricos:** O modelo reflete o passado (2012-2026). Mudanças recentes no policiamento 
        ou dinâmica urbana podem levar tempo para serem captadas.
-    2. **Foco Geográfico:** O preditor é restrito a **Maceió** devido à disponibilidade de dados populacionais 
+    2. **Foco Geográfico:** O estimador é restrito a **Maceió** devido à disponibilidade de dados populacionais
        refinados por bairro.
     3. **Natureza Descritiva:** Esta ferramenta é um **instrumento estatístico** para auxílio em políticas públicas. 
        Não deve ser interpretada como uma "sentença" ou predição individual infalível.

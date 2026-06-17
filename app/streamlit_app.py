@@ -10,11 +10,11 @@ st.markdown(
     
     Use o menu lateral para navegar entre as abas:
     - 🗺️ **Mapa** — visualização espaço-temporal de CVLI em Alagoas
-    - 🎯 **Preditor (Densidade)** — classificador original por prevalência
+    - 🎯 **Estimador de Risco Relativo por Perfil** — taxa de risco (vs. média de Maceió) por perfil demográfico-contextual
     - 📊 **Sobre** — metodologia, limitações éticas, reprodutibilidade
     
     **Equipe:** 
-    - Antônio Guilherme
+    - Antonio Guilherme
     - Antônio Rodrigo
     - Sandro Gomes
     """

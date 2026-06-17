@@ -1,5 +1,5 @@
 """
-Pagina 2 - Preditor de Risco Real em Maceió.
+Pagina 2 - Estimador de Risco Relativo por Perfil em Maceió.
 Production-grade modular version.
 """
 from __future__ import annotations
@@ -27,15 +27,19 @@ from ui_components import (
 # --- Configuration ---
 AI_COOLDOWN: Final[int] = 1
 
-st.set_page_config(page_title="Preditor Risco Real", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="Estimador de Risco Relativo — Maceió", page_icon="🎯", layout="wide")
 
 def render_page_header() -> None:
-    st.title("🎯 Preditor de Risco Real — Maceió")
+    st.title("🎯 Estimador de Risco Relativo por Perfil — Maceió")
     st.markdown(
-        "Esta ferramenta utiliza **Regressão de Poisson** para calcular a **Taxa de Risco Real** "
-        "(crimes por 100 mil habitantes), cruzando o histórico da polícia com estimativas."
+        "Esta ferramenta usa **Regressão de Poisson** para **estimar a taxa de risco relativo** "
+        "(CVLI por 100 mil habitantes) de um perfil, comparada à média de Maceió — "
+        "não é uma previsão de evento individual."
     )
-    st.warning("**Aviso:** Este modelo prevê a densidade de crimes para o seu perfil.")
+    st.warning(
+        "**Aviso:** a ferramenta estima o risco *relativo* de um perfil a partir da densidade "
+        "histórica de ocorrências; não prevê ocorrências individuais."
+    )
 
 def handle_prediction(model: Any, meta: dict) -> None:
     with st.form("main_preditor_form"):
